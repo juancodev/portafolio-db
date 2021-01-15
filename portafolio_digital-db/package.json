@@ -4,9 +4,10 @@
   "description": "Portafolio Database Client",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "test": "npm run lint && ava"
   },
-  "standard" : {
+  "standard": {
     "parse": "babel-eslint"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/JUANCMS/portafolio_digital-db#readme",
   "devDependencies": {
+    "ava": "^3.15.0",
     "babel-eslint": "^10.1.0",
     "standard": "^16.0.3"
   }
