@@ -1,17 +1,17 @@
 //  SE COMIENZA A TRABAJAR CON EL 'use strict' para poder utilizar todos los features de ECMAScript 6
 'use strict'
 
-const test = require('ava')
-const utils = require('../lib/utils')
+import test from 'ava'
+import utils from '../lib/utils'
 
 //  EN ESTE CASO, UTILIZAMO EL METODO TEST QUE REQUERIMOS DE 'AVA' Y UTILIZAMOS EL TÍTULO COMO PRIMER PARAMENTRO Y SEGUNDO PARAMETRO UN CALLBACK Y ESTA VEZ CREAMOS UNA VARIABLE 'tags' ASIGNANDOLE LA 'utils' . Y SU PROPIEDAD 'extractTags', PARA EXTRAER TODOS LOS HASHTAGS DE MI APLICACION CON REGLAS PARA QUE ME LOS TRAIGA EN MINUSCULAS.
 test('extrayendo los hashtags del proyecto', t => {
-  let tags = utils.extractTags('un #picture con tags #TeSt #Portafolio_Digital ##DOBLE_HASHTAGS')
+  let tags = utils.extractTags('un #picture con tags #TeSt #Portafolio ##aVa')
   t.deepEqual(tags, [
     'picture',
     'test',
-    'portafolio_digital',
-    'doble_hashtags'
+    'portafolio',
+    'ava'
   ])
   //  SI NO ME DEVUELVE NINGUN TAGS, QUE SE DEVUELVA UN ARRAY VACIO
   tags = utils.extractTags('cuando no encuentra ningun tag')
