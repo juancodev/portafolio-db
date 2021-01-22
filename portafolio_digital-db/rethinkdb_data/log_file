@@ -35,3 +35,50 @@
 2021-01-17T00:34:03.597004240 13114.769864s notice: All client connections closed.
 2021-01-17T00:34:03.597010809 13114.769871s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2021-01-17T00:34:03.786010789 13114.958871s notice: Storage engine shut down.
+2021-01-21T01:58:34.830154215 0.217412s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-21T01:58:34.885321488 0.272578s notice: Running on Linux 5.8.0-38-generic x86_64
+2021-01-21T01:58:34.885414911 0.272669s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-db/rethinkdb_data
+2021-01-21T01:58:35.173452341 0.560707s info: Automatically using cache size of 196 MB
+2021-01-21T01:58:35.226049114 0.613304s notice: Listening for intracluster connections on port 29015
+2021-01-21T01:58:35.276820305 0.664077s notice: Listening for client driver connections on port 28015
+2021-01-21T01:58:35.276985154 0.664240s notice: Listening for administrative HTTP connections on port 8080
+2021-01-21T01:58:35.276990105 0.664245s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-01-21T01:58:35.276993386 0.664248s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-01-21T01:58:35.277006316 0.664261s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-01-21T01:58:35.277014735 0.664269s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-21T01:58:35.277023759 0.664278s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-21T02:13:10.550745299 875.938001s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-01-21T02:13:10.550964722 875.938219s notice: Shutting down client connections...
+2021-01-21T02:13:10.551097729 875.938352s notice: All client connections closed.
+2021-01-21T02:13:10.551105625 875.938360s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-21T02:13:10.614717768 876.001973s notice: Storage engine shut down.
+2021-01-22T00:24:27.678665582 0.236941s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-22T00:24:27.748412857 0.306684s notice: Running on Linux 5.8.0-38-generic x86_64
+2021-01-22T00:24:27.748490536 0.306760s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-db/rethinkdb_data
+2021-01-22T00:24:27.971780165 0.530050s info: Automatically using cache size of 168 MB
+2021-01-22T00:24:28.022214990 0.580485s notice: Listening for intracluster connections on port 29015
+2021-01-22T00:24:28.060762416 0.619032s notice: Listening for client driver connections on port 28015
+2021-01-22T00:24:28.060831234 0.619101s notice: Listening for administrative HTTP connections on port 8080
+2021-01-22T00:24:28.060838313 0.619108s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-01-22T00:24:28.060843636 0.619113s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-01-22T00:24:28.060852352 0.619122s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-01-22T00:24:28.060860197 0.619130s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-22T00:24:28.060867787 0.619137s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-22T01:20:58.395142250 3390.953413s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-01-22T01:20:58.464933888 3391.023204s notice: Shutting down client connections...
+2021-01-22T01:20:58.465515613 3391.023786s notice: All client connections closed.
+2021-01-22T01:20:58.465525648 3391.023795s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-22T01:20:58.648180780 3391.206451s notice: Storage engine shut down.
+2021-01-22T01:21:19.199012051 0.143285s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-22T01:21:19.220299745 0.164570s notice: Running on Linux 5.8.0-38-generic x86_64
+2021-01-22T01:21:19.220404427 0.164673s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-db/rethinkdb_data
+2021-01-22T01:21:19.405701669 0.349971s info: Automatically using cache size of 100 MB
+2021-01-22T01:21:19.408378988 0.352648s warn: Cache size does not leave much memory for server and query overhead (available memory: 1014 MB).
+2021-01-22T01:21:19.408392445 0.352661s warn: Cache size is very low and may impact performance.
+2021-01-22T01:21:19.409454534 0.353723s notice: Listening for intracluster connections on port 29015
+2021-01-22T01:21:19.421348520 0.365618s notice: Listening for client driver connections on port 28015
+2021-01-22T01:21:19.421511362 0.365781s notice: Listening for administrative HTTP connections on port 8080
+2021-01-22T01:21:19.421523531 0.365793s notice: Listening on cluster addresses: 127.0.0.1, 192.168.1.105, ::1, fe80::9c6:308c:ca07:ad6f%3
+2021-01-22T01:21:19.421533831 0.365803s notice: Listening on driver addresses: 127.0.0.1, 192.168.1.105, ::1, fe80::9c6:308c:ca07:ad6f%3
+2021-01-22T01:21:19.421544277 0.365813s notice: Listening on http addresses: 127.0.0.1, 192.168.1.105, ::1, fe80::9c6:308c:ca07:ad6f%3
+2021-01-22T01:21:19.421561656 0.365830s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d

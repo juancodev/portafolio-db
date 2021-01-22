@@ -21,12 +21,15 @@ class Db {
     this.db = options || defaults.db
   }
 
-  //  objeto de conexion
+  //  objeto de conexion (revisar, error de conexión)
   connect (callback) {
     this.connection = r.connect({
       host: this.host,
       port: this.port
     })
+
+    //  le asignamos la propiedad en el método de la conexión
+    this.connected = true
 
     //  primero para conectarnos a la base de datos y necesitamos hacer referencia a la conexion y tambien el nombre de la base de datos
     const db = this.db
@@ -61,6 +64,18 @@ class Db {
     return Promise.resolve(setup()).asCallback(callback)
   }
 
+<<<<<<< HEAD
+=======
+  //  creamos un método llamado 'disconnect' que recibe un argumento (callback) y me una condición que indica si la conexión no esta realizada, me retorne una nueva promesa con el error
+  disconnect (callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('No se ha conectado')).asCallback(callback)
+    }
+    this.connected = false
+    return Promise.resolve(this.connection).then((conn) => conn.close())
+  }
+
+>>>>>>> edafa28d513e36df2b8ced2d3df1953071710a26
   saveImage (image, callback) {
   }
 }
