@@ -82,3 +82,8 @@
 2021-01-22T01:21:19.421533831 0.365803s notice: Listening on driver addresses: 127.0.0.1, 192.168.1.105, ::1, fe80::9c6:308c:ca07:ad6f%3
 2021-01-22T01:21:19.421544277 0.365813s notice: Listening on http addresses: 127.0.0.1, 192.168.1.105, ::1, fe80::9c6:308c:ca07:ad6f%3
 2021-01-22T01:21:19.421561656 0.365830s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-22T02:00:08.405282141 2329.349551s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-01-22T02:00:08.420053129 2329.364322s notice: Shutting down client connections...
+2021-01-22T02:00:08.438388751 2329.382658s notice: All client connections closed.
+2021-01-22T02:00:08.438402503 2329.382671s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-22T02:00:08.681085850 2329.625356s notice: Storage engine shut down.

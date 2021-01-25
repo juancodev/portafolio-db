@@ -3,6 +3,8 @@
 const co = require('co')
 const r = require('rethinkdb')
 const Promise = require('bluebird')
+const uuid = require('uuid-base62')
+const utils = require('./utils')
 
 //  crearemos una clase con el nombre Db para nuestra conexion. Mientras que requerimos el modulo 'RethinkDb'
 //  en el siguiente caso, no quedará el valor dentro del método connect de rethinkdb para poder ser cambiados a lo largo del código en diferentes servidores.
@@ -16,9 +18,10 @@ const defaults = {
 class Db {
   constructor (options) {
     options = options || {}
-    this.host = options || defaults.host
-    this.port = options || defaults.port
-    this.db = options || defaults.db
+    this.host = options.host || defaults.host
+    this.port = options.port || defaults.port
+    this.db = options.db || defaults.db
+    this.connected = false
   }
 
   //  objeto de conexion (revisar, error de conexión)
@@ -73,7 +76,91 @@ class Db {
     return Promise.resolve(this.connection).then((conn) => conn.close())
   }
 
+  //  e implementamos la misma lógica de conexión para indicar si estoy conectado y así comprobamos que cada vez que subamos una imagen, nos garantizamos que estamos conectados
   saveImage (image, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+    //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
+    const connection = this.connection
+    const db = this.db
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+      image.createdAt = new Date()
+      //  Después de crear una propiedad de las imagenes como la fecha, crearemos otra propiedad para extraer de la descripción los tags
+      image.tags = utils.extractTags(image.description)
+      //  Y almacenamos el resultado de la anteriores asignaciones a una constante después que se haya cumplido la promesa
+      const result = yield r.db(db).table('images').insert(image).run(conn)
+
+      //  Y creamos una condición para comprobar si esto funciona
+      if (result.errors > 0) {
+        return Promise.reject(new Error(result.first_error))
+      }
+
+      //  En esta línea obtenemos el id de la imagen que me genera con el valor con la posición 0 'generated_keys[0]'
+      image.id = result.generated_keys[0]
+
+      //  Después creamos una corutina o promesa que se cumpla para obtener el id de la imagen antes de que sea insertada en nuestra db
+      yield r.db(db).table('images').get(image.id).update({
+        //  Con el método update podemos pasar una propiedad y también cambiar la propiedad
+        public_id: uuid.encode(image.id)
+      }).run(conn)
+
+      //  En este caso crearemos una constante que obtenga la promesa resuelta del id que va a obtener
+      const created = yield r.db(db).table('images').get(image.id).run(conn)
+
+      //  En este caso, no vamos a la promesa resuelta del objeto image sino de la variable created
+      return Promise.resolve(created)
+    })
+
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  likeImage (id, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+    //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
+    const connection = this.connection
+    const db = this.db
+    const imageId = uuid.decode(id)
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+      const image = yield r.db(db).table('images').get(imageId).run(conn)
+      yield r.db(db).table('images').get(imageId).update({
+        liked: true,
+        likes: image.likes + 1
+      }).run(conn)
+
+      const created = yield r.db(db).table('images').get(imageId).run(conn)
+      return Promise.resolve(created)
+    })
+
+    //  De esta forma es la implementación de las imagenes a nuestra base de dato
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  getImage (id, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+    //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
+    const connection = this.connection
+    const db = this.db
+    const imageId = uuid.decode(id)
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+      const image = yield r.db(db).table('images').get(imageId).run(conn)
+      return Promise.resolve(image)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
   }
 }
 
