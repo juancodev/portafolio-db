@@ -9,6 +9,7 @@ const fixtures = require('./fixtures')
 
 //  nos permite generar una base de datos de prueba con el nombre de portafolio pero con id diferentes
 const dbName = `portfolio-digital_${uuid.v4()}`
+const db = new Db({ db: dbName })
 
 //  instanciamos la clase pasándole como objeto la options del nombre de la base de datos
 const db = new Db({ db: dbName })
@@ -28,6 +29,7 @@ test.after.always('limpiar la base de datos', async t => {
   const conn = await r.connect({})
   await r.dbDrop(dbName).run(conn)
 })
+
 
 //  creamos el test para guarda imágenes
 test('guardar imagen', async t => {
@@ -74,3 +76,4 @@ test('obtener id de la imagen', async t => {
   const result = await db.getImage(created.public_id)
   t.deepEqual(created, result)
 })
+
