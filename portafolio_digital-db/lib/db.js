@@ -48,10 +48,11 @@ class Db {
         yield r.dbCreate(db).run(conn)
       }
 
-      //  realizaremos el mismo paso pero ahora con las tablas, necesitamos buscar la base de datos con el nombre creado y luego listar las tablas de esa db y conectarnos
+      //  realizaremos el mismo paso pero ahora con las tablas, necesitamos buscar la base de datos con el nombre creado y luego listar las tablas de esa db y conectarnos. Adicionalmente, se crea un 'indexCreate' para hacer las consultas un poco más eficientes
       const dbTables = yield r.db(db).tableList().run(conn)
       if (dbTables.indexOf('images') === -1) {
         yield r.db(db).tableCreate('images').run(conn)
+        yield r.db(db).table('images').indexCreate('createdAt').run(conn)
       }
 
       //  y exactamente lo mismo para la tabla de usuarios
@@ -158,6 +159,62 @@ class Db {
       const conn = yield connection
       const image = yield r.db(db).table('images').get(imageId).run(conn)
       return Promise.resolve(image)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  //  Creamos el metodo getImages y este no recibe parámetros
+  getImages (callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+    //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
+    const connection = this.connection
+    const db = this.db
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+
+      //  de esta forma creamos un query de poder listar las imagenes por fecha de forma descendiente
+      const images = yield r.db(db).table('images').orderBy({
+        index: r.desc('createdAt')
+      }).run(conn)
+
+      const result = yield images.toArray()
+
+      return Promise.resolve(result)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  saveUser (user, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+    //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
+    const connection = this.connection
+    const db = this.db
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+      user.password = utils.encrypt(user.password)
+      user.createdAt = new Date()
+
+      const result = yield r.db(db).table('users').insert(user).run(conn)
+
+      if (result.errors > 0) {
+        return Promise.reject(new Error(result.first_error))
+      }
+
+      user.id = result.generated_keys[0]
+
+      const created = yield r.db(db).table('users').get('user.id').run(conn)
+
+      return Promise.resolve(created)
     })
     //  Resolvemos todas las tareas con el callback async
     return Promise.resolve(tasks()).asCallback(callback)

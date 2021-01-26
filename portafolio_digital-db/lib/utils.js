@@ -1,7 +1,11 @@
 'use strict'
 
+//  es un modulo que trae el core de node y nos permite encriptar contraseñas
+const crypto = require('crypto')
+
 const utils = {
-  extractTags
+  extractTags,
+  encrypt
 }
 
 function extractTags (text) {
@@ -28,6 +32,13 @@ function normalize (text) {
   text = text.toLowerCase()
   text = text.replace(/#/g, '')
   return text
+}
+
+//  creamos la funcion de encriptar las contraseñas dentro de las utilidades
+function encrypt (password) {
+  const shasum = crypto.createHash('sha256')
+  shasum.update(password)
+  return shasum.digest('hex')
 }
 
 module.exports = utils

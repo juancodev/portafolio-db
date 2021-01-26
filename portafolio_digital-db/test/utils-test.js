@@ -25,6 +25,15 @@ test('extrayendo los hashtags del proyecto', t => {
   t.deepEqual(tags, [])
 })
 
+test('encriptar contraseñas', t => {
+  //  indicamos que tenemos una contraseña
+  const password = 'helloword123'
+  const encrypted = 'ebf6a3f93672bd946e1ce8a7d6b75d6f35232b5f8e713a5aa9e103a4f053737b'
+
+  const result = utils.encrypt(password)
+  t.is(result, encrypted)
+})
+
 //  'deepEqual', ES UNA PROPIEDAD QUE VA A EVALUAR SI EL VALOR ES IGUAL AL ESPERADO, LA CANTIDAD ES IGUAL, ETC.
 
 //  ARCHIVOS DE PRUEBA
