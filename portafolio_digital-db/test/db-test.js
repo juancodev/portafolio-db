@@ -119,7 +119,20 @@ test('Guardar usuario', async t => {
   t.is(user.name, created.name)
   t.is(utils.encrypt(plainPassword), created.password)
   //  garantizamos de que venga con un id
-  t.is(typeof created.id, 'string')
+  t.is(typeof user.id, 'string')
   // truthy significa que por lo menos haya algún valor
   t.truthy(created.createdAt)
+})
+
+//  creamos el metodo de obtener imagen
+test('obtener usuario', async t => {
+  const db = t.context.db
+
+  t.is(typeof db.getUser, 'function', 'debe ser una funcion')
+
+  const user = fixtures.getUser()
+  const created = await db.saveUser(user)
+  const result = await db.getUser(user.username)
+
+  t.deepEqual(created, result)
 })

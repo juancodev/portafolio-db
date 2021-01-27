@@ -58,6 +58,7 @@ class Db {
       //  y exactamente lo mismo para la tabla de usuarios
       if (dbTables.indexOf('users') === -1) {
         yield r.db(db).tableCreate('users').run(conn)
+        yield r.db(db).table('users').indexCreate('username').run(conn)
       }
 
       //  y cuando se cumpla la promesa setup vamos a retornar la referencia de la conexion a la base de dato
@@ -212,9 +213,34 @@ class Db {
 
       user.id = result.generated_keys[0]
 
-      const created = yield r.db(db).table('users').get('user.id').run(conn)
+      const created = yield r.db(db).table('users').get(user.id).run(conn)
 
       return Promise.resolve(created)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  getUser (username, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+    //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
+    const connection = this.connection
+    const db = this.db
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+      yield r.db(db).table('users').indexWait().run(conn)
+      const users = yield r.db(db).table('users').getAll(username, {
+        //  esto es como si fuera un where
+        index: 'username'
+      }).run(conn)
+
+      const result = yield users.next()
+
+      return Promise.resolve(result)
     })
     //  Resolvemos todas las tareas con el callback async
     return Promise.resolve(tasks()).asCallback(callback)
