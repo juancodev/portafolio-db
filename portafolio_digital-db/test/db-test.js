@@ -85,6 +85,14 @@ test('obtener id de la imagen', async t => {
   const created = await db.saveImage(image)
   const result = await db.getImage(created.public_id)
   t.deepEqual(created, result)
+
+  //  manejo de errores a la hora de recibir alguno en especifico
+  const fn = () => {
+    throw new TypeError('Imagen no encontrada')
+  }
+  t.throws(() => {
+    fn()
+  }, db.getImage('foo'), /not found/)
 })
 
 test('lista todas las imagen', async t => {
@@ -135,4 +143,28 @@ test('obtener usuario', async t => {
   const result = await db.getUser(user.username)
 
   t.deepEqual(created, result)
+
+  //  de la misma forma espero recibir un usuario que existe en mi db
+  t.throws(Promise.reject(new Error('foo')), db.getUser('foo'), /not found/)
+})
+
+test('autenticacion de usuario', async t => {
+  const db = t.context.db
+
+  t.is(typeof db.authenticate, 'function', 'debe ser una funcion')
+
+  //  vamos a obtener un usuario de los fixtures
+  const user = fixtures.getUser()
+  const plainPassword = user.password
+  await db.saveUser(user)
+
+  //  no hace falta el resultado sino autenticarlo
+  const success = await db.authenticate(user.username, plainPassword)
+  t.true(success)
+
+  const fail = await db.authenticate(user.username, 'foo123')
+  t.false(fail)
+
+  const failure = await db.authenticate('foo', 'bar')
+  t.false(failure)
 })

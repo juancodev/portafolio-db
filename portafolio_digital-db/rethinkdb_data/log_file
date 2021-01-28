@@ -552,3 +552,1193 @@
 2021-01-26T16:11:45.378891200 21489.180804s notice: All client connections closed.
 2021-01-26T16:11:45.378947600 21489.180860s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2021-01-26T16:11:45.379722800 21489.181635s notice: Storage engine shut down.
+2021-01-26T22:15:48.393950500 0.044141s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-26T22:15:48.406805400 0.056992s notice: Running on Linux 4.4.0-19041-Microsoft x86_64
+2021-01-26T22:15:48.407063200 0.057248s notice: Loading data from directory /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data
+2021-01-26T22:15:48.448751300 0.098935s info: Automatically using cache size of 1723 MB
+2021-01-26T22:15:48.450507800 0.100692s notice: Listening for intracluster connections on port 29015
+2021-01-26T22:15:48.453522200 0.103706s notice: Listening for client driver connections on port 28015
+2021-01-26T22:15:48.453625800 0.103809s notice: Listening for administrative HTTP connections on port 8080
+2021-01-26T22:15:48.453636400 0.103820s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-01-26T22:15:48.453645100 0.103828s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-01-26T22:15:48.453654200 0.103837s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-01-26T22:15:48.453665900 0.103849s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-26T22:15:48.453676400 0.103860s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-26T22:16:15.160132200 26.809913s info: Table 24a2a66f-cbca-4682-bc06-b6eee0eb7550: Added replica on this server.
+2021-01-26T22:16:15.160367400 26.810148s info: Table 24a2a66f-cbca-4682-bc06-b6eee0eb7550: Starting a new Raft election for term 1.
+2021-01-26T22:16:15.236377100 26.886156s info: Table 70b35125-71c4-492c-ac46-cebb4f1cb96a: Starting a new Raft election for term 1.
+2021-01-26T22:16:15.266489000 26.916268s info: Table ce98b056-c555-4158-b2c0-d13db39a755c: Starting a new Raft election for term 1.
+2021-01-26T22:16:15.267125300 26.916905s info: Table 70b35125-71c4-492c-ac46-cebb4f1cb96a: Added replica on this server.
+2021-01-26T22:16:15.319884500 26.969663s info: Table ce98b056-c555-4158-b2c0-d13db39a755c: Added replica on this server.
+2021-01-26T22:16:15.320303400 26.970082s info: Table a26decb1-b460-4c05-bee1-8db3da758b8d: Starting a new Raft election for term 1.
+2021-01-26T22:16:15.354831300 27.004609s info: Table 83e00d19-a8ce-4164-a9e3-23c1f99cb60e: Starting a new Raft election for term 1.
+2021-01-26T22:16:15.386761500 27.036539s info: Table a26decb1-b460-4c05-bee1-8db3da758b8d: Added replica on this server.
+2021-01-26T22:16:15.386905500 27.036682s info: Table 5523d798-5de1-4e34-b223-2cfcff3f4bfe: Starting a new Raft election for term 1.
+2021-01-26T22:16:15.387267800 27.037045s info: Table 83e00d19-a8ce-4164-a9e3-23c1f99cb60e: Added replica on this server.
+2021-01-26T22:16:15.387547000 27.037324s info: Table 5523d798-5de1-4e34-b223-2cfcff3f4bfe: Added replica on this server.
+2021-01-26T22:16:15.389899900 27.039678s info: Table 24a2a66f-cbca-4682-bc06-b6eee0eb7550: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:15.391097900 27.040875s info: Table 70b35125-71c4-492c-ac46-cebb4f1cb96a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:15.392284100 27.042061s info: Table ce98b056-c555-4158-b2c0-d13db39a755c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:15.393473900 27.043251s info: Table a26decb1-b460-4c05-bee1-8db3da758b8d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:15.394668800 27.044446s info: Table 83e00d19-a8ce-4164-a9e3-23c1f99cb60e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:15.395779900 27.045557s info: Table 5523d798-5de1-4e34-b223-2cfcff3f4bfe: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:16.926709900 28.576464s info: Table 24a2a66f-cbca-4682-bc06-b6eee0eb7550: Configuration is changing.
+2021-01-26T22:16:16.957664400 28.607418s info: Table 70b35125-71c4-492c-ac46-cebb4f1cb96a: Configuration is changing.
+2021-01-26T22:16:16.985198700 28.634952s info: Table a26decb1-b460-4c05-bee1-8db3da758b8d: Configuration is changing.
+2021-01-26T22:16:17.030747400 28.680500s info: Table ce98b056-c555-4158-b2c0-d13db39a755c: Configuration is changing.
+2021-01-26T22:16:18.571434500 30.221164s info: Table 5cc2ae4a-8c67-4b60-8b96-ce4abf37c595: Starting a new Raft election for term 1.
+2021-01-26T22:16:18.572484400 30.222214s info: Table 5cc2ae4a-8c67-4b60-8b96-ce4abf37c595: Added replica on this server.
+2021-01-26T22:16:18.636298300 30.286027s info: Table 76f08e6a-34fc-4829-b8bd-b3a126e58d0d: Starting a new Raft election for term 1.
+2021-01-26T22:16:18.643931300 30.293659s info: Table 76f08e6a-34fc-4829-b8bd-b3a126e58d0d: Added replica on this server.
+2021-01-26T22:16:18.643942300 30.293670s info: Table d58c7ff5-f8b2-4f39-bd3c-d5ce67745836: Starting a new Raft election for term 1.
+2021-01-26T22:16:18.679216300 30.328944s info: Table d58c7ff5-f8b2-4f39-bd3c-d5ce67745836: Added replica on this server.
+2021-01-26T22:16:18.679323800 30.329051s info: Table d0817bab-6800-438a-8b1e-7c21cc38aaf3: Starting a new Raft election for term 1.
+2021-01-26T22:16:18.679537800 30.329265s info: Table d0817bab-6800-438a-8b1e-7c21cc38aaf3: Added replica on this server.
+2021-01-26T22:16:18.751481900 30.401208s info: Table 5cc2ae4a-8c67-4b60-8b96-ce4abf37c595: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:18.753291500 30.403018s info: Table 76f08e6a-34fc-4829-b8bd-b3a126e58d0d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:18.754765600 30.404492s info: Table d58c7ff5-f8b2-4f39-bd3c-d5ce67745836: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:18.756155300 30.405881s info: Table d0817bab-6800-438a-8b1e-7c21cc38aaf3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:18.759546600 30.409273s info: Table 5523d798-5de1-4e34-b223-2cfcff3f4bfe: Configuration is changing.
+2021-01-26T22:16:18.761067300 30.410794s info: Table 83e00d19-a8ce-4164-a9e3-23c1f99cb60e: Configuration is changing.
+2021-01-26T22:16:19.427261800 31.076978s info: Table 90133d53-fbdb-4b06-b16e-c230894571e2: Starting a new Raft election for term 1.
+2021-01-26T22:16:19.427360900 31.077077s info: Table 90133d53-fbdb-4b06-b16e-c230894571e2: Added replica on this server.
+2021-01-26T22:16:19.961097900 31.610806s info: Table 95c3ff5a-d29c-4bdb-acf1-0c99c4411a3d: Starting a new Raft election for term 1.
+2021-01-26T22:16:19.961183300 31.610891s info: Table 95c3ff5a-d29c-4bdb-acf1-0c99c4411a3d: Added replica on this server.
+2021-01-26T22:16:20.629569700 32.279268s info: Table 90133d53-fbdb-4b06-b16e-c230894571e2: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:20.633616900 32.283315s info: Table 95c3ff5a-d29c-4bdb-acf1-0c99c4411a3d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:16:20.691291100 32.340988s info: Table 5cc2ae4a-8c67-4b60-8b96-ce4abf37c595: Configuration is changing.
+2021-01-26T22:16:21.033218400 32.682910s info: Table d58c7ff5-f8b2-4f39-bd3c-d5ce67745836: Configuration is changing.
+2021-01-26T22:16:21.068128800 32.717820s info: Table 76f08e6a-34fc-4829-b8bd-b3a126e58d0d: Configuration is changing.
+2021-01-26T22:16:21.069999800 32.719691s info: Table d0817bab-6800-438a-8b1e-7c21cc38aaf3: Configuration is changing.
+2021-01-26T22:16:21.275800900 32.925490s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5cc2ae4a-8c67-4b60-8b96-ce4abf37c595
+2021-01-26T22:16:21.275820200 32.925508s info: Table 5cc2ae4a-8c67-4b60-8b96-ce4abf37c595: Deleted the table.
+2021-01-26T22:16:21.891549300 33.541228s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/ce98b056-c555-4158-b2c0-d13db39a755c
+2021-01-26T22:16:21.891564000 33.541242s info: Table ce98b056-c555-4158-b2c0-d13db39a755c: Deleted the table.
+2021-01-26T22:16:21.967499800 33.617178s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/70b35125-71c4-492c-ac46-cebb4f1cb96a
+2021-01-26T22:16:21.967519800 33.617208s info: Table 70b35125-71c4-492c-ac46-cebb4f1cb96a: Deleted the table.
+2021-01-26T22:16:22.057122100 33.706799s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/24a2a66f-cbca-4682-bc06-b6eee0eb7550
+2021-01-26T22:16:22.057145700 33.706822s info: Table 24a2a66f-cbca-4682-bc06-b6eee0eb7550: Deleted the table.
+2021-01-26T22:16:22.259444300 33.909118s info: Table 95c3ff5a-d29c-4bdb-acf1-0c99c4411a3d: Configuration is changing.
+2021-01-26T22:16:22.311969900 33.961643s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/d58c7ff5-f8b2-4f39-bd3c-d5ce67745836
+2021-01-26T22:16:22.311995000 33.961667s info: Table d58c7ff5-f8b2-4f39-bd3c-d5ce67745836: Deleted the table.
+2021-01-26T22:16:22.373446800 34.023119s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/76f08e6a-34fc-4829-b8bd-b3a126e58d0d
+2021-01-26T22:16:22.373464400 34.023136s info: Table 76f08e6a-34fc-4829-b8bd-b3a126e58d0d: Deleted the table.
+2021-01-26T22:16:22.470857000 34.120527s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/d0817bab-6800-438a-8b1e-7c21cc38aaf3
+2021-01-26T22:16:22.470874700 34.120545s info: Table d0817bab-6800-438a-8b1e-7c21cc38aaf3: Deleted the table.
+2021-01-26T22:16:22.492541700 34.142211s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a26decb1-b460-4c05-bee1-8db3da758b8d
+2021-01-26T22:16:22.492565900 34.142235s info: Table a26decb1-b460-4c05-bee1-8db3da758b8d: Deleted the table.
+2021-01-26T22:16:22.704382400 34.354049s info: Table 90133d53-fbdb-4b06-b16e-c230894571e2: Configuration is changing.
+2021-01-26T22:16:22.876921400 34.526586s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/83e00d19-a8ce-4164-a9e3-23c1f99cb60e
+2021-01-26T22:16:22.876934400 34.526598s info: Table 83e00d19-a8ce-4164-a9e3-23c1f99cb60e: Deleted the table.
+2021-01-26T22:16:22.892541100 34.542205s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5523d798-5de1-4e34-b223-2cfcff3f4bfe
+2021-01-26T22:16:22.892560200 34.542224s info: Table 5523d798-5de1-4e34-b223-2cfcff3f4bfe: Deleted the table.
+2021-01-26T22:16:22.919438100 34.569102s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/95c3ff5a-d29c-4bdb-acf1-0c99c4411a3d
+2021-01-26T22:16:22.919463100 34.569126s info: Table 95c3ff5a-d29c-4bdb-acf1-0c99c4411a3d: Deleted the table.
+2021-01-26T22:16:22.933004700 34.582668s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/90133d53-fbdb-4b06-b16e-c230894571e2
+2021-01-26T22:16:22.933022300 34.582685s info: Table 90133d53-fbdb-4b06-b16e-c230894571e2: Deleted the table.
+2021-01-26T22:57:16.073325400 2487.690372s info: Table e56fe99d-ac7b-415e-a64d-c14db22e9669: Starting a new Raft election for term 1.
+2021-01-26T22:57:16.136158200 2487.753204s info: Table e473d2f5-bf76-4792-b05b-cb040ceee4d8: Starting a new Raft election for term 1.
+2021-01-26T22:57:16.136649600 2487.753695s info: Table e56fe99d-ac7b-415e-a64d-c14db22e9669: Added replica on this server.
+2021-01-26T22:57:16.137425800 2487.754471s info: Table e473d2f5-bf76-4792-b05b-cb040ceee4d8: Added replica on this server.
+2021-01-26T22:57:16.279868300 2487.896912s info: Table e49ec9ee-697e-49c8-8423-cc342b23cba0: Starting a new Raft election for term 1.
+2021-01-26T22:57:16.309586800 2487.926670s info: Table e49ec9ee-697e-49c8-8423-cc342b23cba0: Added replica on this server.
+2021-01-26T22:57:16.309694100 2487.926738s info: Table 05ddd64c-07eb-490d-9167-9a6fcef74efe: Starting a new Raft election for term 1.
+2021-01-26T22:57:16.311239300 2487.928283s info: Table 05ddd64c-07eb-490d-9167-9a6fcef74efe: Added replica on this server.
+2021-01-26T22:57:16.368293300 2487.985336s info: Table 0dd21c5a-7c07-423c-866a-faca1e869222: Starting a new Raft election for term 1.
+2021-01-26T22:57:16.383782500 2488.000825s info: Table 0dd21c5a-7c07-423c-866a-faca1e869222: Added replica on this server.
+2021-01-26T22:57:16.383799300 2488.000842s info: Table 5e5a0ad9-72c9-4963-8aae-4a7816992e29: Starting a new Raft election for term 1.
+2021-01-26T22:57:16.383969300 2488.001011s info: Table 5e5a0ad9-72c9-4963-8aae-4a7816992e29: Added replica on this server.
+2021-01-26T22:57:16.385725200 2488.002768s info: Table e56fe99d-ac7b-415e-a64d-c14db22e9669: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:16.387175400 2488.004218s info: Table e473d2f5-bf76-4792-b05b-cb040ceee4d8: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:16.388582800 2488.005625s info: Table e49ec9ee-697e-49c8-8423-cc342b23cba0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:16.389628900 2488.006671s info: Table 05ddd64c-07eb-490d-9167-9a6fcef74efe: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:16.436549100 2488.053591s info: Table 0dd21c5a-7c07-423c-866a-faca1e869222: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:16.477288200 2488.094331s info: Table 5e5a0ad9-72c9-4963-8aae-4a7816992e29: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:18.152353300 2489.769375s info: Table e56fe99d-ac7b-415e-a64d-c14db22e9669: Configuration is changing.
+2021-01-26T22:57:18.153142500 2489.770164s info: Table e473d2f5-bf76-4792-b05b-cb040ceee4d8: Configuration is changing.
+2021-01-26T22:57:18.154452800 2489.771474s info: Table e49ec9ee-697e-49c8-8423-cc342b23cba0: Configuration is changing.
+2021-01-26T22:57:19.221143700 2490.838153s info: Table 5ce6279f-0ce1-4568-a0d9-83c47f57bd42: Starting a new Raft election for term 1.
+2021-01-26T22:57:19.221265400 2490.838274s info: Table 5ce6279f-0ce1-4568-a0d9-83c47f57bd42: Added replica on this server.
+2021-01-26T22:57:19.269296800 2490.886306s info: Table baa74af5-2ecf-4206-91e8-39576fa8b801: Starting a new Raft election for term 1.
+2021-01-26T22:57:19.269548100 2490.886556s info: Table baa74af5-2ecf-4206-91e8-39576fa8b801: Added replica on this server.
+2021-01-26T22:57:19.308909900 2490.925918s info: Table 0b8fb5cf-7378-4210-8b34-a102d48c4bc1: Starting a new Raft election for term 1.
+2021-01-26T22:57:19.309260800 2490.926269s info: Table 0b8fb5cf-7378-4210-8b34-a102d48c4bc1: Added replica on this server.
+2021-01-26T22:57:19.314763600 2490.931773s info: Table 5ce6279f-0ce1-4568-a0d9-83c47f57bd42: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:19.317153800 2490.934162s info: Table baa74af5-2ecf-4206-91e8-39576fa8b801: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:19.318570200 2490.935578s info: Table 0b8fb5cf-7378-4210-8b34-a102d48c4bc1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:19.321778600 2490.938786s info: Table 05ddd64c-07eb-490d-9167-9a6fcef74efe: Configuration is changing.
+2021-01-26T22:57:19.331287300 2490.948295s info: Table 0dd21c5a-7c07-423c-866a-faca1e869222: Configuration is changing.
+2021-01-26T22:57:19.340240400 2490.957248s info: Table 5e5a0ad9-72c9-4963-8aae-4a7816992e29: Configuration is changing.
+2021-01-26T22:57:20.625531900 2492.242524s info: Table a6235a1e-eaa5-4556-b303-13fb1e387a11: Starting a new Raft election for term 1.
+2021-01-26T22:57:20.625828400 2492.242821s info: Table a6235a1e-eaa5-4556-b303-13fb1e387a11: Added replica on this server.
+2021-01-26T22:57:20.650815300 2492.267808s info: Table c6f8841d-3959-40ad-84e1-fc220b0776bd: Starting a new Raft election for term 1.
+2021-01-26T22:57:20.651179400 2492.268171s info: Table c6f8841d-3959-40ad-84e1-fc220b0776bd: Added replica on this server.
+2021-01-26T22:57:20.651183300 2492.268175s info: Table de097c60-58ca-4624-a97e-fddef473b1e5: Starting a new Raft election for term 1.
+2021-01-26T22:57:20.651348800 2492.268341s info: Table de097c60-58ca-4624-a97e-fddef473b1e5: Added replica on this server.
+2021-01-26T22:57:21.202166300 2492.819152s info: Table a6235a1e-eaa5-4556-b303-13fb1e387a11: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:21.236607800 2492.853594s info: Table c6f8841d-3959-40ad-84e1-fc220b0776bd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:21.244624100 2492.861610s info: Table de097c60-58ca-4624-a97e-fddef473b1e5: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-26T22:57:21.352534100 2492.969518s info: Table 5ce6279f-0ce1-4568-a0d9-83c47f57bd42: Configuration is changing.
+2021-01-26T22:57:21.757805400 2493.374785s info: Table 0b8fb5cf-7378-4210-8b34-a102d48c4bc1: Configuration is changing.
+2021-01-26T22:57:21.807721500 2493.424700s info: Table baa74af5-2ecf-4206-91e8-39576fa8b801: Configuration is changing.
+2021-01-26T22:57:21.842242700 2493.459221s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5ce6279f-0ce1-4568-a0d9-83c47f57bd42
+2021-01-26T22:57:21.842266300 2493.459244s info: Table 5ce6279f-0ce1-4568-a0d9-83c47f57bd42: Deleted the table.
+2021-01-26T22:57:22.030661600 2493.647638s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e49ec9ee-697e-49c8-8423-cc342b23cba0
+2021-01-26T22:57:22.030679000 2493.647654s info: Table e49ec9ee-697e-49c8-8423-cc342b23cba0: Deleted the table.
+2021-01-26T22:57:22.270586500 2493.887559s info: Table a6235a1e-eaa5-4556-b303-13fb1e387a11: Configuration is changing.
+2021-01-26T22:57:22.760670000 2494.377638s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/05ddd64c-07eb-490d-9167-9a6fcef74efe
+2021-01-26T22:57:22.760693000 2494.377660s info: Table 05ddd64c-07eb-490d-9167-9a6fcef74efe: Deleted the table.
+2021-01-26T22:57:23.134867800 2494.751831s info: Table c6f8841d-3959-40ad-84e1-fc220b0776bd: Configuration is changing.
+2021-01-26T22:57:23.218429800 2494.835392s info: Table de097c60-58ca-4624-a97e-fddef473b1e5: Configuration is changing.
+2021-01-26T22:57:23.304993700 2494.921955s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/baa74af5-2ecf-4206-91e8-39576fa8b801
+2021-01-26T22:57:23.305023600 2494.921984s info: Table baa74af5-2ecf-4206-91e8-39576fa8b801: Deleted the table.
+2021-01-26T22:57:23.305077300 2494.922038s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/0b8fb5cf-7378-4210-8b34-a102d48c4bc1
+2021-01-26T22:57:23.305086200 2494.922047s info: Table 0b8fb5cf-7378-4210-8b34-a102d48c4bc1: Deleted the table.
+2021-01-26T22:57:23.417455300 2495.034415s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a6235a1e-eaa5-4556-b303-13fb1e387a11
+2021-01-26T22:57:23.417467100 2495.034426s info: Table a6235a1e-eaa5-4556-b303-13fb1e387a11: Deleted the table.
+2021-01-26T22:57:23.420814700 2495.037776s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e473d2f5-bf76-4792-b05b-cb040ceee4d8
+2021-01-26T22:57:23.420828400 2495.037787s info: Table e473d2f5-bf76-4792-b05b-cb040ceee4d8: Deleted the table.
+2021-01-26T22:57:23.426032400 2495.042992s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5e5a0ad9-72c9-4963-8aae-4a7816992e29
+2021-01-26T22:57:23.426050800 2495.043010s info: Table 5e5a0ad9-72c9-4963-8aae-4a7816992e29: Deleted the table.
+2021-01-26T22:57:23.450780300 2495.067740s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e56fe99d-ac7b-415e-a64d-c14db22e9669
+2021-01-26T22:57:23.450800600 2495.067759s info: Table e56fe99d-ac7b-415e-a64d-c14db22e9669: Deleted the table.
+2021-01-26T22:57:23.645628600 2495.262587s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/c6f8841d-3959-40ad-84e1-fc220b0776bd
+2021-01-26T22:57:23.645653300 2495.262610s info: Table c6f8841d-3959-40ad-84e1-fc220b0776bd: Deleted the table.
+2021-01-26T22:57:23.680461400 2495.297418s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/0dd21c5a-7c07-423c-866a-faca1e869222
+2021-01-26T22:57:23.680480200 2495.297436s info: Table 0dd21c5a-7c07-423c-866a-faca1e869222: Deleted the table.
+2021-01-26T22:57:23.734473300 2495.351429s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/de097c60-58ca-4624-a97e-fddef473b1e5
+2021-01-26T22:57:23.734483000 2495.351438s info: Table de097c60-58ca-4624-a97e-fddef473b1e5: Deleted the table.
+2021-01-27T00:08:54.665858900 6786.240096s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.733708700 6786.307945s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: Added replica on this server.
+2021-01-27T00:08:54.733740900 6786.307977s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.757896100 6786.332133s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: Added replica on this server.
+2021-01-27T00:08:54.757952100 6786.332188s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.758944600 6786.333181s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: Added replica on this server.
+2021-01-27T00:08:54.812893300 6786.387129s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.818600100 6786.392836s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: Added replica on this server.
+2021-01-27T00:08:54.855307200 6786.429543s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.855979200 6786.430215s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: Added replica on this server.
+2021-01-27T00:08:54.896386800 6786.470622s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.896650200 6786.470885s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: Added replica on this server.
+2021-01-27T00:08:54.938570700 6786.512805s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: Starting a new Raft election for term 1.
+2021-01-27T00:08:54.938710700 6786.512945s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: Added replica on this server.
+2021-01-27T00:08:54.940872100 6786.515107s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:54.942325300 6786.516560s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:54.943870400 6786.518105s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:54.945174100 6786.519408s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:55.001563800 6786.575799s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:55.022320300 6786.596554s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:55.023855500 6786.598090s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:08:57.038585900 6788.612804s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: Configuration is changing.
+2021-01-27T00:08:57.039953700 6788.614171s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: Configuration is changing.
+2021-01-27T00:08:57.041396000 6788.615613s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: Configuration is changing.
+2021-01-27T00:08:57.094329800 6788.668546s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: Configuration is changing.
+2021-01-27T00:08:57.120151700 6788.694368s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: Configuration is changing.
+2021-01-27T00:08:57.121978100 6788.696195s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: Configuration is changing.
+2021-01-27T00:08:59.970790300 6791.544983s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: Starting a new Raft election for term 1.
+2021-01-27T00:08:59.980350300 6791.554543s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: Added replica on this server.
+2021-01-27T00:08:59.980390800 6791.554583s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: Starting a new Raft election for term 1.
+2021-01-27T00:09:00.006502300 6791.580695s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: Added replica on this server.
+2021-01-27T00:09:00.006526000 6791.580718s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: Starting a new Raft election for term 1.
+2021-01-27T00:09:00.030389300 6791.604581s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: Starting a new Raft election for term 1.
+2021-01-27T00:09:00.030831000 6791.605023s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: Added replica on this server.
+2021-01-27T00:09:00.071639100 6791.645831s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: Added replica on this server.
+2021-01-27T00:09:00.071718400 6791.645910s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: Starting a new Raft election for term 1.
+2021-01-27T00:09:00.072410900 6791.646603s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: Added replica on this server.
+2021-01-27T00:09:00.130224700 6791.704416s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: Starting a new Raft election for term 1.
+2021-01-27T00:09:00.130371400 6791.704562s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: Added replica on this server.
+2021-01-27T00:09:00.172660000 6791.746851s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:00.174165200 6791.748356s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:00.236794600 6791.810985s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:00.238734800 6791.812925s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:00.240134900 6791.814325s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:00.241583100 6791.815773s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:00.244842200 6791.819032s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: Configuration is changing.
+2021-01-27T00:09:01.280092400 6792.854273s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: Starting a new Raft election for term 1.
+2021-01-27T00:09:01.280203400 6792.854385s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: Added replica on this server.
+2021-01-27T00:09:02.414821500 6793.988994s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:09:02.481512200 6794.055684s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: Configuration is changing.
+2021-01-27T00:09:02.510345700 6794.084517s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: Configuration is changing.
+2021-01-27T00:09:02.512157800 6794.086329s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: Configuration is changing.
+2021-01-27T00:09:02.513905900 6794.088077s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: Configuration is changing.
+2021-01-27T00:19:13.331665900 7404.900830s info: Table f9596f80-33ff-43eb-b9d7-11653aa91cb0: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.332017900 7404.901181s info: Table f9596f80-33ff-43eb-b9d7-11653aa91cb0: Added replica on this server.
+2021-01-27T00:19:13.379465000 7404.948628s info: Table 7c7d533d-c1cc-493b-a8c0-dfd4a02bd229: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.397678400 7404.966841s info: Table a8ec9a31-8ae7-44e6-860f-3bef74c03d15: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.428070600 7404.997233s info: Table 7c7d533d-c1cc-493b-a8c0-dfd4a02bd229: Added replica on this server.
+2021-01-27T00:19:13.428704100 7404.997867s info: Table a8ec9a31-8ae7-44e6-860f-3bef74c03d15: Added replica on this server.
+2021-01-27T00:19:13.428747800 7404.997910s info: Table 5b6d3ec0-3ba9-46e3-8f72-3a27ed050381: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.464319000 7405.033482s info: Table 5b6d3ec0-3ba9-46e3-8f72-3a27ed050381: Added replica on this server.
+2021-01-27T00:19:13.464331800 7405.033494s info: Table b552292a-71dc-4e99-b98b-f981d295d340: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.488092300 7405.057255s info: Table a7268bbf-6940-4db3-8b96-12c1415a1ac6: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.488464300 7405.057626s info: Table b552292a-71dc-4e99-b98b-f981d295d340: Added replica on this server.
+2021-01-27T00:19:13.489069600 7405.058232s info: Table a7268bbf-6940-4db3-8b96-12c1415a1ac6: Added replica on this server.
+2021-01-27T00:19:13.530457600 7405.099619s info: Table d28da3ad-c05b-4e7c-912e-894f10d9265d: Starting a new Raft election for term 1.
+2021-01-27T00:19:13.530661300 7405.099823s info: Table d28da3ad-c05b-4e7c-912e-894f10d9265d: Added replica on this server.
+2021-01-27T00:19:13.532148700 7405.101311s info: Table f9596f80-33ff-43eb-b9d7-11653aa91cb0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:13.533669000 7405.102831s info: Table 7c7d533d-c1cc-493b-a8c0-dfd4a02bd229: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:13.577591900 7405.146754s info: Table a8ec9a31-8ae7-44e6-860f-3bef74c03d15: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:13.579547900 7405.148709s info: Table 5b6d3ec0-3ba9-46e3-8f72-3a27ed050381: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:13.581056900 7405.150219s info: Table b552292a-71dc-4e99-b98b-f981d295d340: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:13.627670400 7405.196831s info: Table a7268bbf-6940-4db3-8b96-12c1415a1ac6: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:13.629705500 7405.198866s info: Table d28da3ad-c05b-4e7c-912e-894f10d9265d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:15.121109000 7406.690258s info: Table f9596f80-33ff-43eb-b9d7-11653aa91cb0: Configuration is changing.
+2021-01-27T00:19:15.161956200 7406.731105s info: Table a8ec9a31-8ae7-44e6-860f-3bef74c03d15: Configuration is changing.
+2021-01-27T00:19:15.162936400 7406.732085s info: Table 5b6d3ec0-3ba9-46e3-8f72-3a27ed050381: Configuration is changing.
+2021-01-27T00:19:15.193596300 7406.762745s info: Table 7c7d533d-c1cc-493b-a8c0-dfd4a02bd229: Configuration is changing.
+2021-01-27T00:19:17.297095000 7408.866227s info: Table eeda7799-00c7-414e-ba83-2da0ea1abb48: Starting a new Raft election for term 1.
+2021-01-27T00:19:17.297829800 7408.866961s info: Table eeda7799-00c7-414e-ba83-2da0ea1abb48: Added replica on this server.
+2021-01-27T00:19:17.396636400 7408.965768s info: Table f5420f5f-fd1f-488c-bf31-f978d9085843: Starting a new Raft election for term 1.
+2021-01-27T00:19:17.414409900 7408.983541s info: Table f5420f5f-fd1f-488c-bf31-f978d9085843: Added replica on this server.
+2021-01-27T00:19:17.414421400 7408.983552s info: Table bc42b748-4ba3-4cdf-9fc9-bc62b97cca5b: Starting a new Raft election for term 1.
+2021-01-27T00:19:17.414752600 7408.983883s info: Table bc42b748-4ba3-4cdf-9fc9-bc62b97cca5b: Added replica on this server.
+2021-01-27T00:19:17.455345800 7409.024476s info: Table 08623e1f-b9f4-4c47-af5f-2e394b8e6cf4: Starting a new Raft election for term 1.
+2021-01-27T00:19:17.455434600 7409.024565s info: Table 08623e1f-b9f4-4c47-af5f-2e394b8e6cf4: Added replica on this server.
+2021-01-27T00:19:17.501962500 7409.071093s info: Table eeda7799-00c7-414e-ba83-2da0ea1abb48: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:17.503866400 7409.072996s info: Table f5420f5f-fd1f-488c-bf31-f978d9085843: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:17.505579300 7409.074709s info: Table bc42b748-4ba3-4cdf-9fc9-bc62b97cca5b: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:17.507218500 7409.076349s info: Table 08623e1f-b9f4-4c47-af5f-2e394b8e6cf4: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:17.510382200 7409.079512s info: Table d28da3ad-c05b-4e7c-912e-894f10d9265d: Configuration is changing.
+2021-01-27T00:19:17.511855600 7409.080985s info: Table a7268bbf-6940-4db3-8b96-12c1415a1ac6: Configuration is changing.
+2021-01-27T00:19:17.513150100 7409.082280s info: Table b552292a-71dc-4e99-b98b-f981d295d340: Configuration is changing.
+2021-01-27T00:19:19.278648700 7410.847765s info: Table a0fb9d48-b7f7-4855-b075-e6d225556216: Starting a new Raft election for term 1.
+2021-01-27T00:19:19.281003000 7410.850119s info: Table a0fb9d48-b7f7-4855-b075-e6d225556216: Added replica on this server.
+2021-01-27T00:19:19.395576200 7410.964692s info: Table 25a2a128-7940-440e-af2e-83a11d6b3476: Starting a new Raft election for term 1.
+2021-01-27T00:19:19.399669000 7410.968784s info: Table 25a2a128-7940-440e-af2e-83a11d6b3476: Added replica on this server.
+2021-01-27T00:19:19.440105100 7411.009220s info: Table 9f98a691-27be-46ef-82db-962d9d812012: Starting a new Raft election for term 1.
+2021-01-27T00:19:19.440844500 7411.009959s info: Table 9f98a691-27be-46ef-82db-962d9d812012: Added replica on this server.
+2021-01-27T00:19:20.284208900 7411.853317s info: Table a0fb9d48-b7f7-4855-b075-e6d225556216: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:20.308625600 7411.877734s info: Table 25a2a128-7940-440e-af2e-83a11d6b3476: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:20.359249100 7411.928357s info: Table 9f98a691-27be-46ef-82db-962d9d812012: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:19:20.805015900 7412.374120s info: Table eeda7799-00c7-414e-ba83-2da0ea1abb48: Configuration is changing.
+2021-01-27T00:19:20.809379600 7412.378483s info: Table f5420f5f-fd1f-488c-bf31-f978d9085843: Configuration is changing.
+2021-01-27T00:19:21.165816500 7412.734917s info: Table bc42b748-4ba3-4cdf-9fc9-bc62b97cca5b: Configuration is changing.
+2021-01-27T00:19:21.384082700 7412.953183s info: Table 08623e1f-b9f4-4c47-af5f-2e394b8e6cf4: Configuration is changing.
+2021-01-27T00:19:21.479770300 7413.048870s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7c7d533d-c1cc-493b-a8c0-dfd4a02bd229
+2021-01-27T00:19:21.479805600 7413.048904s info: Table 7c7d533d-c1cc-493b-a8c0-dfd4a02bd229: Deleted the table.
+2021-01-27T00:19:21.484478800 7413.053577s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5b6d3ec0-3ba9-46e3-8f72-3a27ed050381
+2021-01-27T00:19:21.484497100 7413.053595s info: Table 5b6d3ec0-3ba9-46e3-8f72-3a27ed050381: Deleted the table.
+2021-01-27T00:19:21.555259900 7413.124358s info: Table a0fb9d48-b7f7-4855-b075-e6d225556216: Configuration is changing.
+2021-01-27T00:19:21.672076800 7413.241174s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a8ec9a31-8ae7-44e6-860f-3bef74c03d15
+2021-01-27T00:19:21.672113900 7413.241210s info: Table a8ec9a31-8ae7-44e6-860f-3bef74c03d15: Deleted the table.
+2021-01-27T00:19:21.901206800 7413.470303s info: Table 25a2a128-7940-440e-af2e-83a11d6b3476: Configuration is changing.
+2021-01-27T00:19:21.907463400 7413.476558s info: Table 9f98a691-27be-46ef-82db-962d9d812012: Configuration is changing.
+2021-01-27T00:19:21.910554800 7413.479650s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/eeda7799-00c7-414e-ba83-2da0ea1abb48
+2021-01-27T00:19:21.910564800 7413.479659s info: Table eeda7799-00c7-414e-ba83-2da0ea1abb48: Deleted the table.
+2021-01-27T00:19:21.996197300 7413.565292s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f5420f5f-fd1f-488c-bf31-f978d9085843
+2021-01-27T00:19:21.996215000 7413.565309s info: Table f5420f5f-fd1f-488c-bf31-f978d9085843: Deleted the table.
+2021-01-27T00:19:22.078748600 7413.647843s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/bc42b748-4ba3-4cdf-9fc9-bc62b97cca5b
+2021-01-27T00:19:22.078768100 7413.647861s info: Table bc42b748-4ba3-4cdf-9fc9-bc62b97cca5b: Deleted the table.
+2021-01-27T00:19:22.544927800 7414.114018s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/08623e1f-b9f4-4c47-af5f-2e394b8e6cf4
+2021-01-27T00:19:22.544944100 7414.114034s info: Table 08623e1f-b9f4-4c47-af5f-2e394b8e6cf4: Deleted the table.
+2021-01-27T00:19:22.623754000 7414.192844s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f9596f80-33ff-43eb-b9d7-11653aa91cb0
+2021-01-27T00:19:22.623765200 7414.192854s info: Table f9596f80-33ff-43eb-b9d7-11653aa91cb0: Deleted the table.
+2021-01-27T00:19:22.815856400 7414.384947s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a0fb9d48-b7f7-4855-b075-e6d225556216
+2021-01-27T00:19:22.815867600 7414.384955s info: Table a0fb9d48-b7f7-4855-b075-e6d225556216: Deleted the table.
+2021-01-27T00:19:22.831687800 7414.400776s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/d28da3ad-c05b-4e7c-912e-894f10d9265d
+2021-01-27T00:19:22.831703400 7414.400791s info: Table d28da3ad-c05b-4e7c-912e-894f10d9265d: Deleted the table.
+2021-01-27T00:19:23.163686800 7414.732773s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/25a2a128-7940-440e-af2e-83a11d6b3476
+2021-01-27T00:19:23.163704900 7414.732789s info: Table 25a2a128-7940-440e-af2e-83a11d6b3476: Deleted the table.
+2021-01-27T00:19:23.171539800 7414.740625s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/b552292a-71dc-4e99-b98b-f981d295d340
+2021-01-27T00:19:23.171557100 7414.740642s info: Table b552292a-71dc-4e99-b98b-f981d295d340: Deleted the table.
+2021-01-27T00:19:23.250395400 7414.819481s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/9f98a691-27be-46ef-82db-962d9d812012
+2021-01-27T00:19:23.250407900 7414.819491s info: Table 9f98a691-27be-46ef-82db-962d9d812012: Deleted the table.
+2021-01-27T00:19:23.259035100 7414.828120s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a7268bbf-6940-4db3-8b96-12c1415a1ac6
+2021-01-27T00:19:23.259049700 7414.828134s info: Table a7268bbf-6940-4db3-8b96-12c1415a1ac6: Deleted the table.
+2021-01-27T00:31:41.296764800 8152.860098s info: Table 98d42bfd-bae9-4e68-9212-6cbd3c3ab379: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.360995800 8152.924328s info: Table 98d42bfd-bae9-4e68-9212-6cbd3c3ab379: Added replica on this server.
+2021-01-27T00:31:41.361054300 8152.924386s info: Table 7b9920d7-cf0d-4672-bc2f-caa544b66728: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.361332800 8152.924665s info: Table 7b9920d7-cf0d-4672-bc2f-caa544b66728: Added replica on this server.
+2021-01-27T00:31:41.445988000 8153.009320s info: Table fab05ab1-170f-4c68-ba37-69fea58eed5a: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.491071400 8153.054403s info: Table fab05ab1-170f-4c68-ba37-69fea58eed5a: Added replica on this server.
+2021-01-27T00:31:41.491204800 8153.054536s info: Table e43c2d5c-abfa-4e7b-82dc-5536bc122556: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.555267300 8153.118598s info: Table e43c2d5c-abfa-4e7b-82dc-5536bc122556: Added replica on this server.
+2021-01-27T00:31:41.555550300 8153.118882s info: Table a42d112e-19b0-4984-aff7-970b0923abb9: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.556770200 8153.120101s info: Table a42d112e-19b0-4984-aff7-970b0923abb9: Added replica on this server.
+2021-01-27T00:31:41.612711600 8153.176042s info: Table e707eef2-5345-41cb-99b9-5dac18e8b801: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.613427600 8153.176758s info: Table e707eef2-5345-41cb-99b9-5dac18e8b801: Added replica on this server.
+2021-01-27T00:31:41.665815200 8153.229145s info: Table 7ece4ccd-af33-49dd-b4f4-0f7d69f5e9bd: Starting a new Raft election for term 1.
+2021-01-27T00:31:41.666320700 8153.229651s info: Table 7ece4ccd-af33-49dd-b4f4-0f7d69f5e9bd: Added replica on this server.
+2021-01-27T00:31:41.667784000 8153.231114s info: Table 98d42bfd-bae9-4e68-9212-6cbd3c3ab379: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:41.669044700 8153.232374s info: Table 7b9920d7-cf0d-4672-bc2f-caa544b66728: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:41.709657900 8153.272988s info: Table fab05ab1-170f-4c68-ba37-69fea58eed5a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:41.718344800 8153.281675s info: Table e43c2d5c-abfa-4e7b-82dc-5536bc122556: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:41.720047000 8153.283376s info: Table a42d112e-19b0-4984-aff7-970b0923abb9: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:41.763719800 8153.327050s info: Table e707eef2-5345-41cb-99b9-5dac18e8b801: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:41.766041100 8153.329371s info: Table 7ece4ccd-af33-49dd-b4f4-0f7d69f5e9bd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:42.874358400 8154.437679s info: Table 98d42bfd-bae9-4e68-9212-6cbd3c3ab379: Configuration is changing.
+2021-01-27T00:31:43.520219100 8155.083536s info: Table 7b9920d7-cf0d-4672-bc2f-caa544b66728: Configuration is changing.
+2021-01-27T00:31:43.566082700 8155.129399s info: Table fab05ab1-170f-4c68-ba37-69fea58eed5a: Configuration is changing.
+2021-01-27T00:31:43.568679800 8155.131996s info: Table a42d112e-19b0-4984-aff7-970b0923abb9: Configuration is changing.
+2021-01-27T00:31:43.571020100 8155.134336s info: Table e43c2d5c-abfa-4e7b-82dc-5536bc122556: Configuration is changing.
+2021-01-27T00:31:44.111999600 8155.675311s info: Table 267d1e37-8faa-4d47-8765-15f028b951b1: Starting a new Raft election for term 1.
+2021-01-27T00:31:44.112092100 8155.675403s info: Table 267d1e37-8faa-4d47-8765-15f028b951b1: Added replica on this server.
+2021-01-27T00:31:44.254124000 8155.817435s info: Table 267d1e37-8faa-4d47-8765-15f028b951b1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:44.821191900 8156.384498s info: Table dae9ad70-4b24-42e6-b0d6-347ccde46d0c: Starting a new Raft election for term 1.
+2021-01-27T00:31:44.821319900 8156.384626s info: Table dae9ad70-4b24-42e6-b0d6-347ccde46d0c: Added replica on this server.
+2021-01-27T00:31:44.827670000 8156.390976s info: Table e707eef2-5345-41cb-99b9-5dac18e8b801: Configuration is changing.
+2021-01-27T00:31:44.830511400 8156.393818s info: Table 7ece4ccd-af33-49dd-b4f4-0f7d69f5e9bd: Configuration is changing.
+2021-01-27T00:31:45.079258300 8156.642563s info: Table ec67be59-d6ae-4b81-81f1-718a6be87fce: Starting a new Raft election for term 1.
+2021-01-27T00:31:45.079390300 8156.642695s info: Table ec67be59-d6ae-4b81-81f1-718a6be87fce: Added replica on this server.
+2021-01-27T00:31:45.081260200 8156.644565s info: Table dae9ad70-4b24-42e6-b0d6-347ccde46d0c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:45.907250700 8157.470549s info: Table a9f678e0-c380-4802-8ee1-cbcecfb95c80: Starting a new Raft election for term 1.
+2021-01-27T00:31:45.991465900 8157.554764s info: Table a9f678e0-c380-4802-8ee1-cbcecfb95c80: Added replica on this server.
+2021-01-27T00:31:45.991651800 8157.554949s info: Table ad7ec8a9-3dd9-4bff-b316-b752b27ba793: Starting a new Raft election for term 1.
+2021-01-27T00:31:45.991909400 8157.555207s info: Table ad7ec8a9-3dd9-4bff-b316-b752b27ba793: Added replica on this server.
+2021-01-27T00:31:46.057920600 8157.621218s info: Table ec67be59-d6ae-4b81-81f1-718a6be87fce: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:46.061487600 8157.624785s info: Table a9f678e0-c380-4802-8ee1-cbcecfb95c80: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:46.062998900 8157.626296s info: Table ad7ec8a9-3dd9-4bff-b316-b752b27ba793: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:47.608451800 8159.171737s info: Table 77e95aca-2493-4992-8f5b-f3ba0504999a: Starting a new Raft election for term 1.
+2021-01-27T00:31:47.608577700 8159.171863s info: Table 77e95aca-2493-4992-8f5b-f3ba0504999a: Added replica on this server.
+2021-01-27T00:31:48.062025300 8159.625307s info: Table f6a32df7-5a9a-485d-8d69-68a636a65357: Starting a new Raft election for term 1.
+2021-01-27T00:31:48.062156000 8159.625438s info: Table f6a32df7-5a9a-485d-8d69-68a636a65357: Added replica on this server.
+2021-01-27T00:31:48.162827300 8159.726109s info: Table 77e95aca-2493-4992-8f5b-f3ba0504999a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:48.166090200 8159.729372s info: Table f6a32df7-5a9a-485d-8d69-68a636a65357: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T00:31:48.343528300 8159.906808s info: Table 267d1e37-8faa-4d47-8765-15f028b951b1: Configuration is changing.
+2021-01-27T00:31:49.319978600 8160.883252s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/267d1e37-8faa-4d47-8765-15f028b951b1
+2021-01-27T00:31:49.319995900 8160.883268s info: Table 267d1e37-8faa-4d47-8765-15f028b951b1: Deleted the table.
+2021-01-27T00:31:49.475205000 8161.038477s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/98d42bfd-bae9-4e68-9212-6cbd3c3ab379
+2021-01-27T00:31:49.475224100 8161.038495s info: Table 98d42bfd-bae9-4e68-9212-6cbd3c3ab379: Deleted the table.
+2021-01-27T00:31:49.493234200 8161.056506s info: Table ad7ec8a9-3dd9-4bff-b316-b752b27ba793: Configuration is changing.
+2021-01-27T00:31:49.494650000 8161.057921s info: Table a9f678e0-c380-4802-8ee1-cbcecfb95c80: Configuration is changing.
+2021-01-27T00:31:49.910444900 8161.473713s info: Table 77e95aca-2493-4992-8f5b-f3ba0504999a: Configuration is changing.
+2021-01-27T00:31:49.952559200 8161.515827s info: Table dae9ad70-4b24-42e6-b0d6-347ccde46d0c: Configuration is changing.
+2021-01-27T00:31:50.282245500 8161.845511s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7b9920d7-cf0d-4672-bc2f-caa544b66728
+2021-01-27T00:31:50.282265000 8161.845530s info: Table 7b9920d7-cf0d-4672-bc2f-caa544b66728: Deleted the table.
+2021-01-27T00:31:50.346063800 8161.909329s info: Table ec67be59-d6ae-4b81-81f1-718a6be87fce: Configuration is changing.
+2021-01-27T00:31:50.349610700 8161.912876s info: Table f6a32df7-5a9a-485d-8d69-68a636a65357: Configuration is changing.
+2021-01-27T00:31:50.856454700 8162.419717s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a42d112e-19b0-4984-aff7-970b0923abb9
+2021-01-27T00:31:50.856471000 8162.419732s info: Table a42d112e-19b0-4984-aff7-970b0923abb9: Deleted the table.
+2021-01-27T00:31:50.958196000 8162.521456s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/77e95aca-2493-4992-8f5b-f3ba0504999a
+2021-01-27T00:31:50.958209200 8162.521469s info: Table 77e95aca-2493-4992-8f5b-f3ba0504999a: Deleted the table.
+2021-01-27T00:31:50.972041100 8162.535302s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a9f678e0-c380-4802-8ee1-cbcecfb95c80
+2021-01-27T00:31:50.972065800 8162.535326s info: Table a9f678e0-c380-4802-8ee1-cbcecfb95c80: Deleted the table.
+2021-01-27T00:31:50.977318100 8162.540580s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7ece4ccd-af33-49dd-b4f4-0f7d69f5e9bd
+2021-01-27T00:31:50.977340500 8162.540600s info: Table 7ece4ccd-af33-49dd-b4f4-0f7d69f5e9bd: Deleted the table.
+2021-01-27T00:31:51.074321700 8162.637581s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e707eef2-5345-41cb-99b9-5dac18e8b801
+2021-01-27T00:31:51.074346200 8162.637606s info: Table e707eef2-5345-41cb-99b9-5dac18e8b801: Deleted the table.
+2021-01-27T00:31:51.126431200 8162.689691s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/dae9ad70-4b24-42e6-b0d6-347ccde46d0c
+2021-01-27T00:31:51.126449100 8162.689708s info: Table dae9ad70-4b24-42e6-b0d6-347ccde46d0c: Deleted the table.
+2021-01-27T00:31:51.406262900 8162.969520s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/ec67be59-d6ae-4b81-81f1-718a6be87fce
+2021-01-27T00:31:51.406272900 8162.969529s info: Table ec67be59-d6ae-4b81-81f1-718a6be87fce: Deleted the table.
+2021-01-27T00:31:51.450340600 8163.013598s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f6a32df7-5a9a-485d-8d69-68a636a65357
+2021-01-27T00:31:51.450363300 8163.013620s info: Table f6a32df7-5a9a-485d-8d69-68a636a65357: Deleted the table.
+2021-01-27T00:31:51.539444600 8163.102701s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/ad7ec8a9-3dd9-4bff-b316-b752b27ba793
+2021-01-27T00:31:51.539457200 8163.102713s info: Table ad7ec8a9-3dd9-4bff-b316-b752b27ba793: Deleted the table.
+2021-01-27T00:31:51.548816300 8163.112073s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/fab05ab1-170f-4c68-ba37-69fea58eed5a
+2021-01-27T00:31:51.548836900 8163.112092s info: Table fab05ab1-170f-4c68-ba37-69fea58eed5a: Deleted the table.
+2021-01-27T00:31:51.593757500 8163.157014s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e43c2d5c-abfa-4e7b-82dc-5536bc122556
+2021-01-27T00:31:51.593783100 8163.157038s info: Table e43c2d5c-abfa-4e7b-82dc-5536bc122556: Deleted the table.
+2021-01-27T01:15:25.141777800 10776.626542s info: Table 2493970d-65da-4f9f-aa7c-04627f1a9288: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.204751900 10776.689514s info: Table 2493970d-65da-4f9f-aa7c-04627f1a9288: Added replica on this server.
+2021-01-27T01:15:25.204793000 10776.689554s info: Table a4d34839-bbdd-4cd2-b11b-a5e48948e4d1: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.237406000 10776.722167s info: Table 3526bfd7-b4d0-4588-b2c7-9c18d9c1cf9b: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.237427800 10776.722189s info: Table c6153a13-97c0-4b2e-9d1f-a8c84236cccd: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.308708900 10776.793468s info: Table a4d34839-bbdd-4cd2-b11b-a5e48948e4d1: Added replica on this server.
+2021-01-27T01:15:25.308784800 10776.793543s info: Table b990ed1f-df8e-441d-8b9a-a315da5973bc: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.317343100 10776.802101s info: Table 3526bfd7-b4d0-4588-b2c7-9c18d9c1cf9b: Added replica on this server.
+2021-01-27T01:15:25.317476200 10776.802234s info: Table c6153a13-97c0-4b2e-9d1f-a8c84236cccd: Added replica on this server.
+2021-01-27T01:15:25.317517400 10776.802275s info: Table c8c2a7fc-6da9-4cf3-ae10-6727cdc5fd4f: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.345603500 10776.830362s info: Table b990ed1f-df8e-441d-8b9a-a315da5973bc: Added replica on this server.
+2021-01-27T01:15:25.345858200 10776.830615s info: Table 0cb8b332-7e21-457d-a902-722473e88e8a: Starting a new Raft election for term 1.
+2021-01-27T01:15:25.346395000 10776.831153s info: Table c8c2a7fc-6da9-4cf3-ae10-6727cdc5fd4f: Added replica on this server.
+2021-01-27T01:15:25.346710300 10776.831468s info: Table 0cb8b332-7e21-457d-a902-722473e88e8a: Added replica on this server.
+2021-01-27T01:15:25.348554600 10776.833312s info: Table 2493970d-65da-4f9f-aa7c-04627f1a9288: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:25.350030000 10776.834787s info: Table a4d34839-bbdd-4cd2-b11b-a5e48948e4d1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:25.351319300 10776.836077s info: Table 3526bfd7-b4d0-4588-b2c7-9c18d9c1cf9b: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:25.352435200 10776.837193s info: Table c6153a13-97c0-4b2e-9d1f-a8c84236cccd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:25.353543500 10776.838300s info: Table b990ed1f-df8e-441d-8b9a-a315da5973bc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:25.354648100 10776.839406s info: Table c8c2a7fc-6da9-4cf3-ae10-6727cdc5fd4f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:25.355668000 10776.840425s info: Table 0cb8b332-7e21-457d-a902-722473e88e8a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:27.340919400 10778.825616s info: Table 2493970d-65da-4f9f-aa7c-04627f1a9288: Configuration is changing.
+2021-01-27T01:15:27.343884700 10778.828581s info: Table c6153a13-97c0-4b2e-9d1f-a8c84236cccd: Configuration is changing.
+2021-01-27T01:15:27.415987100 10778.900682s info: Table a4d34839-bbdd-4cd2-b11b-a5e48948e4d1: Configuration is changing.
+2021-01-27T01:15:27.420798900 10778.905493s info: Table 3526bfd7-b4d0-4588-b2c7-9c18d9c1cf9b: Configuration is changing.
+2021-01-27T01:15:27.663383200 10779.148069s info: Table 0cb8b332-7e21-457d-a902-722473e88e8a: Configuration is changing.
+2021-01-27T01:15:27.749910500 10779.234595s info: Table c8c2a7fc-6da9-4cf3-ae10-6727cdc5fd4f: Configuration is changing.
+2021-01-27T01:15:27.752203600 10779.236887s info: Table b990ed1f-df8e-441d-8b9a-a315da5973bc: Configuration is changing.
+2021-01-27T01:15:28.425430600 10779.910094s info: Table ddf5d876-8c93-4fa8-ba2b-99f8a6ac06ec: Starting a new Raft election for term 1.
+2021-01-27T01:15:28.425620300 10779.910284s info: Table ddf5d876-8c93-4fa8-ba2b-99f8a6ac06ec: Added replica on this server.
+2021-01-27T01:15:29.162622600 10780.647263s info: Table ddcc2712-e005-44bf-b23b-c1c68972e908: Starting a new Raft election for term 1.
+2021-01-27T01:15:29.162896900 10780.647538s info: Table ddcc2712-e005-44bf-b23b-c1c68972e908: Added replica on this server.
+2021-01-27T01:15:29.228776900 10780.713416s info: Table ada00da1-eb2c-4189-ab2d-66558ba92d38: Starting a new Raft election for term 1.
+2021-01-27T01:15:29.228979000 10780.713618s info: Table ada00da1-eb2c-4189-ab2d-66558ba92d38: Added replica on this server.
+2021-01-27T01:15:29.279521600 10780.764159s info: Table e265c2de-6281-45ae-bad0-3fa0ba62f466: Starting a new Raft election for term 1.
+2021-01-27T01:15:29.279784000 10780.764421s info: Table e265c2de-6281-45ae-bad0-3fa0ba62f466: Added replica on this server.
+2021-01-27T01:15:29.281516900 10780.766154s info: Table ddf5d876-8c93-4fa8-ba2b-99f8a6ac06ec: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:29.349016100 10780.833651s info: Table ddcc2712-e005-44bf-b23b-c1c68972e908: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:29.352705900 10780.837341s info: Table ada00da1-eb2c-4189-ab2d-66558ba92d38: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:29.466763600 10780.951395s info: Table e265c2de-6281-45ae-bad0-3fa0ba62f466: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:30.119951200 10781.604563s info: Table afe86507-b70b-4914-a01b-f25cf0d06684: Starting a new Raft election for term 1.
+2021-01-27T01:15:30.120293400 10781.604905s info: Table afe86507-b70b-4914-a01b-f25cf0d06684: Added replica on this server.
+2021-01-27T01:15:30.137507000 10781.622118s info: Table 081bb3df-aeb3-4de4-b04d-9d414a8d20f2: Starting a new Raft election for term 1.
+2021-01-27T01:15:30.137615900 10781.622226s info: Table 081bb3df-aeb3-4de4-b04d-9d414a8d20f2: Added replica on this server.
+2021-01-27T01:15:30.478650500 10781.963251s info: Table 83423480-db90-4f53-a632-79a99bb790b5: Starting a new Raft election for term 1.
+2021-01-27T01:15:30.478782300 10781.963383s info: Table 83423480-db90-4f53-a632-79a99bb790b5: Added replica on this server.
+2021-01-27T01:15:30.653800800 10782.138396s info: Table afe86507-b70b-4914-a01b-f25cf0d06684: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:30.656090400 10782.140686s info: Table 081bb3df-aeb3-4de4-b04d-9d414a8d20f2: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:30.663034300 10782.147629s info: Table 83423480-db90-4f53-a632-79a99bb790b5: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:15:31.996881900 10783.481436s info: Table ddcc2712-e005-44bf-b23b-c1c68972e908: Configuration is changing.
+2021-01-27T01:15:32.059738000 10783.544292s info: Table ddf5d876-8c93-4fa8-ba2b-99f8a6ac06ec: Configuration is changing.
+2021-01-27T01:15:32.692613400 10784.177146s info: Table e265c2de-6281-45ae-bad0-3fa0ba62f466: Configuration is changing.
+2021-01-27T01:15:32.693201600 10784.177734s info: Table ada00da1-eb2c-4189-ab2d-66558ba92d38: Configuration is changing.
+2021-01-27T01:15:32.966188200 10784.450713s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/2493970d-65da-4f9f-aa7c-04627f1a9288
+2021-01-27T01:15:32.966211600 10784.450736s info: Table 2493970d-65da-4f9f-aa7c-04627f1a9288: Deleted the table.
+2021-01-27T01:15:33.467884600 10784.952394s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/c6153a13-97c0-4b2e-9d1f-a8c84236cccd
+2021-01-27T01:15:33.467905300 10784.952414s info: Table c6153a13-97c0-4b2e-9d1f-a8c84236cccd: Deleted the table.
+2021-01-27T01:15:33.472120200 10784.956630s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a4d34839-bbdd-4cd2-b11b-a5e48948e4d1
+2021-01-27T01:15:33.472162400 10784.956671s info: Table a4d34839-bbdd-4cd2-b11b-a5e48948e4d1: Deleted the table.
+2021-01-27T01:15:33.483101300 10784.967610s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/3526bfd7-b4d0-4588-b2c7-9c18d9c1cf9b
+2021-01-27T01:15:33.483120000 10784.967628s info: Table 3526bfd7-b4d0-4588-b2c7-9c18d9c1cf9b: Deleted the table.
+2021-01-27T01:15:33.510380800 10784.994889s info: Table afe86507-b70b-4914-a01b-f25cf0d06684: Configuration is changing.
+2021-01-27T01:15:33.516747100 10785.001255s info: Table 081bb3df-aeb3-4de4-b04d-9d414a8d20f2: Configuration is changing.
+2021-01-27T01:15:33.525780200 10785.010290s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/ddf5d876-8c93-4fa8-ba2b-99f8a6ac06ec
+2021-01-27T01:15:33.525797100 10785.010304s info: Table ddf5d876-8c93-4fa8-ba2b-99f8a6ac06ec: Deleted the table.
+2021-01-27T01:15:33.537011000 10785.021519s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/ddcc2712-e005-44bf-b23b-c1c68972e908
+2021-01-27T01:15:33.537034500 10785.021541s info: Table ddcc2712-e005-44bf-b23b-c1c68972e908: Deleted the table.
+2021-01-27T01:15:33.855358300 10785.339856s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e265c2de-6281-45ae-bad0-3fa0ba62f466
+2021-01-27T01:15:33.855369000 10785.339866s info: Table e265c2de-6281-45ae-bad0-3fa0ba62f466: Deleted the table.
+2021-01-27T01:15:33.858707800 10785.343206s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/ada00da1-eb2c-4189-ab2d-66558ba92d38
+2021-01-27T01:15:33.858738700 10785.343235s info: Table ada00da1-eb2c-4189-ab2d-66558ba92d38: Deleted the table.
+2021-01-27T01:15:34.010665400 10785.495159s info: Table 83423480-db90-4f53-a632-79a99bb790b5: Configuration is changing.
+2021-01-27T01:15:34.036713100 10785.521205s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/0cb8b332-7e21-457d-a902-722473e88e8a
+2021-01-27T01:15:34.036732100 10785.521223s info: Table 0cb8b332-7e21-457d-a902-722473e88e8a: Deleted the table.
+2021-01-27T01:15:34.462791000 10785.947271s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/afe86507-b70b-4914-a01b-f25cf0d06684
+2021-01-27T01:15:34.462809000 10785.947287s info: Table afe86507-b70b-4914-a01b-f25cf0d06684: Deleted the table.
+2021-01-27T01:15:34.790085500 10786.274555s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/83423480-db90-4f53-a632-79a99bb790b5
+2021-01-27T01:15:34.790102700 10786.274571s info: Table 83423480-db90-4f53-a632-79a99bb790b5: Deleted the table.
+2021-01-27T01:15:34.817846900 10786.302315s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/081bb3df-aeb3-4de4-b04d-9d414a8d20f2
+2021-01-27T01:15:34.817870600 10786.302338s info: Table 081bb3df-aeb3-4de4-b04d-9d414a8d20f2: Deleted the table.
+2021-01-27T01:15:34.916141900 10786.400606s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/b990ed1f-df8e-441d-8b9a-a315da5973bc
+2021-01-27T01:15:34.916174800 10786.400639s info: Table b990ed1f-df8e-441d-8b9a-a315da5973bc: Deleted the table.
+2021-01-27T01:15:34.989507900 10786.473972s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/c8c2a7fc-6da9-4cf3-ae10-6727cdc5fd4f
+2021-01-27T01:15:34.989528300 10786.473990s info: Table c8c2a7fc-6da9-4cf3-ae10-6727cdc5fd4f: Deleted the table.
+2021-01-27T01:17:08.648390800 10880.129987s info: Table bbfee360-21e0-4644-b81f-620cb7d7aace: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.650590200 10880.132187s info: Table bbfee360-21e0-4644-b81f-620cb7d7aace: Added replica on this server.
+2021-01-27T01:17:08.830742100 10880.312333s info: Table 21e379eb-b6f6-41b6-818c-42aa371a7665: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.831552300 10880.313143s info: Table 21e379eb-b6f6-41b6-818c-42aa371a7665: Added replica on this server.
+2021-01-27T01:17:08.921315900 10880.402904s info: Table 230aa1aa-dcc7-4b42-9e0c-4bfba866d620: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.947171700 10880.428759s info: Table 4af0a9ba-4a2b-4b50-9eee-2f8c38ec283d: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.971492300 10880.453079s info: Table 230aa1aa-dcc7-4b42-9e0c-4bfba866d620: Added replica on this server.
+2021-01-27T01:17:08.971947400 10880.453534s info: Table 4af0a9ba-4a2b-4b50-9eee-2f8c38ec283d: Added replica on this server.
+2021-01-27T01:17:08.972043300 10880.453630s info: Table 059f97d7-cc43-4a9b-bf22-8045dc5ef206: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.979997400 10880.461584s info: Table a44a7f2e-f52e-4d57-9910-41ceb99b60e1: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.987785900 10880.469373s info: Table 059f97d7-cc43-4a9b-bf22-8045dc5ef206: Added replica on this server.
+2021-01-27T01:17:08.987846300 10880.469432s info: Table dc43b635-8dc0-42f8-b7d5-b5e6437483d4: Starting a new Raft election for term 1.
+2021-01-27T01:17:08.988599300 10880.470185s info: Table a44a7f2e-f52e-4d57-9910-41ceb99b60e1: Added replica on this server.
+2021-01-27T01:17:08.988761700 10880.470348s info: Table dc43b635-8dc0-42f8-b7d5-b5e6437483d4: Added replica on this server.
+2021-01-27T01:17:08.990705900 10880.472292s info: Table bbfee360-21e0-4644-b81f-620cb7d7aace: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:08.992382500 10880.473968s info: Table 21e379eb-b6f6-41b6-818c-42aa371a7665: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:08.993802900 10880.475389s info: Table 230aa1aa-dcc7-4b42-9e0c-4bfba866d620: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:08.995335600 10880.476921s info: Table 4af0a9ba-4a2b-4b50-9eee-2f8c38ec283d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:08.996798000 10880.478384s info: Table 059f97d7-cc43-4a9b-bf22-8045dc5ef206: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:08.998297300 10880.479883s info: Table a44a7f2e-f52e-4d57-9910-41ceb99b60e1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:08.999812900 10880.481399s info: Table dc43b635-8dc0-42f8-b7d5-b5e6437483d4: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:10.654687300 10882.136223s info: Table bbfee360-21e0-4644-b81f-620cb7d7aace: Configuration is changing.
+2021-01-27T01:17:10.771319100 10882.252850s info: Table 230aa1aa-dcc7-4b42-9e0c-4bfba866d620: Configuration is changing.
+2021-01-27T01:17:10.772877100 10882.254408s info: Table 21e379eb-b6f6-41b6-818c-42aa371a7665: Configuration is changing.
+2021-01-27T01:17:10.774481500 10882.256013s info: Table 4af0a9ba-4a2b-4b50-9eee-2f8c38ec283d: Configuration is changing.
+2021-01-27T01:17:11.611801000 10883.093307s info: Table 9e5d7a3e-0f31-4e4c-8765-ba223bd415fe: Starting a new Raft election for term 1.
+2021-01-27T01:17:11.611949500 10883.093455s info: Table 9e5d7a3e-0f31-4e4c-8765-ba223bd415fe: Added replica on this server.
+2021-01-27T01:17:11.920725700 10883.402222s info: Table eabd0b22-47e7-48bb-8794-d04c68f2d357: Starting a new Raft election for term 1.
+2021-01-27T01:17:11.921286000 10883.402783s info: Table eabd0b22-47e7-48bb-8794-d04c68f2d357: Added replica on this server.
+2021-01-27T01:17:12.017189700 10883.498683s info: Table 9e5d7a3e-0f31-4e4c-8765-ba223bd415fe: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:12.531069900 10884.012548s info: Table edc63ab6-1692-44f3-b65d-c5c8f1f605d9: Starting a new Raft election for term 1.
+2021-01-27T01:17:12.546333400 10884.027811s info: Table edc63ab6-1692-44f3-b65d-c5c8f1f605d9: Added replica on this server.
+2021-01-27T01:17:12.546404900 10884.027882s info: Table adceba28-bb54-4b47-a755-fca914d614e0: Starting a new Raft election for term 1.
+2021-01-27T01:17:12.546639400 10884.028116s info: Table adceba28-bb54-4b47-a755-fca914d614e0: Added replica on this server.
+2021-01-27T01:17:12.548257000 10884.029734s info: Table eabd0b22-47e7-48bb-8794-d04c68f2d357: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:12.551627000 10884.033104s info: Table dc43b635-8dc0-42f8-b7d5-b5e6437483d4: Configuration is changing.
+2021-01-27T01:17:12.552893800 10884.034371s info: Table 059f97d7-cc43-4a9b-bf22-8045dc5ef206: Configuration is changing.
+2021-01-27T01:17:12.555307300 10884.036784s info: Table a44a7f2e-f52e-4d57-9910-41ceb99b60e1: Configuration is changing.
+2021-01-27T01:17:12.592378600 10884.073854s info: Table edc63ab6-1692-44f3-b65d-c5c8f1f605d9: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:12.594466500 10884.075943s info: Table adceba28-bb54-4b47-a755-fca914d614e0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:13.421534300 10884.902984s info: Table fa818e3b-f724-4df7-8103-6dbfa7a493af: Starting a new Raft election for term 1.
+2021-01-27T01:17:13.421633500 10884.903084s info: Table fa818e3b-f724-4df7-8103-6dbfa7a493af: Added replica on this server.
+2021-01-27T01:17:14.073719900 10885.555151s info: Table 452309be-013b-4dea-a751-c5379a363bad: Starting a new Raft election for term 1.
+2021-01-27T01:17:14.074009100 10885.555440s info: Table 452309be-013b-4dea-a751-c5379a363bad: Added replica on this server.
+2021-01-27T01:17:14.157189000 10885.638617s info: Table 78f65c6b-d67f-4600-95bb-4170b9375e1d: Starting a new Raft election for term 1.
+2021-01-27T01:17:14.157444000 10885.638872s info: Table 78f65c6b-d67f-4600-95bb-4170b9375e1d: Added replica on this server.
+2021-01-27T01:17:14.236113200 10885.717539s info: Table fa818e3b-f724-4df7-8103-6dbfa7a493af: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:14.595324300 10886.076739s info: Table 452309be-013b-4dea-a751-c5379a363bad: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:14.670031400 10886.151444s info: Table 78f65c6b-d67f-4600-95bb-4170b9375e1d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T01:17:15.016419300 10886.497821s info: Table 9e5d7a3e-0f31-4e4c-8765-ba223bd415fe: Configuration is changing.
+2021-01-27T01:17:15.778070600 10887.259450s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/9e5d7a3e-0f31-4e4c-8765-ba223bd415fe
+2021-01-27T01:17:15.778095600 10887.259474s info: Table 9e5d7a3e-0f31-4e4c-8765-ba223bd415fe: Deleted the table.
+2021-01-27T01:17:15.952621200 10887.433994s info: Table eabd0b22-47e7-48bb-8794-d04c68f2d357: Configuration is changing.
+2021-01-27T01:17:15.995502000 10887.476875s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/bbfee360-21e0-4644-b81f-620cb7d7aace
+2021-01-27T01:17:15.995524900 10887.476896s info: Table bbfee360-21e0-4644-b81f-620cb7d7aace: Deleted the table.
+2021-01-27T01:17:16.053818000 10887.535188s info: Table adceba28-bb54-4b47-a755-fca914d614e0: Configuration is changing.
+2021-01-27T01:17:16.056367800 10887.537737s info: Table edc63ab6-1692-44f3-b65d-c5c8f1f605d9: Configuration is changing.
+2021-01-27T01:17:16.190137000 10887.671503s info: Table 452309be-013b-4dea-a751-c5379a363bad: Configuration is changing.
+2021-01-27T01:17:16.305445700 10887.786808s info: Table 78f65c6b-d67f-4600-95bb-4170b9375e1d: Configuration is changing.
+2021-01-27T01:17:16.310166000 10887.791529s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/230aa1aa-dcc7-4b42-9e0c-4bfba866d620
+2021-01-27T01:17:16.310186800 10887.791548s info: Table 230aa1aa-dcc7-4b42-9e0c-4bfba866d620: Deleted the table.
+2021-01-27T01:17:16.499671500 10887.981028s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/eabd0b22-47e7-48bb-8794-d04c68f2d357
+2021-01-27T01:17:16.499686700 10887.981043s info: Table eabd0b22-47e7-48bb-8794-d04c68f2d357: Deleted the table.
+2021-01-27T01:17:16.519452400 10888.000809s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/059f97d7-cc43-4a9b-bf22-8045dc5ef206
+2021-01-27T01:17:16.519477400 10888.000833s info: Table 059f97d7-cc43-4a9b-bf22-8045dc5ef206: Deleted the table.
+2021-01-27T01:17:16.900166800 10888.381511s info: Table fa818e3b-f724-4df7-8103-6dbfa7a493af: Configuration is changing.
+2021-01-27T01:17:16.914308800 10888.395653s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/452309be-013b-4dea-a751-c5379a363bad
+2021-01-27T01:17:16.914324300 10888.395668s info: Table 452309be-013b-4dea-a751-c5379a363bad: Deleted the table.
+2021-01-27T01:17:16.979337700 10888.460680s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/4af0a9ba-4a2b-4b50-9eee-2f8c38ec283d
+2021-01-27T01:17:16.979356100 10888.460697s info: Table 4af0a9ba-4a2b-4b50-9eee-2f8c38ec283d: Deleted the table.
+2021-01-27T01:17:17.021764600 10888.503105s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/78f65c6b-d67f-4600-95bb-4170b9375e1d
+2021-01-27T01:17:17.021775100 10888.503115s info: Table 78f65c6b-d67f-4600-95bb-4170b9375e1d: Deleted the table.
+2021-01-27T01:17:17.024991000 10888.506332s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/adceba28-bb54-4b47-a755-fca914d614e0
+2021-01-27T01:17:17.024996300 10888.506336s info: Table adceba28-bb54-4b47-a755-fca914d614e0: Deleted the table.
+2021-01-27T01:17:17.029620100 10888.510961s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/21e379eb-b6f6-41b6-818c-42aa371a7665
+2021-01-27T01:17:17.029646000 10888.510986s info: Table 21e379eb-b6f6-41b6-818c-42aa371a7665: Deleted the table.
+2021-01-27T01:17:17.128304800 10888.609643s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a44a7f2e-f52e-4d57-9910-41ceb99b60e1
+2021-01-27T01:17:17.143155200 10888.624493s info: Table a44a7f2e-f52e-4d57-9910-41ceb99b60e1: Deleted the table.
+2021-01-27T01:17:17.153121200 10888.634458s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/dc43b635-8dc0-42f8-b7d5-b5e6437483d4
+2021-01-27T01:17:17.153136000 10888.634472s info: Table dc43b635-8dc0-42f8-b7d5-b5e6437483d4: Deleted the table.
+2021-01-27T01:17:17.232308600 10888.713643s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/edc63ab6-1692-44f3-b65d-c5c8f1f605d9
+2021-01-27T01:17:17.232329100 10888.713662s info: Table edc63ab6-1692-44f3-b65d-c5c8f1f605d9: Deleted the table.
+2021-01-27T01:17:17.289026200 10888.770359s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/fa818e3b-f724-4df7-8103-6dbfa7a493af
+2021-01-27T01:17:17.289065300 10888.770397s info: Table fa818e3b-f724-4df7-8103-6dbfa7a493af: Deleted the table.
+2021-01-27T02:02:36.123833300 13607.533202s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.124566200 13607.533935s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: Added replica on this server.
+2021-01-27T02:02:36.264396600 13607.673765s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.339218600 13607.748583s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: Added replica on this server.
+2021-01-27T02:02:36.339257700 13607.748621s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.339924100 13607.749288s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: Added replica on this server.
+2021-01-27T02:02:36.387831700 13607.797195s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.404658700 13607.814021s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.429169900 13607.838532s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: Added replica on this server.
+2021-01-27T02:02:36.429288600 13607.838653s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.429473900 13607.838835s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: Added replica on this server.
+2021-01-27T02:02:36.430326100 13607.839688s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: Added replica on this server.
+2021-01-27T02:02:36.445926100 13607.855288s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: Starting a new Raft election for term 1.
+2021-01-27T02:02:36.446352400 13607.855714s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: Added replica on this server.
+2021-01-27T02:02:36.476741500 13607.886103s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:36.490331700 13607.899693s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:36.530566200 13607.939926s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:36.566350900 13607.975710s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:36.571744500 13607.981103s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:36.639099400 13608.048457s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:36.641503900 13608.050861s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:38.940365500 13610.349669s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: Configuration is changing.
+2021-01-27T02:02:38.941513200 13610.350817s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: Configuration is changing.
+2021-01-27T02:02:38.942912500 13610.352217s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: Configuration is changing.
+2021-01-27T02:02:38.976299000 13610.385603s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: Configuration is changing.
+2021-01-27T02:02:40.229393500 13611.638668s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: Starting a new Raft election for term 1.
+2021-01-27T02:02:40.229602800 13611.638877s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: Added replica on this server.
+2021-01-27T02:02:40.821223700 13612.230485s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: Starting a new Raft election for term 1.
+2021-01-27T02:02:40.838077300 13612.247338s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: Added replica on this server.
+2021-01-27T02:02:40.838247100 13612.247510s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: Starting a new Raft election for term 1.
+2021-01-27T02:02:40.838695900 13612.247957s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: Added replica on this server.
+2021-01-27T02:02:40.855128300 13612.264389s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:41.453917400 13612.863164s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: Starting a new Raft election for term 1.
+2021-01-27T02:02:41.454195900 13612.863443s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: Added replica on this server.
+2021-01-27T02:02:41.456157200 13612.865404s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:41.457596900 13612.866843s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:41.461120400 13612.870367s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: Configuration is changing.
+2021-01-27T02:02:41.462434300 13612.871681s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: Configuration is changing.
+2021-01-27T02:02:41.517263400 13612.926508s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: Configuration is changing.
+2021-01-27T02:02:41.596049200 13613.005293s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:43.212964200 13614.622171s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: Starting a new Raft election for term 1.
+2021-01-27T02:02:43.213147500 13614.622354s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: Added replica on this server.
+2021-01-27T02:02:43.257365300 13614.666571s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: Starting a new Raft election for term 1.
+2021-01-27T02:02:43.296039100 13614.705245s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: Added replica on this server.
+2021-01-27T02:02:43.296053400 13614.705258s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: Starting a new Raft election for term 1.
+2021-01-27T02:02:43.296139100 13614.705344s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: Added replica on this server.
+2021-01-27T02:02:43.661720900 13615.070917s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:43.666220800 13615.075417s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:02:43.667710500 13615.076907s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:41.797616200 13673.205481s info: Table f22956b3-c2ee-4409-8a22-7e05e3957f06: Starting a new Raft election for term 1.
+2021-01-27T02:03:41.798316300 13673.206181s info: Table f22956b3-c2ee-4409-8a22-7e05e3957f06: Added replica on this server.
+2021-01-27T02:03:41.888943300 13673.296807s info: Table d62a17af-d1e6-49a6-899c-69e47440cdf1: Starting a new Raft election for term 1.
+2021-01-27T02:03:41.888969500 13673.296832s info: Table dc6e29ec-3ebf-4abb-8535-597ee0064566: Starting a new Raft election for term 1.
+2021-01-27T02:03:41.958293000 13673.366154s info: Table 8ac326b6-38c1-4a9f-84c9-0a59a1fb668c: Starting a new Raft election for term 1.
+2021-01-27T02:03:41.958699700 13673.366561s info: Table d62a17af-d1e6-49a6-899c-69e47440cdf1: Added replica on this server.
+2021-01-27T02:03:41.958988400 13673.366849s info: Table dc6e29ec-3ebf-4abb-8535-597ee0064566: Added replica on this server.
+2021-01-27T02:03:41.987469100 13673.395330s info: Table 8ac326b6-38c1-4a9f-84c9-0a59a1fb668c: Added replica on this server.
+2021-01-27T02:03:41.987531200 13673.395392s info: Table 677f1b1c-6f85-44c4-9b15-5f25672d78bc: Starting a new Raft election for term 1.
+2021-01-27T02:03:41.988201100 13673.396061s info: Table 677f1b1c-6f85-44c4-9b15-5f25672d78bc: Added replica on this server.
+2021-01-27T02:03:42.030493000 13673.438353s info: Table 50a6972c-f932-40b2-bf13-3b4ab6c8ca5d: Starting a new Raft election for term 1.
+2021-01-27T02:03:42.030805200 13673.438665s info: Table 50a6972c-f932-40b2-bf13-3b4ab6c8ca5d: Added replica on this server.
+2021-01-27T02:03:42.079331900 13673.487190s info: Table 22e352df-cc24-452f-b081-ee236ef9bd3a: Starting a new Raft election for term 1.
+2021-01-27T02:03:42.079735300 13673.487594s info: Table 22e352df-cc24-452f-b081-ee236ef9bd3a: Added replica on this server.
+2021-01-27T02:03:42.081361700 13673.489220s info: Table f22956b3-c2ee-4409-8a22-7e05e3957f06: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:42.082788800 13673.490647s info: Table d62a17af-d1e6-49a6-899c-69e47440cdf1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:42.084179800 13673.492038s info: Table dc6e29ec-3ebf-4abb-8535-597ee0064566: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:42.128396200 13673.536254s info: Table 8ac326b6-38c1-4a9f-84c9-0a59a1fb668c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:42.130252900 13673.538110s info: Table 677f1b1c-6f85-44c4-9b15-5f25672d78bc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:42.131509800 13673.539367s info: Table 50a6972c-f932-40b2-bf13-3b4ab6c8ca5d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:42.132937800 13673.540795s info: Table 22e352df-cc24-452f-b081-ee236ef9bd3a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:43.912828000 13675.320644s info: Table f22956b3-c2ee-4409-8a22-7e05e3957f06: Configuration is changing.
+2021-01-27T02:03:43.913413800 13675.321230s info: Table d62a17af-d1e6-49a6-899c-69e47440cdf1: Configuration is changing.
+2021-01-27T02:03:43.992781000 13675.400595s info: Table dc6e29ec-3ebf-4abb-8535-597ee0064566: Configuration is changing.
+2021-01-27T02:03:44.020409000 13675.428224s info: Table 8ac326b6-38c1-4a9f-84c9-0a59a1fb668c: Configuration is changing.
+2021-01-27T02:03:45.012574400 13676.420366s info: Table dbe3f704-7929-4973-afe1-ebe7a3378fcd: Starting a new Raft election for term 1.
+2021-01-27T02:03:45.012908500 13676.420700s info: Table dbe3f704-7929-4973-afe1-ebe7a3378fcd: Added replica on this server.
+2021-01-27T02:03:45.071237300 13676.479027s info: Table 2c833100-faba-4095-b7d0-41087cb1a299: Starting a new Raft election for term 1.
+2021-01-27T02:03:45.071469000 13676.479259s info: Table 2c833100-faba-4095-b7d0-41087cb1a299: Added replica on this server.
+2021-01-27T02:03:45.191207900 13676.598995s info: Table dbe3f704-7929-4973-afe1-ebe7a3378fcd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:45.192463000 13676.600251s info: Table 2c833100-faba-4095-b7d0-41087cb1a299: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:45.195874200 13676.603662s info: Table 677f1b1c-6f85-44c4-9b15-5f25672d78bc: Configuration is changing.
+2021-01-27T02:03:45.554402100 13676.962182s info: Table a42683fc-9823-4e3e-9ea2-608c73bc6276: Starting a new Raft election for term 1.
+2021-01-27T02:03:45.554659600 13676.962438s info: Table a42683fc-9823-4e3e-9ea2-608c73bc6276: Added replica on this server.
+2021-01-27T02:03:45.581032100 13676.988811s info: Table 22e352df-cc24-452f-b081-ee236ef9bd3a: Configuration is changing.
+2021-01-27T02:03:45.583075100 13676.990853s info: Table 50a6972c-f932-40b2-bf13-3b4ab6c8ca5d: Configuration is changing.
+2021-01-27T02:03:46.137466100 13677.545232s info: Table 04a83205-1e64-4283-af32-823d5b5348b0: Starting a new Raft election for term 1.
+2021-01-27T02:03:46.137770900 13677.545537s info: Table 04a83205-1e64-4283-af32-823d5b5348b0: Added replica on this server.
+2021-01-27T02:03:46.247614000 13677.655377s info: Table a42683fc-9823-4e3e-9ea2-608c73bc6276: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:46.299577300 13677.707339s info: Table 04a83205-1e64-4283-af32-823d5b5348b0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:47.825989200 13679.233716s info: Table 7eb7aab0-ba02-4320-972b-81da677341fa: Starting a new Raft election for term 1.
+2021-01-27T02:03:47.826327400 13679.234054s info: Table 7eb7aab0-ba02-4320-972b-81da677341fa: Added replica on this server.
+2021-01-27T02:03:47.895540600 13679.303266s info: Table 0c8a0fcd-b2c3-494f-9e83-717b06196f80: Starting a new Raft election for term 1.
+2021-01-27T02:03:47.895988500 13679.303714s info: Table 0c8a0fcd-b2c3-494f-9e83-717b06196f80: Added replica on this server.
+2021-01-27T02:03:47.937923000 13679.345647s info: Table b7bce2a0-f905-44ca-aeeb-1b0bca41a65a: Starting a new Raft election for term 1.
+2021-01-27T02:03:47.938492000 13679.346217s info: Table b7bce2a0-f905-44ca-aeeb-1b0bca41a65a: Added replica on this server.
+2021-01-27T02:03:48.633248700 13680.040957s info: Table 7eb7aab0-ba02-4320-972b-81da677341fa: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:48.634873000 13680.042581s info: Table 0c8a0fcd-b2c3-494f-9e83-717b06196f80: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:48.636108800 13680.043817s info: Table b7bce2a0-f905-44ca-aeeb-1b0bca41a65a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:03:49.721459600 13681.129143s info: Table 04a83205-1e64-4283-af32-823d5b5348b0: Configuration is changing.
+2021-01-27T02:03:49.968584200 13681.376262s info: Table 7eb7aab0-ba02-4320-972b-81da677341fa: Configuration is changing.
+2021-01-27T02:03:50.231500200 13681.639172s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/50a6972c-f932-40b2-bf13-3b4ab6c8ca5d
+2021-01-27T02:03:50.231510100 13681.639181s info: Table 50a6972c-f932-40b2-bf13-3b4ab6c8ca5d: Deleted the table.
+2021-01-27T02:03:50.232583200 13681.640255s info: Table dbe3f704-7929-4973-afe1-ebe7a3378fcd: Configuration is changing.
+2021-01-27T02:03:50.235784600 13681.643456s info: Table 2c833100-faba-4095-b7d0-41087cb1a299: Configuration is changing.
+2021-01-27T02:03:50.259739000 13681.667411s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/04a83205-1e64-4283-af32-823d5b5348b0
+2021-01-27T02:03:50.259756200 13681.667427s info: Table 04a83205-1e64-4283-af32-823d5b5348b0: Deleted the table.
+2021-01-27T02:03:50.289171800 13681.696842s info: Table 0c8a0fcd-b2c3-494f-9e83-717b06196f80: Configuration is changing.
+2021-01-27T02:03:50.295248200 13681.702918s info: Table b7bce2a0-f905-44ca-aeeb-1b0bca41a65a: Configuration is changing.
+2021-01-27T02:03:50.553346100 13681.961011s info: Table a42683fc-9823-4e3e-9ea2-608c73bc6276: Configuration is changing.
+2021-01-27T02:03:50.573408600 13681.981073s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/8ac326b6-38c1-4a9f-84c9-0a59a1fb668c
+2021-01-27T02:03:50.573420800 13681.981085s info: Table 8ac326b6-38c1-4a9f-84c9-0a59a1fb668c: Deleted the table.
+2021-01-27T02:03:50.577566600 13681.985232s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7eb7aab0-ba02-4320-972b-81da677341fa
+2021-01-27T02:03:50.577591600 13681.985255s info: Table 7eb7aab0-ba02-4320-972b-81da677341fa: Deleted the table.
+2021-01-27T02:03:51.313106500 13682.720754s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/22e352df-cc24-452f-b081-ee236ef9bd3a
+2021-01-27T02:03:51.313116900 13682.720764s info: Table 22e352df-cc24-452f-b081-ee236ef9bd3a: Deleted the table.
+2021-01-27T02:03:51.347301200 13682.754947s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/d62a17af-d1e6-49a6-899c-69e47440cdf1
+2021-01-27T02:03:51.347313900 13682.754960s info: Table d62a17af-d1e6-49a6-899c-69e47440cdf1: Deleted the table.
+2021-01-27T02:03:51.415337400 13682.822982s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/dbe3f704-7929-4973-afe1-ebe7a3378fcd
+2021-01-27T02:03:51.415432300 13682.823077s info: Table dbe3f704-7929-4973-afe1-ebe7a3378fcd: Deleted the table.
+2021-01-27T02:03:51.488594500 13682.896238s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/b7bce2a0-f905-44ca-aeeb-1b0bca41a65a
+2021-01-27T02:03:51.488632000 13682.896274s info: Table b7bce2a0-f905-44ca-aeeb-1b0bca41a65a: Deleted the table.
+2021-01-27T02:03:51.488681600 13682.896324s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/2c833100-faba-4095-b7d0-41087cb1a299
+2021-01-27T02:03:51.488690700 13682.896334s info: Table 2c833100-faba-4095-b7d0-41087cb1a299: Deleted the table.
+2021-01-27T02:03:51.577665700 13682.985307s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/0c8a0fcd-b2c3-494f-9e83-717b06196f80
+2021-01-27T02:03:51.577676100 13682.985316s info: Table 0c8a0fcd-b2c3-494f-9e83-717b06196f80: Deleted the table.
+2021-01-27T02:03:51.591945300 13682.999587s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a42683fc-9823-4e3e-9ea2-608c73bc6276
+2021-01-27T02:03:51.591956200 13682.999596s info: Table a42683fc-9823-4e3e-9ea2-608c73bc6276: Deleted the table.
+2021-01-27T02:03:51.594107000 13683.001748s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f22956b3-c2ee-4409-8a22-7e05e3957f06
+2021-01-27T02:03:51.594141300 13683.001782s info: Table f22956b3-c2ee-4409-8a22-7e05e3957f06: Deleted the table.
+2021-01-27T02:03:51.606848300 13683.014489s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/677f1b1c-6f85-44c4-9b15-5f25672d78bc
+2021-01-27T02:03:51.606867900 13683.014508s info: Table 677f1b1c-6f85-44c4-9b15-5f25672d78bc: Deleted the table.
+2021-01-27T02:03:51.621058100 13683.028699s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/dc6e29ec-3ebf-4abb-8535-597ee0064566
+2021-01-27T02:03:51.621084400 13683.028724s info: Table dc6e29ec-3ebf-4abb-8535-597ee0064566: Deleted the table.
+2021-01-27T02:11:57.650471900 14169.047416s info: Table a2e94bb9-5b4d-4b5e-ad4b-c520b3eeb69c: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.651120500 14169.048065s info: Table a2e94bb9-5b4d-4b5e-ad4b-c520b3eeb69c: Added replica on this server.
+2021-01-27T02:11:57.696719500 14169.093663s info: Table 5b57a54e-ba91-40a7-aa41-d386ef296abc: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.697307200 14169.094250s info: Table 0648911a-a985-4f66-82fe-6b7956231db1: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.697351400 14169.094294s info: Table 6bac2e67-d81e-41cb-b2eb-062b99020665: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.734170000 14169.131112s info: Table 5b57a54e-ba91-40a7-aa41-d386ef296abc: Added replica on this server.
+2021-01-27T02:11:57.734957500 14169.131900s info: Table 0648911a-a985-4f66-82fe-6b7956231db1: Added replica on this server.
+2021-01-27T02:11:57.735101200 14169.132043s info: Table 6bac2e67-d81e-41cb-b2eb-062b99020665: Added replica on this server.
+2021-01-27T02:11:57.735108300 14169.132050s info: Table 80278b20-7d7a-44c5-a9f2-91ce0fc32a47: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.735524900 14169.132467s info: Table 80278b20-7d7a-44c5-a9f2-91ce0fc32a47: Added replica on this server.
+2021-01-27T02:11:57.763492100 14169.160433s info: Table eb70f36a-7db8-40e4-a7da-fd585bfe80d2: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.763994400 14169.160936s info: Table eb70f36a-7db8-40e4-a7da-fd585bfe80d2: Added replica on this server.
+2021-01-27T02:11:57.779652200 14169.176593s info: Table 335170ed-83fa-474f-824d-35294b214b15: Starting a new Raft election for term 1.
+2021-01-27T02:11:57.780201200 14169.177142s info: Table 335170ed-83fa-474f-824d-35294b214b15: Added replica on this server.
+2021-01-27T02:11:57.781786100 14169.178727s info: Table a2e94bb9-5b4d-4b5e-ad4b-c520b3eeb69c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:57.783114000 14169.180055s info: Table 5b57a54e-ba91-40a7-aa41-d386ef296abc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:57.784608900 14169.181550s info: Table 0648911a-a985-4f66-82fe-6b7956231db1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:57.786972600 14169.183913s info: Table 6bac2e67-d81e-41cb-b2eb-062b99020665: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:57.788467400 14169.185408s info: Table 80278b20-7d7a-44c5-a9f2-91ce0fc32a47: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:57.790019100 14169.186960s info: Table eb70f36a-7db8-40e4-a7da-fd585bfe80d2: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:57.791454800 14169.188395s info: Table 335170ed-83fa-474f-824d-35294b214b15: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:11:59.642967000 14171.039868s info: Table a2e94bb9-5b4d-4b5e-ad4b-c520b3eeb69c: Configuration is changing.
+2021-01-27T02:11:59.643294700 14171.040196s info: Table 0648911a-a985-4f66-82fe-6b7956231db1: Configuration is changing.
+2021-01-27T02:11:59.644839200 14171.041740s info: Table 6bac2e67-d81e-41cb-b2eb-062b99020665: Configuration is changing.
+2021-01-27T02:11:59.645960300 14171.042861s info: Table 5b57a54e-ba91-40a7-aa41-d386ef296abc: Configuration is changing.
+2021-01-27T02:12:01.098283100 14172.495153s info: Table 290e8dd1-e254-46b2-a257-264380f9554e: Starting a new Raft election for term 1.
+2021-01-27T02:12:01.099099500 14172.495969s info: Table 290e8dd1-e254-46b2-a257-264380f9554e: Added replica on this server.
+2021-01-27T02:12:01.172688400 14172.569557s info: Table f7b68ef2-bed3-4459-8c67-bf1c24b52aa7: Starting a new Raft election for term 1.
+2021-01-27T02:12:01.175034700 14172.571903s info: Table f7b68ef2-bed3-4459-8c67-bf1c24b52aa7: Added replica on this server.
+2021-01-27T02:12:01.229985000 14172.626852s info: Table c2775c90-ddc1-4e4a-bcb3-6ef170394d04: Starting a new Raft election for term 1.
+2021-01-27T02:12:01.230410800 14172.627278s info: Table c2775c90-ddc1-4e4a-bcb3-6ef170394d04: Added replica on this server.
+2021-01-27T02:12:01.271037100 14172.667903s info: Table acd82854-46e7-4809-890e-e46a7678e74a: Starting a new Raft election for term 1.
+2021-01-27T02:12:01.271242900 14172.668108s info: Table acd82854-46e7-4809-890e-e46a7678e74a: Added replica on this server.
+2021-01-27T02:12:01.295991800 14172.692857s info: Table eb70f36a-7db8-40e4-a7da-fd585bfe80d2: Configuration is changing.
+2021-01-27T02:12:01.297910900 14172.694776s info: Table 335170ed-83fa-474f-824d-35294b214b15: Configuration is changing.
+2021-01-27T02:12:01.299277400 14172.696143s info: Table 290e8dd1-e254-46b2-a257-264380f9554e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:01.299591300 14172.696456s info: Table 80278b20-7d7a-44c5-a9f2-91ce0fc32a47: Configuration is changing.
+2021-01-27T02:12:01.300891300 14172.697756s info: Table f7b68ef2-bed3-4459-8c67-bf1c24b52aa7: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:01.302178200 14172.699043s info: Table c2775c90-ddc1-4e4a-bcb3-6ef170394d04: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:01.303609300 14172.700475s info: Table acd82854-46e7-4809-890e-e46a7678e74a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:02.305182800 14173.702027s info: Table b0855f94-3214-497d-a337-0681564c6cff: Starting a new Raft election for term 1.
+2021-01-27T02:12:02.305329700 14173.702173s info: Table b0855f94-3214-497d-a337-0681564c6cff: Added replica on this server.
+2021-01-27T02:12:02.732658700 14174.129497s info: Table 503c92fc-f966-493b-bc04-16e08a646978: Starting a new Raft election for term 1.
+2021-01-27T02:12:02.733331500 14174.130165s info: Table 503c92fc-f966-493b-bc04-16e08a646978: Added replica on this server.
+2021-01-27T02:12:02.733358800 14174.130193s info: Table 886b9080-05e6-4dc0-82cf-e0c526ef7f7c: Starting a new Raft election for term 1.
+2021-01-27T02:12:02.733439700 14174.130274s info: Table 886b9080-05e6-4dc0-82cf-e0c526ef7f7c: Added replica on this server.
+2021-01-27T02:12:02.735345900 14174.132181s info: Table b0855f94-3214-497d-a337-0681564c6cff: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:02.742808700 14174.139643s info: Table 503c92fc-f966-493b-bc04-16e08a646978: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:02.744141400 14174.140975s info: Table 886b9080-05e6-4dc0-82cf-e0c526ef7f7c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T02:12:03.810494000 14175.207305s info: Table 290e8dd1-e254-46b2-a257-264380f9554e: Configuration is changing.
+2021-01-27T02:12:04.527588800 14175.924384s info: Table f7b68ef2-bed3-4459-8c67-bf1c24b52aa7: Configuration is changing.
+2021-01-27T02:12:04.535550700 14175.932346s info: Table b0855f94-3214-497d-a337-0681564c6cff: Configuration is changing.
+2021-01-27T02:12:04.562068600 14175.958864s info: Table c2775c90-ddc1-4e4a-bcb3-6ef170394d04: Configuration is changing.
+2021-01-27T02:12:04.564625400 14175.961421s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/290e8dd1-e254-46b2-a257-264380f9554e
+2021-01-27T02:12:04.564644100 14175.961439s info: Table 290e8dd1-e254-46b2-a257-264380f9554e: Deleted the table.
+2021-01-27T02:12:04.682784000 14176.079578s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/6bac2e67-d81e-41cb-b2eb-062b99020665
+2021-01-27T02:12:04.682802900 14176.079595s info: Table 6bac2e67-d81e-41cb-b2eb-062b99020665: Deleted the table.
+2021-01-27T02:12:04.765306700 14176.162097s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a2e94bb9-5b4d-4b5e-ad4b-c520b3eeb69c
+2021-01-27T02:12:04.765321200 14176.162111s info: Table a2e94bb9-5b4d-4b5e-ad4b-c520b3eeb69c: Deleted the table.
+2021-01-27T02:12:04.931241300 14176.328028s info: Table acd82854-46e7-4809-890e-e46a7678e74a: Configuration is changing.
+2021-01-27T02:12:05.071326600 14176.468111s info: Table 503c92fc-f966-493b-bc04-16e08a646978: Configuration is changing.
+2021-01-27T02:12:05.079755200 14176.476539s info: Table 886b9080-05e6-4dc0-82cf-e0c526ef7f7c: Configuration is changing.
+2021-01-27T02:12:05.157883700 14176.554667s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f7b68ef2-bed3-4459-8c67-bf1c24b52aa7
+2021-01-27T02:12:05.157900100 14176.554682s info: Table f7b68ef2-bed3-4459-8c67-bf1c24b52aa7: Deleted the table.
+2021-01-27T02:12:05.330968300 14176.727747s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/b0855f94-3214-497d-a337-0681564c6cff
+2021-01-27T02:12:05.330975300 14176.727754s info: Table b0855f94-3214-497d-a337-0681564c6cff: Deleted the table.
+2021-01-27T02:12:05.413230100 14176.810007s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/eb70f36a-7db8-40e4-a7da-fd585bfe80d2
+2021-01-27T02:12:05.413255800 14176.810032s info: Table eb70f36a-7db8-40e4-a7da-fd585bfe80d2: Deleted the table.
+2021-01-27T02:12:05.545006600 14176.941781s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5b57a54e-ba91-40a7-aa41-d386ef296abc
+2021-01-27T02:12:05.545031300 14176.941805s info: Table 5b57a54e-ba91-40a7-aa41-d386ef296abc: Deleted the table.
+2021-01-27T02:12:05.548288300 14176.945063s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/80278b20-7d7a-44c5-a9f2-91ce0fc32a47
+2021-01-27T02:12:05.548309600 14176.945083s info: Table 80278b20-7d7a-44c5-a9f2-91ce0fc32a47: Deleted the table.
+2021-01-27T02:12:05.846503600 14177.243272s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/0648911a-a985-4f66-82fe-6b7956231db1
+2021-01-27T02:12:05.846522200 14177.243290s info: Table 0648911a-a985-4f66-82fe-6b7956231db1: Deleted the table.
+2021-01-27T02:12:05.878820200 14177.275588s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/c2775c90-ddc1-4e4a-bcb3-6ef170394d04
+2021-01-27T02:12:05.878834800 14177.275601s info: Table c2775c90-ddc1-4e4a-bcb3-6ef170394d04: Deleted the table.
+2021-01-27T02:12:06.026133300 14177.422897s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/acd82854-46e7-4809-890e-e46a7678e74a
+2021-01-27T02:12:06.026147700 14177.422911s info: Table acd82854-46e7-4809-890e-e46a7678e74a: Deleted the table.
+2021-01-27T02:12:06.199688900 14177.596449s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/886b9080-05e6-4dc0-82cf-e0c526ef7f7c
+2021-01-27T02:12:06.199702400 14177.596462s info: Table 886b9080-05e6-4dc0-82cf-e0c526ef7f7c: Deleted the table.
+2021-01-27T02:12:06.265496800 14177.662255s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/335170ed-83fa-474f-824d-35294b214b15
+2021-01-27T02:12:06.265509100 14177.662267s info: Table 335170ed-83fa-474f-824d-35294b214b15: Deleted the table.
+2021-01-27T02:12:06.302558900 14177.699317s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/503c92fc-f966-493b-bc04-16e08a646978
+2021-01-27T02:12:06.302584700 14177.699342s info: Table 503c92fc-f966-493b-bc04-16e08a646978: Deleted the table.
+2021-01-27T02:19:14.248910300 14605.636660s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-01-27T02:19:14.249063000 14605.636812s notice: Shutting down client connections...
+2021-01-27T02:19:14.249240400 14605.636989s notice: All client connections closed.
+2021-01-27T02:19:14.249249500 14605.636999s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-27T02:19:14.326265200 14605.714013s notice: Storage engine shut down.
+2021-01-27T11:27:52.007504000 0.044323s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-27T11:27:52.020785800 0.057600s notice: Running on Linux 4.4.0-19041-Microsoft x86_64
+2021-01-27T11:27:52.021066200 0.057879s notice: Loading data from directory /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data
+2021-01-27T11:27:52.065344700 0.102157s info: Automatically using cache size of 1781 MB
+2021-01-27T11:27:52.067001000 0.103813s notice: Listening for intracluster connections on port 29015
+2021-01-27T11:27:52.618339800 0.655149s notice: Listening for client driver connections on port 28015
+2021-01-27T11:27:52.618459400 0.655269s notice: Listening for administrative HTTP connections on port 8080
+2021-01-27T11:27:52.618463900 0.655273s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-01-27T11:27:52.618498600 0.655308s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-01-27T11:27:52.618505200 0.655315s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-01-27T11:27:52.618512100 0.655321s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-27T11:27:52.618518600 0.655328s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-27T11:27:53.172361900 1.209169s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.175225400 1.212032s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.219193100 1.255999s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.236064600 1.272871s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.267332900 1.304139s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.294304800 1.331111s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.334490000 1.371295s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.338142800 1.374949s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:53.352176600 1.388982s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.353925400 1.390731s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:53.436587000 1.473392s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.476480700 1.513286s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.487965800 1.524771s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.520808600 1.557614s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.573381500 1.610186s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.610610500 1.647415s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.611737400 1.648542s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.658395000 1.695198s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.696063100 1.732867s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:53.770102500 1.806905s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.789942500 1.826745s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.791531800 1.828334s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.812017600 1.848820s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.814055800 1.850860s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.819394100 1.856197s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-27T11:27:53.820854000 1.857657s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.822340300 1.859143s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:53.828158300 1.864961s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.828534800 1.865337s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:53.869586900 1.906389s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.887949700 1.924753s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.937541900 1.974344s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.972769900 2.009572s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:53.975898300 2.012700s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.985719200 2.022521s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: Starting a new Raft election for term 2.
+2021-01-27T11:27:53.998929500 2.035732s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.004316400 2.041118s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.012620800 2.049422s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.014518800 2.051320s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:54.061230100 2.098031s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.146986300 2.183787s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.280320600 2.317121s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.281597800 2.318398s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.348428900 2.385229s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.393696500 2.430496s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-27T11:27:54.395181200 2.431981s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.397349100 2.434149s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: Starting a new Raft election for term 2.
+2021-01-27T11:27:54.713965000 2.750764s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:54.764258400 2.801056s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.766898100 2.803696s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.768400900 2.805198s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.806517000 2.843314s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:54.848856200 2.885653s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-27T11:27:55.356030900 3.392826s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:55.357961400 3.394756s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:27:55.441988100 3.478782s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-27T11:28:10.134989600 18.171701s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.135094300 18.171806s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: Added replica on this server.
+2021-01-27T11:28:10.271380700 18.308093s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.271886300 18.308597s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: Added replica on this server.
+2021-01-27T11:28:10.341421700 18.378132s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.400853200 18.437563s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: Added replica on this server.
+2021-01-27T11:28:10.400968400 18.437679s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.461223700 18.497934s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: Added replica on this server.
+2021-01-27T11:28:10.461383900 18.498094s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.461925900 18.498635s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: Added replica on this server.
+2021-01-27T11:28:10.507922900 18.544633s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.509354500 18.546064s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: Added replica on this server.
+2021-01-27T11:28:10.562977100 18.599686s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: Starting a new Raft election for term 1.
+2021-01-27T11:28:10.563382500 18.600091s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: Added replica on this server.
+2021-01-27T11:28:10.598447600 18.635156s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:10.600680500 18.637389s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:10.602217000 18.638926s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:10.650695700 18.687405s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:10.652484900 18.689193s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:10.693451600 18.730160s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:10.702156400 18.738865s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:12.220204200 20.256904s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: Configuration is changing.
+2021-01-27T11:28:12.226340100 20.263040s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: Configuration is changing.
+2021-01-27T11:28:12.230408200 20.267108s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: Configuration is changing.
+2021-01-27T11:28:14.342287100 22.378975s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: Starting a new Raft election for term 1.
+2021-01-27T11:28:14.342546500 22.379234s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: Added replica on this server.
+2021-01-27T11:28:14.626585500 22.663272s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: Starting a new Raft election for term 1.
+2021-01-27T11:28:14.626885900 22.663572s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: Added replica on this server.
+2021-01-27T11:28:14.729183200 22.765869s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: Starting a new Raft election for term 1.
+2021-01-27T11:28:14.730039200 22.766725s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: Added replica on this server.
+2021-01-27T11:28:14.818781700 22.855467s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:14.819965700 22.856651s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:14.821051000 22.857736s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:14.824925900 22.861612s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: Configuration is changing.
+2021-01-27T11:28:14.825869800 22.862556s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: Configuration is changing.
+2021-01-27T11:28:14.827165500 22.863850s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: Configuration is changing.
+2021-01-27T11:28:14.828547400 22.865232s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: Configuration is changing.
+2021-01-27T11:28:17.210317600 25.246990s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: Starting a new Raft election for term 1.
+2021-01-27T11:28:17.210488700 25.247161s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: Added replica on this server.
+2021-01-27T11:28:17.459684700 25.496355s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: Starting a new Raft election for term 1.
+2021-01-27T11:28:17.460097100 25.496768s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: Added replica on this server.
+2021-01-27T11:28:17.541868700 25.578539s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: Starting a new Raft election for term 1.
+2021-01-27T11:28:17.542331800 25.579002s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: Added replica on this server.
+2021-01-27T11:28:17.590943900 25.627614s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: Starting a new Raft election for term 1.
+2021-01-27T11:28:17.591164900 25.627835s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: Added replica on this server.
+2021-01-27T11:28:17.614334300 25.651004s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:17.615601000 25.652277s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:17.616824400 25.653494s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:17.617898000 25.654568s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:33.927758400 41.964337s info: Table a2553040-1403-474c-8657-5d7bb45f0b63: Starting a new Raft election for term 1.
+2021-01-27T11:28:33.975555100 42.012134s info: Table a2553040-1403-474c-8657-5d7bb45f0b63: Added replica on this server.
+2021-01-27T11:28:33.975616200 42.012194s info: Table eddd654f-c4a5-4a54-900f-75e5737c6cbb: Starting a new Raft election for term 1.
+2021-01-27T11:28:34.028207000 42.064785s info: Table 1961fdf1-ce1e-491a-a452-352be2c512d3: Starting a new Raft election for term 1.
+2021-01-27T11:28:34.028764300 42.065342s info: Table eddd654f-c4a5-4a54-900f-75e5737c6cbb: Added replica on this server.
+2021-01-27T11:28:34.073177400 42.109755s info: Table 1961fdf1-ce1e-491a-a452-352be2c512d3: Added replica on this server.
+2021-01-27T11:28:34.073345500 42.109924s info: Table 5289348e-f41c-4f9f-9b86-851a1fd0d1de: Starting a new Raft election for term 1.
+2021-01-27T11:28:34.074806800 42.111384s info: Table 5289348e-f41c-4f9f-9b86-851a1fd0d1de: Added replica on this server.
+2021-01-27T11:28:34.183004000 42.219581s info: Table eaeffadf-a351-43fd-9117-c765df6d328a: Starting a new Raft election for term 1.
+2021-01-27T11:28:34.183797100 42.220374s info: Table eaeffadf-a351-43fd-9117-c765df6d328a: Added replica on this server.
+2021-01-27T11:28:34.232640500 42.269217s info: Table b100d361-cbdf-4823-bfc2-4523f3c5f983: Starting a new Raft election for term 1.
+2021-01-27T11:28:34.233406500 42.269983s info: Table b100d361-cbdf-4823-bfc2-4523f3c5f983: Added replica on this server.
+2021-01-27T11:28:34.282932400 42.319509s info: Table f11c6ab2-592f-4f76-a579-3e25a2635be9: Starting a new Raft election for term 1.
+2021-01-27T11:28:34.283164900 42.319741s info: Table f11c6ab2-592f-4f76-a579-3e25a2635be9: Added replica on this server.
+2021-01-27T11:28:34.324067900 42.360644s info: Table a2553040-1403-474c-8657-5d7bb45f0b63: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:34.365732800 42.402309s info: Table eddd654f-c4a5-4a54-900f-75e5737c6cbb: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:34.407465200 42.444041s info: Table 1961fdf1-ce1e-491a-a452-352be2c512d3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:34.409650700 42.446227s info: Table 5289348e-f41c-4f9f-9b86-851a1fd0d1de: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:34.411159700 42.447735s info: Table eaeffadf-a351-43fd-9117-c765df6d328a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:34.412655400 42.449231s info: Table b100d361-cbdf-4823-bfc2-4523f3c5f983: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:34.414176200 42.450752s info: Table f11c6ab2-592f-4f76-a579-3e25a2635be9: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:36.305431900 44.341997s info: Table a2553040-1403-474c-8657-5d7bb45f0b63: Configuration is changing.
+2021-01-27T11:28:36.306699500 44.343264s info: Table eddd654f-c4a5-4a54-900f-75e5737c6cbb: Configuration is changing.
+2021-01-27T11:28:36.578961600 44.615525s info: Table 5289348e-f41c-4f9f-9b86-851a1fd0d1de: Configuration is changing.
+2021-01-27T11:28:36.621564900 44.658128s info: Table 1961fdf1-ce1e-491a-a452-352be2c512d3: Configuration is changing.
+2021-01-27T11:28:36.660096200 44.696660s info: Table eaeffadf-a351-43fd-9117-c765df6d328a: Configuration is changing.
+2021-01-27T11:28:36.662163900 44.698727s info: Table b100d361-cbdf-4823-bfc2-4523f3c5f983: Configuration is changing.
+2021-01-27T11:28:36.705392500 44.741955s info: Table f11c6ab2-592f-4f76-a579-3e25a2635be9: Configuration is changing.
+2021-01-27T11:28:37.140794900 45.177355s info: Table 41c53f54-e782-4851-a0c8-789f7f7cf055: Starting a new Raft election for term 1.
+2021-01-27T11:28:37.140896300 45.177457s info: Table 41c53f54-e782-4851-a0c8-789f7f7cf055: Added replica on this server.
+2021-01-27T11:28:37.600815600 45.637373s info: Table 8bb0b21f-8524-406f-b99e-d7db2db9a57c: Starting a new Raft election for term 1.
+2021-01-27T11:28:37.601084300 45.637642s info: Table 8bb0b21f-8524-406f-b99e-d7db2db9a57c: Added replica on this server.
+2021-01-27T11:28:37.703009500 45.739567s info: Table 41c53f54-e782-4851-a0c8-789f7f7cf055: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:37.772686400 45.809243s info: Table 8bb0b21f-8524-406f-b99e-d7db2db9a57c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:38.515160700 46.551713s info: Table 54b51eee-922d-447d-9768-9c36f6c87549: Starting a new Raft election for term 1.
+2021-01-27T11:28:38.515287200 46.551840s info: Table 54b51eee-922d-447d-9768-9c36f6c87549: Added replica on this server.
+2021-01-27T11:28:39.250716900 47.287265s info: Table 21d7c544-a63b-470f-826c-2b6b2e02b608: Starting a new Raft election for term 1.
+2021-01-27T11:28:39.251547100 47.288096s info: Table 21d7c544-a63b-470f-826c-2b6b2e02b608: Added replica on this server.
+2021-01-27T11:28:39.349055000 47.385603s info: Table 668669f5-d8f1-4a3f-a05b-fcaf6f5982e3: Starting a new Raft election for term 1.
+2021-01-27T11:28:39.376173300 47.412722s info: Table 668669f5-d8f1-4a3f-a05b-fcaf6f5982e3: Added replica on this server.
+2021-01-27T11:28:39.376342700 47.412891s info: Table 6bb0fd35-87d3-416f-917e-614493a78bed: Starting a new Raft election for term 1.
+2021-01-27T11:28:39.377391200 47.413939s info: Table 6bb0fd35-87d3-416f-917e-614493a78bed: Added replica on this server.
+2021-01-27T11:28:39.432067500 47.468615s info: Table 15ca4222-9d24-4ab2-966c-3c426a4a6c65: Starting a new Raft election for term 1.
+2021-01-27T11:28:39.432851200 47.469399s info: Table 15ca4222-9d24-4ab2-966c-3c426a4a6c65: Added replica on this server.
+2021-01-27T11:28:39.467778800 47.504326s info: Table 54b51eee-922d-447d-9768-9c36f6c87549: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:39.517804500 47.554352s info: Table 21d7c544-a63b-470f-826c-2b6b2e02b608: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:39.519151100 47.555698s info: Table 668669f5-d8f1-4a3f-a05b-fcaf6f5982e3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:39.520539800 47.557086s info: Table 6bb0fd35-87d3-416f-917e-614493a78bed: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:39.521879000 47.558426s info: Table 15ca4222-9d24-4ab2-966c-3c426a4a6c65: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T11:28:41.329829500 49.366367s info: Table 41c53f54-e782-4851-a0c8-789f7f7cf055: Configuration is changing.
+2021-01-27T11:28:41.331107400 49.367644s info: Table 54b51eee-922d-447d-9768-9c36f6c87549: Configuration is changing.
+2021-01-27T11:28:41.332554800 49.369092s info: Table 8bb0b21f-8524-406f-b99e-d7db2db9a57c: Configuration is changing.
+2021-01-27T11:28:41.406663900 49.443201s info: Table 21d7c544-a63b-470f-826c-2b6b2e02b608: Configuration is changing.
+2021-01-27T11:28:42.049008600 50.085542s info: Table 668669f5-d8f1-4a3f-a05b-fcaf6f5982e3: Configuration is changing.
+2021-01-27T11:28:42.123970900 50.160504s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5289348e-f41c-4f9f-9b86-851a1fd0d1de
+2021-01-27T11:28:42.123992300 50.160524s info: Table 5289348e-f41c-4f9f-9b86-851a1fd0d1de: Deleted the table.
+2021-01-27T11:28:42.151947600 50.188480s info: Table 15ca4222-9d24-4ab2-966c-3c426a4a6c65: Configuration is changing.
+2021-01-27T11:28:42.209904200 50.246437s info: Table 6bb0fd35-87d3-416f-917e-614493a78bed: Configuration is changing.
+2021-01-27T11:28:42.359101300 50.395633s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/41c53f54-e782-4851-a0c8-789f7f7cf055
+2021-01-27T11:28:42.359121200 50.395652s info: Table 41c53f54-e782-4851-a0c8-789f7f7cf055: Deleted the table.
+2021-01-27T11:28:42.510097300 50.546628s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/54b51eee-922d-447d-9768-9c36f6c87549
+2021-01-27T11:28:42.510141300 50.546671s info: Table 54b51eee-922d-447d-9768-9c36f6c87549: Deleted the table.
+2021-01-27T11:28:42.517143200 50.553674s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/a2553040-1403-474c-8657-5d7bb45f0b63
+2021-01-27T11:28:42.517180900 50.553711s info: Table a2553040-1403-474c-8657-5d7bb45f0b63: Deleted the table.
+2021-01-27T11:28:42.814152900 50.850682s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/21d7c544-a63b-470f-826c-2b6b2e02b608
+2021-01-27T11:28:42.814161600 50.850690s info: Table 21d7c544-a63b-470f-826c-2b6b2e02b608: Deleted the table.
+2021-01-27T11:28:42.819608000 50.856137s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/8bb0b21f-8524-406f-b99e-d7db2db9a57c
+2021-01-27T11:28:42.819616400 50.856145s info: Table 8bb0b21f-8524-406f-b99e-d7db2db9a57c: Deleted the table.
+2021-01-27T11:28:42.827128700 50.863658s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/b100d361-cbdf-4823-bfc2-4523f3c5f983
+2021-01-27T11:28:42.827150500 50.863678s info: Table b100d361-cbdf-4823-bfc2-4523f3c5f983: Deleted the table.
+2021-01-27T11:28:42.926999700 50.963528s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/eddd654f-c4a5-4a54-900f-75e5737c6cbb
+2021-01-27T11:28:42.927011200 50.963539s info: Table eddd654f-c4a5-4a54-900f-75e5737c6cbb: Deleted the table.
+2021-01-27T11:28:43.220755600 51.257283s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/668669f5-d8f1-4a3f-a05b-fcaf6f5982e3
+2021-01-27T11:28:43.220772200 51.257298s info: Table 668669f5-d8f1-4a3f-a05b-fcaf6f5982e3: Deleted the table.
+2021-01-27T11:28:43.296025300 51.332551s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f11c6ab2-592f-4f76-a579-3e25a2635be9
+2021-01-27T11:28:43.296035800 51.332561s info: Table f11c6ab2-592f-4f76-a579-3e25a2635be9: Deleted the table.
+2021-01-27T11:28:43.520576400 51.557102s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/15ca4222-9d24-4ab2-966c-3c426a4a6c65
+2021-01-27T11:28:43.520588400 51.557113s info: Table 15ca4222-9d24-4ab2-966c-3c426a4a6c65: Deleted the table.
+2021-01-27T11:28:43.555919800 51.592445s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/1961fdf1-ce1e-491a-a452-352be2c512d3
+2021-01-27T11:28:43.555938300 51.592462s info: Table 1961fdf1-ce1e-491a-a452-352be2c512d3: Deleted the table.
+2021-01-27T11:28:43.582279100 51.618804s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/eaeffadf-a351-43fd-9117-c765df6d328a
+2021-01-27T11:28:43.582294800 51.618818s info: Table eaeffadf-a351-43fd-9117-c765df6d328a: Deleted the table.
+2021-01-27T11:28:43.626010100 51.662535s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/6bb0fd35-87d3-416f-917e-614493a78bed
+2021-01-27T11:28:43.626030700 51.662555s info: Table 6bb0fd35-87d3-416f-917e-614493a78bed: Deleted the table.
+2021-01-27T12:05:14.033960900 2242.058774s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.040596200 2242.065409s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: Added replica on this server.
+2021-01-27T12:05:14.209069700 2242.233882s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.242714800 2242.267527s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.273001400 2242.297813s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: Added replica on this server.
+2021-01-27T12:05:14.273023000 2242.297834s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.282717800 2242.307529s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: Added replica on this server.
+2021-01-27T12:05:14.282977000 2242.307788s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: Added replica on this server.
+2021-01-27T12:05:14.282989700 2242.307801s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.283848100 2242.308659s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: Added replica on this server.
+2021-01-27T12:05:14.372938900 2242.397750s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.373134600 2242.397945s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: Added replica on this server.
+2021-01-27T12:05:14.423647500 2242.448458s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: Starting a new Raft election for term 1.
+2021-01-27T12:05:14.423863600 2242.448674s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: Added replica on this server.
+2021-01-27T12:05:14.425209400 2242.450020s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:14.427427800 2242.452238s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:14.429099200 2242.453910s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:14.431291200 2242.456102s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:14.432874900 2242.457685s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:14.482698000 2242.507508s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:14.484594100 2242.509404s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:16.370089700 2244.394890s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: Configuration is changing.
+2021-01-27T12:05:16.461124100 2244.485925s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: Configuration is changing.
+2021-01-27T12:05:16.489304300 2244.514105s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: Configuration is changing.
+2021-01-27T12:05:16.503923800 2244.528724s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: Configuration is changing.
+2021-01-27T12:05:16.513651100 2244.538451s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: Configuration is changing.
+2021-01-27T12:05:16.693878200 2244.718677s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: Configuration is changing.
+2021-01-27T12:05:16.847933300 2244.872731s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: Configuration is changing.
+2021-01-27T12:05:18.057145100 2246.081937s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: Starting a new Raft election for term 1.
+2021-01-27T12:05:18.057313800 2246.082106s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: Added replica on this server.
+2021-01-27T12:05:18.431497000 2246.456287s info: Table fa77df82-d616-415b-95e7-606b09a5a830: Starting a new Raft election for term 1.
+2021-01-27T12:05:18.431610200 2246.456401s info: Table fa77df82-d616-415b-95e7-606b09a5a830: Added replica on this server.
+2021-01-27T12:05:18.893192000 2246.917980s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: Starting a new Raft election for term 1.
+2021-01-27T12:05:18.893325800 2246.918114s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: Added replica on this server.
+2021-01-27T12:05:18.895111800 2246.919900s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:19.458136800 2247.482922s info: Table 55d804ee-db30-4839-a93b-19afd554056c: Starting a new Raft election for term 1.
+2021-01-27T12:05:19.472448200 2247.497233s info: Table 55d804ee-db30-4839-a93b-19afd554056c: Added replica on this server.
+2021-01-27T12:05:19.472566800 2247.497351s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: Starting a new Raft election for term 1.
+2021-01-27T12:05:19.472825000 2247.497610s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: Added replica on this server.
+2021-01-27T12:05:19.476167300 2247.500953s info: Table fa77df82-d616-415b-95e7-606b09a5a830: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:19.481269800 2247.506055s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:19.561390400 2247.586176s info: Table 55d804ee-db30-4839-a93b-19afd554056c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:19.603631200 2247.628415s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:20.134774900 2248.159556s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: Starting a new Raft election for term 1.
+2021-01-27T12:05:20.134996000 2248.159778s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: Added replica on this server.
+2021-01-27T12:05:20.447500900 2248.472281s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: Starting a new Raft election for term 1.
+2021-01-27T12:05:20.447694300 2248.472474s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: Added replica on this server.
+2021-01-27T12:05:20.449440500 2248.474220s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:20.610492200 2248.635271s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:32.765990400 2260.790708s info: Table 296490a7-1d97-473a-876a-019bed4afb8a: Starting a new Raft election for term 1.
+2021-01-27T12:05:32.820689300 2260.845406s info: Table 904b30d4-aec0-41a1-af76-4b6e857be921: Starting a new Raft election for term 1.
+2021-01-27T12:05:32.821061500 2260.845778s info: Table 296490a7-1d97-473a-876a-019bed4afb8a: Added replica on this server.
+2021-01-27T12:05:32.821441300 2260.846158s info: Table 904b30d4-aec0-41a1-af76-4b6e857be921: Added replica on this server.
+2021-01-27T12:05:32.881358900 2260.906075s info: Table 8cf896c3-f4b0-44e7-83cb-0ad604b1f989: Starting a new Raft election for term 1.
+2021-01-27T12:05:32.911930100 2260.936647s info: Table f0c1a95f-b21f-4a2e-a20c-95124746cacf: Starting a new Raft election for term 1.
+2021-01-27T12:05:32.965128900 2260.989845s info: Table 3aa7885e-8ae3-4422-8ad8-eca2b9ed1a49: Starting a new Raft election for term 1.
+2021-01-27T12:05:32.965739800 2260.990456s info: Table 8cf896c3-f4b0-44e7-83cb-0ad604b1f989: Added replica on this server.
+2021-01-27T12:05:32.966458400 2260.991175s info: Table f0c1a95f-b21f-4a2e-a20c-95124746cacf: Added replica on this server.
+2021-01-27T12:05:32.973703800 2260.998420s info: Table 3aa7885e-8ae3-4422-8ad8-eca2b9ed1a49: Added replica on this server.
+2021-01-27T12:05:32.974005000 2260.998721s info: Table 99ee7b09-62ec-4c52-9b2e-3ec0fd12b56c: Starting a new Raft election for term 1.
+2021-01-27T12:05:32.974483300 2260.999199s info: Table 99ee7b09-62ec-4c52-9b2e-3ec0fd12b56c: Added replica on this server.
+2021-01-27T12:05:33.023138600 2261.047855s info: Table f1018b6f-33c4-4731-bbf8-2f93afe81d5d: Starting a new Raft election for term 1.
+2021-01-27T12:05:33.023552800 2261.048268s info: Table f1018b6f-33c4-4731-bbf8-2f93afe81d5d: Added replica on this server.
+2021-01-27T12:05:33.025367200 2261.050083s info: Table 296490a7-1d97-473a-876a-019bed4afb8a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:33.026940100 2261.051656s info: Table 904b30d4-aec0-41a1-af76-4b6e857be921: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:33.028509200 2261.053225s info: Table 8cf896c3-f4b0-44e7-83cb-0ad604b1f989: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:33.030045100 2261.054761s info: Table f0c1a95f-b21f-4a2e-a20c-95124746cacf: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:33.031815100 2261.056532s info: Table 3aa7885e-8ae3-4422-8ad8-eca2b9ed1a49: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:33.076403300 2261.101119s info: Table 99ee7b09-62ec-4c52-9b2e-3ec0fd12b56c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:33.158580800 2261.183297s info: Table f1018b6f-33c4-4731-bbf8-2f93afe81d5d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:34.880498900 2262.905205s info: Table 296490a7-1d97-473a-876a-019bed4afb8a: Configuration is changing.
+2021-01-27T12:05:34.928534300 2262.953240s info: Table 904b30d4-aec0-41a1-af76-4b6e857be921: Configuration is changing.
+2021-01-27T12:05:34.966122000 2262.990828s info: Table 8cf896c3-f4b0-44e7-83cb-0ad604b1f989: Configuration is changing.
+2021-01-27T12:05:35.739019600 2263.763721s info: Table c1e457b9-fe9d-4d05-8eee-c293167e738e: Starting a new Raft election for term 1.
+2021-01-27T12:05:35.739163200 2263.763865s info: Table c1e457b9-fe9d-4d05-8eee-c293167e738e: Added replica on this server.
+2021-01-27T12:05:36.014536100 2264.039237s info: Table cf405412-030f-4aaa-9506-8d8e7860aa46: Starting a new Raft election for term 1.
+2021-01-27T12:05:36.014650300 2264.039351s info: Table cf405412-030f-4aaa-9506-8d8e7860aa46: Added replica on this server.
+2021-01-27T12:05:36.069609400 2264.094310s info: Table c1e457b9-fe9d-4d05-8eee-c293167e738e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:36.388742400 2264.413441s info: Table 493d35ec-7cfd-4787-8003-7590d50e41a4: Starting a new Raft election for term 1.
+2021-01-27T12:05:36.388927800 2264.413626s info: Table 493d35ec-7cfd-4787-8003-7590d50e41a4: Added replica on this server.
+2021-01-27T12:05:36.390530500 2264.415230s info: Table cf405412-030f-4aaa-9506-8d8e7860aa46: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:36.394726100 2264.419425s info: Table f0c1a95f-b21f-4a2e-a20c-95124746cacf: Configuration is changing.
+2021-01-27T12:05:36.396390100 2264.421089s info: Table 3aa7885e-8ae3-4422-8ad8-eca2b9ed1a49: Configuration is changing.
+2021-01-27T12:05:36.441830500 2264.466529s info: Table 99ee7b09-62ec-4c52-9b2e-3ec0fd12b56c: Configuration is changing.
+2021-01-27T12:05:36.443970500 2264.468669s info: Table f1018b6f-33c4-4731-bbf8-2f93afe81d5d: Configuration is changing.
+2021-01-27T12:05:36.445535200 2264.470234s info: Table 493d35ec-7cfd-4787-8003-7590d50e41a4: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:37.997106500 2266.021797s info: Table b8b04fce-987d-45a7-8921-ca710a321ab1: Starting a new Raft election for term 1.
+2021-01-27T12:05:38.023119700 2266.047810s info: Table e11faab0-89df-4f7f-b944-a5b04e7f8f45: Starting a new Raft election for term 1.
+2021-01-27T12:05:38.023615800 2266.048307s info: Table b8b04fce-987d-45a7-8921-ca710a321ab1: Added replica on this server.
+2021-01-27T12:05:38.024313900 2266.049004s info: Table e11faab0-89df-4f7f-b944-a5b04e7f8f45: Added replica on this server.
+2021-01-27T12:05:38.056519500 2266.081210s info: Table 5e34be06-c5a1-4e88-b145-c32b1ad8c7f5: Starting a new Raft election for term 1.
+2021-01-27T12:05:38.057735200 2266.082425s info: Table 5e34be06-c5a1-4e88-b145-c32b1ad8c7f5: Added replica on this server.
+2021-01-27T12:05:38.647207200 2266.671895s info: Table 40ec486f-107e-4d87-8b02-250b08e8d1fc: Starting a new Raft election for term 1.
+2021-01-27T12:05:38.647911000 2266.672598s info: Table 40ec486f-107e-4d87-8b02-250b08e8d1fc: Added replica on this server.
+2021-01-27T12:05:38.652196000 2266.676883s info: Table b8b04fce-987d-45a7-8921-ca710a321ab1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:38.709439100 2266.734126s info: Table e11faab0-89df-4f7f-b944-a5b04e7f8f45: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:38.719492800 2266.744180s info: Table 5e34be06-c5a1-4e88-b145-c32b1ad8c7f5: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:39.228109900 2267.252795s info: Table 40ec486f-107e-4d87-8b02-250b08e8d1fc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T12:05:39.385744700 2267.410428s info: Table c1e457b9-fe9d-4d05-8eee-c293167e738e: Configuration is changing.
+2021-01-27T12:05:39.390791600 2267.415475s info: Table cf405412-030f-4aaa-9506-8d8e7860aa46: Configuration is changing.
+2021-01-27T12:05:39.715019000 2267.739701s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/296490a7-1d97-473a-876a-019bed4afb8a
+2021-01-27T12:05:39.715039200 2267.739720s info: Table 296490a7-1d97-473a-876a-019bed4afb8a: Deleted the table.
+2021-01-27T12:05:39.982632700 2268.007314s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/904b30d4-aec0-41a1-af76-4b6e857be921
+2021-01-27T12:05:39.982652700 2268.007333s info: Table 904b30d4-aec0-41a1-af76-4b6e857be921: Deleted the table.
+2021-01-27T12:05:40.145871900 2268.170552s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/c1e457b9-fe9d-4d05-8eee-c293167e738e
+2021-01-27T12:05:40.145893600 2268.170573s info: Table c1e457b9-fe9d-4d05-8eee-c293167e738e: Deleted the table.
+2021-01-27T12:05:40.205343700 2268.230024s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/cf405412-030f-4aaa-9506-8d8e7860aa46
+2021-01-27T12:05:40.205364900 2268.230044s info: Table cf405412-030f-4aaa-9506-8d8e7860aa46: Deleted the table.
+2021-01-27T12:05:40.401094700 2268.425773s info: Table 493d35ec-7cfd-4787-8003-7590d50e41a4: Configuration is changing.
+2021-01-27T12:05:40.470581100 2268.495259s info: Table b8b04fce-987d-45a7-8921-ca710a321ab1: Configuration is changing.
+2021-01-27T12:05:40.518161900 2268.542839s info: Table e11faab0-89df-4f7f-b944-a5b04e7f8f45: Configuration is changing.
+2021-01-27T12:05:40.793975700 2268.818652s info: Table 40ec486f-107e-4d87-8b02-250b08e8d1fc: Configuration is changing.
+2021-01-27T12:05:40.901070700 2268.925747s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/493d35ec-7cfd-4787-8003-7590d50e41a4
+2021-01-27T12:05:40.901092000 2268.925768s info: Table 493d35ec-7cfd-4787-8003-7590d50e41a4: Deleted the table.
+2021-01-27T12:05:40.966314400 2268.990989s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/b8b04fce-987d-45a7-8921-ca710a321ab1
+2021-01-27T12:05:40.966326200 2268.991001s info: Table b8b04fce-987d-45a7-8921-ca710a321ab1: Deleted the table.
+2021-01-27T12:05:40.973644000 2268.998320s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/8cf896c3-f4b0-44e7-83cb-0ad604b1f989
+2021-01-27T12:05:40.973661000 2268.998336s info: Table 8cf896c3-f4b0-44e7-83cb-0ad604b1f989: Deleted the table.
+2021-01-27T12:05:41.068480000 2269.093156s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f0c1a95f-b21f-4a2e-a20c-95124746cacf
+2021-01-27T12:05:41.068519900 2269.093194s info: Table f0c1a95f-b21f-4a2e-a20c-95124746cacf: Deleted the table.
+2021-01-27T12:05:41.130346500 2269.155022s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/99ee7b09-62ec-4c52-9b2e-3ec0fd12b56c
+2021-01-27T12:05:41.130364700 2269.155039s info: Table 99ee7b09-62ec-4c52-9b2e-3ec0fd12b56c: Deleted the table.
+2021-01-27T12:05:41.231698700 2269.256373s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e11faab0-89df-4f7f-b944-a5b04e7f8f45
+2021-01-27T12:05:41.231716400 2269.256390s info: Table e11faab0-89df-4f7f-b944-a5b04e7f8f45: Deleted the table.
+2021-01-27T12:05:41.251481600 2269.276157s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/40ec486f-107e-4d87-8b02-250b08e8d1fc
+2021-01-27T12:05:41.251501600 2269.276175s info: Table 40ec486f-107e-4d87-8b02-250b08e8d1fc: Deleted the table.
+2021-01-27T12:05:41.370600200 2269.395274s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/f1018b6f-33c4-4731-bbf8-2f93afe81d5d
+2021-01-27T12:05:41.370634000 2269.395307s info: Table f1018b6f-33c4-4731-bbf8-2f93afe81d5d: Deleted the table.
+2021-01-27T12:05:41.374192200 2269.398865s info: Table 5e34be06-c5a1-4e88-b145-c32b1ad8c7f5: Configuration is changing.
+2021-01-27T12:05:41.578707200 2269.603380s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/3aa7885e-8ae3-4422-8ad8-eca2b9ed1a49
+2021-01-27T12:05:41.578718900 2269.603391s info: Table 3aa7885e-8ae3-4422-8ad8-eca2b9ed1a49: Deleted the table.
+2021-01-27T12:05:41.585750900 2269.610423s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/5e34be06-c5a1-4e88-b145-c32b1ad8c7f5
+2021-01-27T12:05:41.585759600 2269.610431s info: Table 5e34be06-c5a1-4e88-b145-c32b1ad8c7f5: Deleted the table.
+2021-01-27T13:29:33.121013200 7301.121991s info: Table 53e5050b-f0ad-4f07-a357-2ee64c62d2ba: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.182271700 7301.183249s info: Table aabd1647-7826-4c8d-8dc6-cf6e637c3eaf: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.215125300 7301.216103s info: Table 53e5050b-f0ad-4f07-a357-2ee64c62d2ba: Added replica on this server.
+2021-01-27T13:29:33.215547000 7301.216524s info: Table aabd1647-7826-4c8d-8dc6-cf6e637c3eaf: Added replica on this server.
+2021-01-27T13:29:33.215555000 7301.216532s info: Table 2a86ea60-b7b6-484c-9398-e31295e3a39c: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.215558100 7301.216535s info: Table e65fdd0a-05d8-4130-a36a-7947b814a872: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.256159800 7301.257137s info: Table 2a86ea60-b7b6-484c-9398-e31295e3a39c: Added replica on this server.
+2021-01-27T13:29:33.256392100 7301.257369s info: Table 58df9f0d-141f-412a-be83-4a104d392917: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.269581600 7301.270560s info: Table e65fdd0a-05d8-4130-a36a-7947b814a872: Added replica on this server.
+2021-01-27T13:29:33.269635300 7301.270612s info: Table c29a8186-548c-47c5-9198-3c60a5e83b84: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.270673100 7301.271650s info: Table 58df9f0d-141f-412a-be83-4a104d392917: Added replica on this server.
+2021-01-27T13:29:33.271263900 7301.272241s info: Table c29a8186-548c-47c5-9198-3c60a5e83b84: Added replica on this server.
+2021-01-27T13:29:33.336782400 7301.337759s info: Table 81f57d52-d71b-4381-b614-d4ab57f71273: Starting a new Raft election for term 1.
+2021-01-27T13:29:33.336867500 7301.337844s info: Table 81f57d52-d71b-4381-b614-d4ab57f71273: Added replica on this server.
+2021-01-27T13:29:33.338138000 7301.339114s info: Table 53e5050b-f0ad-4f07-a357-2ee64c62d2ba: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:33.339276700 7301.340253s info: Table aabd1647-7826-4c8d-8dc6-cf6e637c3eaf: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:33.341256200 7301.342232s info: Table 2a86ea60-b7b6-484c-9398-e31295e3a39c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:33.374297900 7301.375275s info: Table e65fdd0a-05d8-4130-a36a-7947b814a872: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:33.375659700 7301.376636s info: Table 58df9f0d-141f-412a-be83-4a104d392917: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:33.376925000 7301.377901s info: Table c29a8186-548c-47c5-9198-3c60a5e83b84: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:33.378133500 7301.379110s info: Table 81f57d52-d71b-4381-b614-d4ab57f71273: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:34.909612400 7302.910582s info: Table 53e5050b-f0ad-4f07-a357-2ee64c62d2ba: Configuration is changing.
+2021-01-27T13:29:34.968006400 7302.968976s info: Table 58df9f0d-141f-412a-be83-4a104d392917: Configuration is changing.
+2021-01-27T13:29:34.997374500 7302.998344s info: Table aabd1647-7826-4c8d-8dc6-cf6e637c3eaf: Configuration is changing.
+2021-01-27T13:29:35.034339800 7303.035309s info: Table 2a86ea60-b7b6-484c-9398-e31295e3a39c: Configuration is changing.
+2021-01-27T13:29:35.035639200 7303.036608s info: Table e65fdd0a-05d8-4130-a36a-7947b814a872: Configuration is changing.
+2021-01-27T13:29:37.218961800 7305.219921s info: Table 7af14f13-aa9b-40d0-b95e-626110fedc9c: Starting a new Raft election for term 1.
+2021-01-27T13:29:37.219170500 7305.220130s info: Table 7af14f13-aa9b-40d0-b95e-626110fedc9c: Added replica on this server.
+2021-01-27T13:29:37.261360000 7305.262319s info: Table cbbddbad-699a-4af3-ad90-09f328a9d295: Starting a new Raft election for term 1.
+2021-01-27T13:29:37.270427600 7305.271386s info: Table 2ed02176-d9d4-42b2-b764-56a51aafa674: Starting a new Raft election for term 1.
+2021-01-27T13:29:37.286869200 7305.287829s info: Table bf124df8-1f21-45f8-bc09-b57b612a5b25: Starting a new Raft election for term 1.
+2021-01-27T13:29:37.287314100 7305.288273s info: Table cbbddbad-699a-4af3-ad90-09f328a9d295: Added replica on this server.
+2021-01-27T13:29:37.287426300 7305.288386s info: Table 2ed02176-d9d4-42b2-b764-56a51aafa674: Added replica on this server.
+2021-01-27T13:29:37.287603800 7305.288563s info: Table bf124df8-1f21-45f8-bc09-b57b612a5b25: Added replica on this server.
+2021-01-27T13:29:37.324936100 7305.325895s info: Table c29a8186-548c-47c5-9198-3c60a5e83b84: Configuration is changing.
+2021-01-27T13:29:37.562352200 7305.563310s info: Table 48e748a1-f3d5-4306-83ae-7054a8a03da4: Starting a new Raft election for term 1.
+2021-01-27T13:29:37.562499500 7305.563457s info: Table 48e748a1-f3d5-4306-83ae-7054a8a03da4: Added replica on this server.
+2021-01-27T13:29:37.566115300 7305.567073s info: Table 7af14f13-aa9b-40d0-b95e-626110fedc9c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:37.566611000 7305.567568s info: Table 81f57d52-d71b-4381-b614-d4ab57f71273: Configuration is changing.
+2021-01-27T13:29:37.567608100 7305.568569s info: Table cbbddbad-699a-4af3-ad90-09f328a9d295: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:37.569020000 7305.569978s info: Table 2ed02176-d9d4-42b2-b764-56a51aafa674: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:37.614642000 7305.615600s info: Table bf124df8-1f21-45f8-bc09-b57b612a5b25: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:37.617925800 7305.618884s info: Table 48e748a1-f3d5-4306-83ae-7054a8a03da4: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:38.687506100 7306.688459s info: Table 7f5c79cf-7b19-492e-ad12-6b68e3896021: Starting a new Raft election for term 1.
+2021-01-27T13:29:38.688142500 7306.705935s info: Table 7f5c79cf-7b19-492e-ad12-6b68e3896021: Added replica on this server.
+2021-01-27T13:29:38.765735200 7306.766688s info: Table 7ea5b1a9-ee6d-4f05-a053-9e173fbcbef4: Starting a new Raft election for term 1.
+2021-01-27T13:29:38.776081400 7306.777034s info: Table 7ea5b1a9-ee6d-4f05-a053-9e173fbcbef4: Added replica on this server.
+2021-01-27T13:29:38.939906600 7306.940859s info: Table 7f5c79cf-7b19-492e-ad12-6b68e3896021: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:38.996720000 7306.997672s info: Table 7ea5b1a9-ee6d-4f05-a053-9e173fbcbef4: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-27T13:29:40.105318700 7308.106265s info: Table 7af14f13-aa9b-40d0-b95e-626110fedc9c: Configuration is changing.
+2021-01-27T13:29:40.613025300 7308.613970s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/2a86ea60-b7b6-484c-9398-e31295e3a39c
+2021-01-27T13:29:40.613043300 7308.613987s info: Table 2a86ea60-b7b6-484c-9398-e31295e3a39c: Deleted the table.
+2021-01-27T13:29:41.179424800 7309.180368s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7af14f13-aa9b-40d0-b95e-626110fedc9c
+2021-01-27T13:29:41.179449200 7309.180391s info: Table 7af14f13-aa9b-40d0-b95e-626110fedc9c: Deleted the table.
+2021-01-27T13:29:41.206014400 7309.206956s info: Table 2ed02176-d9d4-42b2-b764-56a51aafa674: Configuration is changing.
+2021-01-27T13:29:41.212164600 7309.213107s info: Table cbbddbad-699a-4af3-ad90-09f328a9d295: Configuration is changing.
+2021-01-27T13:29:41.217009600 7309.217951s info: Table bf124df8-1f21-45f8-bc09-b57b612a5b25: Configuration is changing.
+2021-01-27T13:29:41.265637100 7309.266579s info: Table 48e748a1-f3d5-4306-83ae-7054a8a03da4: Configuration is changing.
+2021-01-27T13:29:41.290194200 7309.291136s info: Table 7f5c79cf-7b19-492e-ad12-6b68e3896021: Configuration is changing.
+2021-01-27T13:29:41.619879500 7309.620820s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/58df9f0d-141f-412a-be83-4a104d392917
+2021-01-27T13:29:41.619901700 7309.620842s info: Table 58df9f0d-141f-412a-be83-4a104d392917: Deleted the table.
+2021-01-27T13:29:41.766261700 7309.767202s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/53e5050b-f0ad-4f07-a357-2ee64c62d2ba
+2021-01-27T13:29:41.766277800 7309.767217s info: Table 53e5050b-f0ad-4f07-a357-2ee64c62d2ba: Deleted the table.
+2021-01-27T13:29:42.210067000 7310.211005s info: Table 7ea5b1a9-ee6d-4f05-a053-9e173fbcbef4: Configuration is changing.
+2021-01-27T13:29:42.220040500 7310.220979s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/2ed02176-d9d4-42b2-b764-56a51aafa674
+2021-01-27T13:29:42.220081900 7310.221019s info: Table 2ed02176-d9d4-42b2-b764-56a51aafa674: Deleted the table.
+2021-01-27T13:29:42.326617200 7310.327554s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/aabd1647-7826-4c8d-8dc6-cf6e637c3eaf
+2021-01-27T13:29:42.326631300 7310.327568s info: Table aabd1647-7826-4c8d-8dc6-cf6e637c3eaf: Deleted the table.
+2021-01-27T13:29:42.477034000 7310.477971s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/bf124df8-1f21-45f8-bc09-b57b612a5b25
+2021-01-27T13:29:42.477043900 7310.477980s info: Table bf124df8-1f21-45f8-bc09-b57b612a5b25: Deleted the table.
+2021-01-27T13:29:42.478718000 7310.479654s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/cbbddbad-699a-4af3-ad90-09f328a9d295
+2021-01-27T13:29:42.478728900 7310.479665s info: Table cbbddbad-699a-4af3-ad90-09f328a9d295: Deleted the table.
+2021-01-27T13:29:42.550777100 7310.551713s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/48e748a1-f3d5-4306-83ae-7054a8a03da4
+2021-01-27T13:29:42.550798900 7310.551735s info: Table 48e748a1-f3d5-4306-83ae-7054a8a03da4: Deleted the table.
+2021-01-27T13:29:43.063277600 7311.064212s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7f5c79cf-7b19-492e-ad12-6b68e3896021
+2021-01-27T13:29:43.063289900 7311.064223s info: Table 7f5c79cf-7b19-492e-ad12-6b68e3896021: Deleted the table.
+2021-01-27T13:29:43.076265700 7311.077200s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/e65fdd0a-05d8-4130-a36a-7947b814a872
+2021-01-27T13:29:43.076270000 7311.077203s info: Table e65fdd0a-05d8-4130-a36a-7947b814a872: Deleted the table.
+2021-01-27T13:29:43.121702100 7311.122636s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/c29a8186-548c-47c5-9198-3c60a5e83b84
+2021-01-27T13:29:43.121725700 7311.122659s info: Table c29a8186-548c-47c5-9198-3c60a5e83b84: Deleted the table.
+2021-01-27T13:29:43.142930600 7311.143865s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/7ea5b1a9-ee6d-4f05-a053-9e173fbcbef4
+2021-01-27T13:29:43.142976700 7311.143910s info: Table 7ea5b1a9-ee6d-4f05-a053-9e173fbcbef4: Deleted the table.
+2021-01-27T13:29:43.210842500 7311.211776s notice: Removing file /mnt/c/Users/jmontilla/Desktop/Portafolio/portafolio-db/portafolio_digital-db/rethinkdb_data/81f57d52-d71b-4381-b614-d4ab57f71273
+2021-01-27T13:29:43.210853600 7311.211786s info: Table 81f57d52-d71b-4381-b614-d4ab57f71273: Deleted the table.
+2021-01-27T22:49:54.920481200 40922.339661s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-01-27T22:49:54.920647400 40922.339826s notice: Shutting down client connections...
+2021-01-27T22:49:54.920782400 40922.339961s notice: All client connections closed.
+2021-01-27T22:49:54.920794800 40922.339973s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-27T22:49:55.119468800 40922.538648s notice: Storage engine shut down.

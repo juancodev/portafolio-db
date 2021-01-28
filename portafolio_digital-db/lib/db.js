@@ -127,18 +127,19 @@ class Db {
     //  Primero necesitamos tener una referencia de nuestra conexión, ya que vamos a obtener una corutina y le pasamos el nombre de la base de datos
     const connection = this.connection
     const db = this.db
-    const imageId = uuid.decode(id)
+    const getImage = this.getImage.bind(this)
 
     //  Y le pasamos una corutina de tareas para que se realicen de forma async
     const tasks = co.wrap(function * () {
       const conn = yield connection
-      const image = yield r.db(db).table('images').get(imageId).run(conn)
-      yield r.db(db).table('images').get(imageId).update({
+
+      const image = yield getImage(id)
+      yield r.db(db).table('images').get(image.id).update({
         liked: true,
         likes: image.likes + 1
       }).run(conn)
 
-      const created = yield r.db(db).table('images').get(imageId).run(conn)
+      const created = yield getImage(id)
       return Promise.resolve(created)
     })
 
@@ -159,6 +160,11 @@ class Db {
     const tasks = co.wrap(function * () {
       const conn = yield connection
       const image = yield r.db(db).table('images').get(imageId).run(conn)
+
+      if (!image) {
+        return Promise.reject(new Error(`image ${imageId} not found`))
+      }
+
       return Promise.resolve(image)
     })
     //  Resolvemos todas las tareas con el callback async
@@ -232,15 +238,47 @@ class Db {
     //  Y le pasamos una corutina de tareas para que se realicen de forma async
     const tasks = co.wrap(function * () {
       const conn = yield connection
+
       yield r.db(db).table('users').indexWait().run(conn)
       const users = yield r.db(db).table('users').getAll(username, {
         //  esto es como si fuera un where
         index: 'username'
       }).run(conn)
 
-      const result = yield users.next()
+      let result = null
+
+      //  utilizamos el manejador de errores
+      try {
+        result = yield users.next()
+      } catch (e) {
+        return Promise.reject(new Error(`usuario ${username} not found`))
+      }
 
       return Promise.resolve(result)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  authenticate (username, password, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+
+    const getUser = this.getUser.bind(this)
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      let user = null
+      try {
+        user = yield getUser(username)
+      } catch (e) {
+        return Promise.resolve(false)
+      }
+
+      if (user.password === utils.encrypt(password)) {
+        return Promise.resolve(true)
+      }
+      return Promise.resolve(false)
     })
     //  Resolvemos todas las tareas con el callback async
     return Promise.resolve(tasks()).asCallback(callback)
