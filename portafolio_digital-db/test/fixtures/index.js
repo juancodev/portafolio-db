@@ -10,7 +10,7 @@ const fixtures = {
       url: `https//portafoliodigital.test/${uuid.v4()}.jpg`,
       likes: 0,
       liked: false,
-      user_id: uuid.uuid()
+      userId: uuid.uuid()
     }
   },
   getImages (n) {

@@ -49,9 +49,9 @@ test('guardar imagen', async t => {
   t.is(created.likes, image.likes)
   t.is(created.liked, image.liked)
   t.deepEqual(created.tags, ['increible', 'tags', 'portafolio_digital'])
-  t.is(created.user_id, image.user_id)
+  t.is(created.userId, image.userId)
   t.is(typeof created.id, 'string')
-  t.is(created.public_id, uuid.encode(created.id))
+  t.is(created.publicId, uuid.encode(created.id))
   t.truthy(created.createdAt)
 })
 
@@ -67,7 +67,7 @@ test('comprobar likes', async t => {
   //  esperamos a que se conecte con la db y el campo saveImage
   const created = await db.saveImage(image)
   //  esperamos el resultado que devuelve el id_publico
-  const result = await db.likeImage(created.public_id)
+  const result = await db.likeImage(created.publicId)
   //  garantizamos que la imagen va a venir con like
   t.true(result.liked)
   //  y comprobamos que los likes de la imagen se sume dependiendo del que tiene
@@ -83,16 +83,16 @@ test('obtener id de la imagen', async t => {
   t.is(typeof db.getImage, 'function', 'debe ser una funcion')
   const image = fixtures.getImage()
   const created = await db.saveImage(image)
-  const result = await db.getImage(created.public_id)
+  const result = await db.getImage(created.publicId)
   t.deepEqual(created, result)
 
   //  manejo de errores a la hora de recibir alguno en especifico
-  const fn = () => {
-    throw new TypeError('Imagen no encontrada')
-  }
-  t.throws(() => {
-    fn()
-  }, db.getImage('foo'), /not found/)
+  // const fn = () => {
+  //   throw new TypeError('Imagen no encontrada')
+  // }
+  // t.throws(() => {
+  //   fn()
+  // }, db.getImage('foo'), /not found/)
 })
 
 test('lista todas las imagen', async t => {
@@ -144,8 +144,8 @@ test('obtener usuario', async t => {
 
   t.deepEqual(created, result)
 
-  //  de la misma forma espero recibir un usuario que existe en mi db
-  t.throws(Promise.reject(new Error('foo')), db.getUser('foo'), /not found/)
+  // //  de la misma forma espero recibir un usuario que existe en mi db
+  // t.throws(Promise.reject(new Error('foo')), db.getUser('foo'), /not found/)
 })
 
 test('autenticacion de usuario', async t => {
@@ -167,4 +167,32 @@ test('autenticacion de usuario', async t => {
 
   const failure = await db.authenticate('foo', 'bar')
   t.false(failure)
+})
+
+test('Listar imagen por usuario', async t => {
+  const db = t.context.db
+
+  t.is(typeof db.getImagesByUser, 'function', 'debe ser una funcion')
+  //  primero generamos las imagenes para despues guardarlas y casarla con el id del usuario
+  const images = fixtures.getImages(10)
+  //  creamos un id de usuario
+  const userId = uuid.uuid()
+  //  y creamos un número aleatorio para hacer la consulta
+  const random = Math.round(Math.random() * images.length)
+
+  //  después creamos un arreglo para guardar las imágenes
+  const saveImages = []
+  for (let i = 0; i < images.length; i++) {
+    if (i < random) {
+      images[i].userId = userId
+    }
+
+    saveImages.push(db.saveImage(images[i]))
+  }
+  await Promise.all(saveImages)
+
+  const result = await db.getImagesByUser(userId)
+
+  //  comparamos que la longitud del resultado sea igual al número aleatorio
+  t.is(result.length, random)
 })

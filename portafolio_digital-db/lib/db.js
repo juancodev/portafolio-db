@@ -53,7 +53,9 @@ class Db {
       if (dbTables.indexOf('images') === -1) {
         yield r.db(db).tableCreate('images').run(conn)
         yield r.db(db).table('images').indexCreate('createdAt').run(conn)
+        yield r.db(db).table('images').indexCreate('userId', { multi: true }).run(conn)
       }
+      //  con ese objeto multi: true, quiere decir que puedo obtener muchas imagenes con ese mismo userId
 
       //  y exactamente lo mismo para la tabla de usuarios
       if (dbTables.indexOf('users') === -1) {
@@ -107,7 +109,7 @@ class Db {
       //  Después creamos una corutina o promesa que se cumpla para obtener el id de la imagen antes de que sea insertada en nuestra db
       yield r.db(db).table('images').get(image.id).update({
         //  Con el método update podemos pasar una propiedad y también cambiar la propiedad
-        public_id: uuid.encode(image.id)
+        publicId: uuid.encode(image.id)
       }).run(conn)
 
       //  En este caso crearemos una constante que obtenga la promesa resuelta del id que va a obtener
@@ -279,6 +281,33 @@ class Db {
         return Promise.resolve(true)
       }
       return Promise.resolve(false)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  getImagesByUser (userId, password, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+
+    const connection = this.connection
+    const db = this.db
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+
+      //  debemos esperar a que los indices sean creados, ya que suele tardar un poco
+      yield r.db(db).table('images').indexWait().run(conn)
+      //  Y obtenemos el id del usuario y con el metodo getAll, le indicamos exactamente en que campo lo debe buscar
+      const images = yield r.db(db).table('images').getAll(userId, {
+        index: 'userId'
+      }).orderBy(r.desc('createAt')).run(conn)
+
+      const result = yield images.toArray()
+
+      return Promise.resolve(result)
     })
     //  Resolvemos todas las tareas con el callback async
     return Promise.resolve(tasks()).asCallback(callback)

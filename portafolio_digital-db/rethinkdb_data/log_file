@@ -1742,3 +1742,490 @@
 2021-01-27T22:49:54.920782400 40922.339961s notice: All client connections closed.
 2021-01-27T22:49:54.920794800 40922.339973s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2021-01-27T22:49:55.119468800 40922.538648s notice: Storage engine shut down.
+2021-01-31T00:52:41.679417020 0.203830s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-31T00:52:41.714983591 0.239393s notice: Running on Linux 5.8.0-41-generic x86_64
+2021-01-31T00:52:41.715083617 0.239490s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-db/portafolio-db/portafolio_digital-db/rethinkdb_data
+2021-01-31T00:52:41.915882828 0.440289s info: Automatically using cache size of 591 MB
+2021-01-31T00:52:41.967409550 0.491816s notice: Listening for intracluster connections on port 29015
+2021-01-31T00:52:44.169481713 2.693888s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: Starting a new Raft election for term 2.
+2021-01-31T00:52:44.757004514 3.281411s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: Starting a new Raft election for term 2.
+2021-01-31T00:52:45.239383862 3.763790s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: Starting a new Raft election for term 2.
+2021-01-31T00:52:45.977700752 4.502108s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: Starting a new Raft election for term 2.
+2021-01-31T00:52:46.802514156 5.326920s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: Starting a new Raft election for term 2.
+2021-01-31T00:52:48.311259336 6.835666s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: Starting a new Raft election for term 3.
+2021-01-31T00:52:49.264590450 7.788997s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: Starting a new Raft election for term 2.
+2021-01-31T00:52:49.870675720 8.395082s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: Starting a new Raft election for term 3.
+2021-01-31T00:52:50.549586486 9.073993s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: Starting a new Raft election for term 3.
+2021-01-31T00:52:51.864635818 10.389043s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: Starting a new Raft election for term 2.
+2021-01-31T00:52:51.903442118 10.427848s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: Starting a new Raft election for term 2.
+2021-01-31T00:52:52.970600982 11.495007s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: Starting a new Raft election for term 2.
+2021-01-31T00:52:53.578618406 12.103025s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: Starting a new Raft election for term 2.
+2021-01-31T00:52:53.980002843 12.504409s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: Starting a new Raft election for term 2.
+2021-01-31T00:52:55.034250850 13.558658s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: Starting a new Raft election for term 3.
+2021-01-31T00:52:55.458690919 13.983099s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: Starting a new Raft election for term 2.
+2021-01-31T00:52:56.604299274 15.128706s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: Starting a new Raft election for term 2.
+2021-01-31T00:52:57.357201561 15.881608s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: Starting a new Raft election for term 2.
+2021-01-31T00:52:58.711504294 17.235911s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: Starting a new Raft election for term 3.
+2021-01-31T00:52:59.736879725 18.261286s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: Starting a new Raft election for term 3.
+2021-01-31T00:52:59.931894274 18.456301s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: Starting a new Raft election for term 2.
+2021-01-31T00:53:01.005532832 19.529939s info: Table 55d804ee-db30-4839-a93b-19afd554056c: Starting a new Raft election for term 2.
+2021-01-31T00:53:01.987344050 20.511750s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: Starting a new Raft election for term 3.
+2021-01-31T00:53:02.494652501 21.019059s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: Starting a new Raft election for term 3.
+2021-01-31T00:53:03.776201448 22.300608s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: Starting a new Raft election for term 3.
+2021-01-31T00:53:04.023441225 22.547848s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: Starting a new Raft election for term 2.
+2021-01-31T00:53:05.923233839 24.447640s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: Starting a new Raft election for term 3.
+2021-01-31T00:53:06.975072678 25.499480s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: Starting a new Raft election for term 3.
+2021-01-31T00:53:07.285464471 25.809871s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: Starting a new Raft election for term 3.
+2021-01-31T00:53:08.428300994 26.952708s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: Starting a new Raft election for term 2.
+2021-01-31T00:53:09.091519198 27.615926s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: Starting a new Raft election for term 3.
+2021-01-31T00:53:10.414183958 28.938591s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: Starting a new Raft election for term 3.
+2021-01-31T00:53:10.630720888 29.155127s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: Starting a new Raft election for term 2.
+2021-01-31T00:53:11.922141455 30.446548s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: Starting a new Raft election for term 3.
+2021-01-31T00:53:13.497449695 32.021856s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: Starting a new Raft election for term 2.
+2021-01-31T00:53:14.496017565 33.020424s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: Starting a new Raft election for term 2.
+2021-01-31T00:53:15.312426897 33.836833s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: Starting a new Raft election for term 3.
+2021-01-31T00:53:16.534535892 35.058943s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: Starting a new Raft election for term 2.
+2021-01-31T00:53:16.734586715 35.258993s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: Starting a new Raft election for term 3.
+2021-01-31T00:53:18.289206171 36.813612s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: Starting a new Raft election for term 2.
+2021-01-31T00:53:18.406826646 36.931234s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: Starting a new Raft election for term 2.
+2021-01-31T00:53:19.864794103 38.389200s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: Starting a new Raft election for term 3.
+2021-01-31T00:53:20.771454035 39.295860s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: Starting a new Raft election for term 3.
+2021-01-31T00:53:21.524655616 40.049062s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: Starting a new Raft election for term 3.
+2021-01-31T00:53:22.290673992 40.815080s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: Starting a new Raft election for term 3.
+2021-01-31T00:53:23.822709520 42.347117s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: Starting a new Raft election for term 3.
+2021-01-31T00:53:24.926838499 43.451245s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: Starting a new Raft election for term 3.
+2021-01-31T00:53:25.353629802 43.878036s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: Starting a new Raft election for term 3.
+2021-01-31T00:53:26.667533537 45.191940s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: Starting a new Raft election for term 2.
+2021-01-31T00:53:27.336164121 45.860570s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: Starting a new Raft election for term 2.
+2021-01-31T00:53:28.255376293 46.779783s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: Starting a new Raft election for term 3.
+2021-01-31T00:53:29.065386649 47.589793s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: Starting a new Raft election for term 2.
+2021-01-31T00:53:30.574272326 49.098679s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: Starting a new Raft election for term 3.
+2021-01-31T00:53:31.260062704 49.784469s notice: Listening for client driver connections on port 28015
+2021-01-31T00:53:31.260102097 49.784508s notice: Listening for administrative HTTP connections on port 8080
+2021-01-31T00:53:31.260107219 49.784513s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-01-31T00:53:31.260110982 49.784517s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-01-31T00:53:31.260154861 49.784561s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-01-31T00:53:31.260159288 49.784565s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-31T00:53:31.260163429 49.784569s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-31T00:53:31.301196495 49.825603s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:31.356373072 49.880779s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:53:31.412142457 49.936549s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:31.467268791 49.991675s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:31.521420749 50.045827s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: Starting a new Raft election for term 3.
+2021-01-31T00:53:31.667280571 50.191687s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:31.711824523 50.236231s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: This server is Raft leader for term 3. Latest log index is 8.
+2021-01-31T00:53:31.756361935 50.280769s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:53:31.800889037 50.325296s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: This server is Raft leader for term 3. Latest log index is 8.
+2021-01-31T00:53:31.845327879 50.369734s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: This server is Raft leader for term 3. Latest log index is 8.
+2021-01-31T00:53:31.889755852 50.414162s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:31.945299561 50.469706s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:32.000946689 50.525354s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:32.054680508 50.579087s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: Starting a new Raft election for term 3.
+2021-01-31T00:53:32.056261813 50.580668s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:53:32.112126749 50.636534s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:32.167752997 50.692160s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:32.223321592 50.747729s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:32.278919147 50.803326s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:32.334205504 50.858612s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:32.389739988 50.914146s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T00:53:32.445280948 50.969687s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T00:53:32.500896044 51.025302s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:32.556558472 51.080965s info: Table 55d804ee-db30-4839-a93b-19afd554056c: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:32.612043233 51.136449s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:32.712321734 51.236729s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T00:53:32.767605649 51.292013s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: This server is Raft leader for term 3. Latest log index is 8.
+2021-01-31T00:53:32.823259119 51.347666s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:32.878827159 51.403234s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:32.934496129 51.458903s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T00:53:32.989940206 51.514347s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T00:53:33.045544526 51.569951s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:33.101161129 51.625568s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T00:53:33.156478164 51.680885s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T00:53:33.162001203 51.686408s info: Table fa77df82-d616-415b-95e7-606b09a5a830: Starting a new Raft election for term 2.
+2021-01-31T00:53:33.212122923 51.736530s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:53:33.267600921 51.792008s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:33.323376863 51.847784s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:33.378897084 51.903304s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:33.456588306 51.980995s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T00:53:33.512341484 52.036748s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:33.567586539 52.091993s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:33.623144726 52.147551s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:53:33.678882339 52.203289s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:33.889855801 52.414262s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: This server is Raft leader for term 3. Latest log index is 8.
+2021-01-31T00:53:33.945667619 52.470074s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T00:53:34.001072193 52.525479s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:34.056657530 52.581064s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:34.112001181 52.636407s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: This server is Raft leader for term 3. Latest log index is 8.
+2021-01-31T00:53:34.167599116 52.692006s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:34.223272202 52.747679s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:34.278937291 52.803344s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:53:34.334515061 52.858922s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: This server is Raft leader for term 2. Latest log index is 4.
+2021-01-31T00:53:34.401328185 52.925735s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:34.456968131 52.981375s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T00:53:34.512273409 53.036680s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:35.090114478 53.614521s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T00:53:35.745701712 54.270108s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T00:53:37.079212984 55.603620s info: Table fa77df82-d616-415b-95e7-606b09a5a830: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T00:55:02.083111968 140.607518s info: Table 8a920c2d-2daa-4410-ab0a-d6d69edcb826: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.083807505 140.608214s info: Table 8a920c2d-2daa-4410-ab0a-d6d69edcb826: Added replica on this server.
+2021-01-31T00:55:02.303886574 140.828293s info: Table 11ac1c8d-87ef-4c0e-b26e-fee13a5fb18a: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.304430204 140.828837s info: Table 11ac1c8d-87ef-4c0e-b26e-fee13a5fb18a: Added replica on this server.
+2021-01-31T00:55:02.444668773 140.969075s info: Table 0c6f33fe-4545-46a9-b4ce-9c803b109a5c: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.490426285 141.014833s info: Table 7bc34824-64f5-4b4b-ab9d-1175ff606dbc: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.677443414 141.201850s info: Table 0c6f33fe-4545-46a9-b4ce-9c803b109a5c: Added replica on this server.
+2021-01-31T00:55:02.677497088 141.201903s info: Table c26863e9-3d3f-49d7-a0ad-b72d3b8b245e: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.677499253 141.201905s info: Table 47117acc-714d-4ade-a90b-f3b974bee32e: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.700072500 141.224479s info: Table 7bc34824-64f5-4b4b-ab9d-1175ff606dbc: Added replica on this server.
+2021-01-31T00:55:02.700240914 141.224647s info: Table c26863e9-3d3f-49d7-a0ad-b72d3b8b245e: Added replica on this server.
+2021-01-31T00:55:02.700379874 141.224787s info: Table 47117acc-714d-4ade-a90b-f3b974bee32e: Added replica on this server.
+2021-01-31T00:55:02.700576836 141.224983s info: Table bafa7a34-b96f-44df-b92f-2c909a0d0d44: Starting a new Raft election for term 1.
+2021-01-31T00:55:02.701563278 141.225970s info: Table bafa7a34-b96f-44df-b92f-2c909a0d0d44: Added replica on this server.
+2021-01-31T00:55:02.743784756 141.268191s info: Table 8a920c2d-2daa-4410-ab0a-d6d69edcb826: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:02.788268199 141.312675s info: Table 11ac1c8d-87ef-4c0e-b26e-fee13a5fb18a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:02.832729782 141.357136s info: Table 0c6f33fe-4545-46a9-b4ce-9c803b109a5c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:03.021345678 141.545752s info: Table 7bc34824-64f5-4b4b-ab9d-1175ff606dbc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:03.065800023 141.590206s info: Table c26863e9-3d3f-49d7-a0ad-b72d3b8b245e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:03.110419341 141.634826s info: Table 47117acc-714d-4ade-a90b-f3b974bee32e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:03.166073152 141.690480s info: Table bafa7a34-b96f-44df-b92f-2c909a0d0d44: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.548828670 159.073235s info: Table d33165d6-52e4-44f1-b8d4-7fbb0882838f: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.571071855 159.095478s info: Table d33165d6-52e4-44f1-b8d4-7fbb0882838f: Added replica on this server.
+2021-01-31T00:55:20.571115369 159.095521s info: Table 9971652e-613f-4462-9fc3-fe8d66341fe1: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.593951079 159.118358s info: Table cafed756-c306-4f60-8e31-5efc15e0709b: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.594114328 159.118521s info: Table 97a4991c-ebc4-4ed5-9e3d-1cbf9dad5cc9: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.616407083 159.140813s info: Table 9971652e-613f-4462-9fc3-fe8d66341fe1: Added replica on this server.
+2021-01-31T00:55:20.616459811 159.140866s info: Table 785c444a-16ae-465b-ac29-17d525d314dd: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.639407596 159.163814s info: Table cafed756-c306-4f60-8e31-5efc15e0709b: Added replica on this server.
+2021-01-31T00:55:20.639513226 159.163920s info: Table 97a4991c-ebc4-4ed5-9e3d-1cbf9dad5cc9: Added replica on this server.
+2021-01-31T00:55:20.639658891 159.164065s info: Table c1593f6b-f41c-4aad-b46c-cbf219ebe845: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.661743944 159.186151s info: Table 785c444a-16ae-465b-ac29-17d525d314dd: Added replica on this server.
+2021-01-31T00:55:20.661932299 159.186339s info: Table c1593f6b-f41c-4aad-b46c-cbf219ebe845: Added replica on this server.
+2021-01-31T00:55:20.661958774 159.186365s info: Table 33520194-5671-4c70-8e92-69fb52d71f63: Starting a new Raft election for term 1.
+2021-01-31T00:55:20.662456939 159.186863s info: Table 33520194-5671-4c70-8e92-69fb52d71f63: Added replica on this server.
+2021-01-31T00:55:20.689944009 159.214350s info: Table d33165d6-52e4-44f1-b8d4-7fbb0882838f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.712305862 159.236712s info: Table 9971652e-613f-4462-9fc3-fe8d66341fe1: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.734667639 159.259074s info: Table cafed756-c306-4f60-8e31-5efc15e0709b: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.756739318 159.281146s info: Table 97a4991c-ebc4-4ed5-9e3d-1cbf9dad5cc9: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.778960664 159.303367s info: Table 785c444a-16ae-465b-ac29-17d525d314dd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.801138509 159.325545s info: Table c1593f6b-f41c-4aad-b46c-cbf219ebe845: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T00:55:20.823210995 159.347617s info: Table 33520194-5671-4c70-8e92-69fb52d71f63: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T08:10:29.849091774 26268.373498s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-01-31T08:10:29.852625400 26268.377032s notice: Shutting down client connections...
+2021-01-31T08:10:29.852740870 26268.377147s notice: All client connections closed.
+2021-01-31T08:10:29.852744992 26268.377151s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-01-31T08:10:30.111868926 26268.636275s notice: Storage engine shut down.
+2021-01-31T12:55:36.175306417 0.262116s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-01-31T12:55:36.230461324 0.317263s notice: Running on Linux 5.8.0-41-generic x86_64
+2021-01-31T12:55:36.230607374 0.317407s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-db/portafolio-db/portafolio_digital-db/rethinkdb_data
+2021-01-31T12:55:36.607282293 0.694082s info: Automatically using cache size of 460 MB
+2021-01-31T12:55:36.649215677 0.736016s notice: Listening for intracluster connections on port 29015
+2021-01-31T12:55:37.950110226 2.036910s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.153325546 2.240126s info: Table 0c6f33fe-4545-46a9-b4ce-9c803b109a5c: Starting a new Raft election for term 2.
+2021-01-31T12:55:38.568762314 2.655562s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.578548933 2.665349s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.750900809 2.837701s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: Starting a new Raft election for term 4.
+2021-01-31T12:55:38.753887174 2.840687s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: Starting a new Raft election for term 4.
+2021-01-31T12:55:38.774389245 2.861189s info: Table 11ac1c8d-87ef-4c0e-b26e-fee13a5fb18a: Starting a new Raft election for term 2.
+2021-01-31T12:55:38.782181157 2.868981s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.801209191 2.888009s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: Starting a new Raft election for term 4.
+2021-01-31T12:55:38.837667211 2.924467s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.860046511 2.946846s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: Starting a new Raft election for term 4.
+2021-01-31T12:55:38.873895556 2.960696s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.889144755 2.975944s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.898347645 2.985147s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: Starting a new Raft election for term 3.
+2021-01-31T12:55:38.907429744 2.994229s info: Table 33520194-5671-4c70-8e92-69fb52d71f63: Starting a new Raft election for term 2.
+2021-01-31T12:55:38.995700736 3.082501s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.051763924 3.138564s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.078763341 3.165563s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.088032315 3.174832s info: Table 55d804ee-db30-4839-a93b-19afd554056c: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.168780970 3.255581s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.175655230 3.262455s info: Table 47117acc-714d-4ade-a90b-f3b974bee32e: Starting a new Raft election for term 2.
+2021-01-31T12:55:39.244094424 3.330894s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.326991965 3.413792s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: Starting a new Raft election for term 4.
+2021-01-31T12:55:39.409401183 3.496201s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.446956659 3.533756s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: Starting a new Raft election for term 4.
+2021-01-31T12:55:39.504178368 3.590979s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.537328974 3.624129s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: Starting a new Raft election for term 4.
+2021-01-31T12:55:39.559855762 3.646656s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: Starting a new Raft election for term 4.
+2021-01-31T12:55:39.572583026 3.659383s info: Table 7bc34824-64f5-4b4b-ab9d-1175ff606dbc: Starting a new Raft election for term 2.
+2021-01-31T12:55:39.620694916 3.707495s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: Starting a new Raft election for term 4.
+2021-01-31T12:55:39.623775602 3.710575s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.666829598 3.753630s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: Starting a new Raft election for term 4.
+2021-01-31T12:55:39.702940975 3.789741s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.714233747 3.801034s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: Starting a new Raft election for term 3.
+2021-01-31T12:55:39.911539037 3.998339s info: Table 785c444a-16ae-465b-ac29-17d525d314dd: Starting a new Raft election for term 2.
+2021-01-31T12:55:39.911708289 3.998508s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.010847499 4.097647s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.055987127 4.142787s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.090489919 4.177290s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.107661347 4.194461s info: Table 8a920c2d-2daa-4410-ab0a-d6d69edcb826: Starting a new Raft election for term 2.
+2021-01-31T12:55:40.114695841 4.201496s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.212626060 4.299426s info: Table 97a4991c-ebc4-4ed5-9e3d-1cbf9dad5cc9: Starting a new Raft election for term 2.
+2021-01-31T12:55:40.245306305 4.332106s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.323332735 4.410133s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.427136166 4.513936s notice: Listening for client driver connections on port 28015
+2021-01-31T12:55:40.427178608 4.513978s notice: Listening for administrative HTTP connections on port 8080
+2021-01-31T12:55:40.427181220 4.513981s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-01-31T12:55:40.427183397 4.513983s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-01-31T12:55:40.427212295 4.514012s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-01-31T12:55:40.427216604 4.514016s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-01-31T12:55:40.427220164 4.514020s notice: Server ready, "jmontilla_VIT_P2402_8ff" 387bfcc6-6f19-43cb-b1f8-3933407e9c8d
+2021-01-31T12:55:40.455661328 4.542461s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: Starting a new Raft election for term 3.
+2021-01-31T12:55:40.466808792 4.553609s info: Table 0edee34a-90f4-4fac-9e1c-72e0cba15f61: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:55:40.477938795 4.564739s info: Table 0c6f33fe-4545-46a9-b4ce-9c803b109a5c: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:40.489070742 4.575870s info: Table 1dd20d6b-5518-4da4-8d38-47fd48d11613: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:40.500276485 4.587076s info: Table 16482c66-b26f-4aa0-8277-4869642c40e6: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.573650623 4.660450s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.622595906 4.709396s info: Table 1ed0e180-f7d2-47e6-bbb2-ebb8433a85ed: This server is Raft leader for term 4. Latest log index is 11.
+2021-01-31T12:55:40.633700354 4.720500s info: Table 1692d17a-2d8a-42e9-9c8a-1fa8e693baa1: This server is Raft leader for term 4. Latest log index is 11.
+2021-01-31T12:55:40.644507269 4.731307s info: Table 11ac1c8d-87ef-4c0e-b26e-fee13a5fb18a: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:40.655630260 4.742430s info: Table 0fe474d1-0cfb-4537-9b86-98576e7d7047: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:40.666814389 4.753614s info: Table 3a9b50c7-5cdb-4395-974a-7d589305b58e: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:40.678087348 4.764887s info: Table 3c5b5d8d-ac3d-43f0-8566-07cb8e2b34bf: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.689162378 4.775962s info: Table 1dd9f47d-505b-44c1-b5b3-fe6d186c6491: This server is Raft leader for term 4. Latest log index is 11.
+2021-01-31T12:55:40.700314243 4.787114s info: Table 4316784a-a1dd-4d58-8b07-8510b37d6590: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.711453911 4.798254s info: Table 2a6270af-333b-4688-8795-eacd3004f3b2: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:55:40.716391427 4.803191s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: Starting a new Raft election for term 3.
+2021-01-31T12:55:40.722316062 4.809116s info: Table 146eadea-fe76-4c4a-9cad-e33886610f37: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.726929076 4.813729s info: Table bafa7a34-b96f-44df-b92f-2c909a0d0d44: Starting a new Raft election for term 2.
+2021-01-31T12:55:40.733459828 4.820260s info: Table 33520194-5671-4c70-8e92-69fb52d71f63: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:40.744606069 4.831406s info: Table 1132bd49-cc9e-4255-aff3-e51f6a8e9dcf: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.755549023 4.842349s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: Starting a new Raft election for term 3.
+2021-01-31T12:55:40.755764069 4.842564s info: Table 4f641458-c134-4f8b-b69b-75c84561ac72: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.764557227 4.851357s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: Starting a new Raft election for term 4.
+2021-01-31T12:55:40.766929854 4.853729s info: Table 3878c8b4-7583-4d68-81d1-a421664b7e3b: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:40.768922287 4.855722s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: Starting a new Raft election for term 3.
+2021-01-31T12:55:40.778075387 4.864875s info: Table 55d804ee-db30-4839-a93b-19afd554056c: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:55:40.789247853 4.876048s info: Table 394a669f-4b69-4aaf-a1ef-0ea658c801a7: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.800065556 4.886865s info: Table 47117acc-714d-4ade-a90b-f3b974bee32e: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:40.811221500 4.898021s info: Table 24a3b407-c4f8-4fd4-a642-e9f43873a079: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.822391504 4.909191s info: Table 461947e1-0b1f-497b-a235-24d6e6ef1b07: This server is Raft leader for term 4. Latest log index is 8.
+2021-01-31T12:55:40.833581661 4.920381s info: Table 25a39684-94e8-4c27-8583-a8e7e675e3d6: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.844746924 4.931547s info: Table 625a6ec7-6485-4df2-b817-6f9b398dc581: This server is Raft leader for term 4. Latest log index is 8.
+2021-01-31T12:55:40.855870807 4.942671s info: Table 78f7aa34-4aa2-4ade-9ae6-8c966579ec3f: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.867008419 4.953808s info: Table 6968fb11-4485-432c-aeaf-ad8ad05579f3: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:40.877838348 4.964638s info: Table 64d9bd78-e1c8-4960-b931-e6effd78e082: This server is Raft leader for term 4. Latest log index is 11.
+2021-01-31T12:55:40.889001734 4.975801s info: Table 7bc34824-64f5-4b4b-ab9d-1175ff606dbc: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:40.900223449 4.987023s info: Table 74f7a475-aef9-471d-b187-18156d8ea847: This server is Raft leader for term 4. Latest log index is 8.
+2021-01-31T12:55:40.910648286 4.997448s info: Table 9971652e-613f-4462-9fc3-fe8d66341fe1: Starting a new Raft election for term 2.
+2021-01-31T12:55:40.911323311 4.998123s info: Table 3ba0625c-ef40-4563-987d-831cd93e84a3: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:55:40.922529639 5.009329s info: Table 480f4f77-2292-4945-adaa-292e8f54b51a: This server is Raft leader for term 4. Latest log index is 8.
+2021-01-31T12:55:40.933643319 5.020443s info: Table 852398cf-c000-4e5f-9a63-ebf7d1b7b256: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:40.944826165 5.031626s info: Table 6893bac1-eb38-463e-a2b2-c6b794fe94d6: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:40.955679893 5.042480s info: Table 785c444a-16ae-465b-ac29-17d525d314dd: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:40.966803954 5.053604s info: Table 86776a21-fa93-43c8-b291-d32c0be0b43d: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:40.977946623 5.064746s info: Table 5c1e945e-2b00-4ff8-924c-8a3b5902f5c4: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:40.989118999 5.075919s info: Table 7b02c407-df88-4271-9b67-f6d52e6e4ac7: This server is Raft leader for term 4. Latest log index is 8.
+2021-01-31T12:55:41.000288165 5.087088s info: Table 9334f47f-cb96-4ac8-a1b8-e5ced0b47a5c: This server is Raft leader for term 4. Latest log index is 9.
+2021-01-31T12:55:41.011452552 5.098252s info: Table 8a920c2d-2daa-4410-ab0a-d6d69edcb826: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T12:55:41.023082014 5.109882s info: Table 6ea7d73f-2ea8-4d18-a49d-28d021f2b54c: This server is Raft leader for term 4. Latest log index is 8.
+2021-01-31T12:55:41.033414103 5.120214s info: Table 97a4991c-ebc4-4ed5-9e3d-1cbf9dad5cc9: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:41.100261639 5.187062s info: Table 9c26559a-415e-4c07-89d0-ede3eddd31b7: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:41.111362914 5.198163s info: Table 7b58cc05-f5ae-4350-9236-e0a182266eb0: This server is Raft leader for term 4. Latest log index is 9.
+2021-01-31T12:55:41.139071984 5.225872s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: Starting a new Raft election for term 3.
+2021-01-31T12:55:41.142153433 5.228953s info: Table c26863e9-3d3f-49d7-a0ad-b72d3b8b245e: Starting a new Raft election for term 2.
+2021-01-31T12:55:41.155932603 5.242732s info: Table 8a5c179b-e407-4cbb-8859-cee8184caacc: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:55:41.211527773 5.298327s info: Table bd4b73fd-93c1-4e0c-8e71-d22b879f181d: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:41.269692830 5.356493s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.272482537 5.359282s info: Table c1593f6b-f41c-4aad-b46c-cbf219ebe845: Starting a new Raft election for term 2.
+2021-01-31T12:55:41.316660401 5.403460s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.322327413 5.409127s info: Table 9df5d026-37d4-4834-a0ff-f553db769ba3: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:41.324371796 5.411171s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.344675158 5.431475s info: Table bafa7a34-b96f-44df-b92f-2c909a0d0d44: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:41.378106231 5.464906s info: Table 9901ec27-6711-49df-9d9d-253ec9d7f1f7: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:55:41.400146053 5.486946s info: Table c197c3e8-9cda-45c8-8af2-1b323a96399e: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:41.406729179 5.493529s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.419570925 5.506371s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.422437457 5.509237s info: Table 90c1ed30-5d3d-4400-a58a-68b8e40a8ce1: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:41.513716008 5.600516s info: Table d33165d6-52e4-44f1-b8d4-7fbb0882838f: Starting a new Raft election for term 2.
+2021-01-31T12:55:41.595273527 5.682073s info: Table cafed756-c306-4f60-8e31-5efc15e0709b: Starting a new Raft election for term 2.
+2021-01-31T12:55:41.644619436 5.731419s info: Table 9971652e-613f-4462-9fc3-fe8d66341fe1: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T12:55:41.696937296 5.783737s info: Table fa77df82-d616-415b-95e7-606b09a5a830: Starting a new Raft election for term 3.
+2021-01-31T12:55:41.701731896 5.788532s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.770750301 5.857550s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.853965385 5.940765s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: Starting a new Raft election for term 3.
+2021-01-31T12:55:41.857556490 5.944356s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: Starting a new Raft election for term 3.
+2021-01-31T12:55:41.897840053 5.984640s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: Starting a new Raft election for term 4.
+2021-01-31T12:55:41.922611194 6.009411s info: Table a5e68a26-22a9-45e5-921b-229557e4e8bd: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:41.944847766 6.031648s info: Table c26863e9-3d3f-49d7-a0ad-b72d3b8b245e: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:42.011681784 6.098482s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: Starting a new Raft election for term 4.
+2021-01-31T12:55:42.195289173 6.282089s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: Starting a new Raft election for term 3.
+2021-01-31T12:55:42.344882081 6.431682s info: Table e7d81eb2-d6a5-4fc0-b40f-96eb6fe1ed28: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:42.367181613 6.453982s info: Table c1593f6b-f41c-4aad-b46c-cbf219ebe845: This server is Raft leader for term 2. Latest log index is 2.
+2021-01-31T12:55:42.578197817 6.664998s info: Table d4e1316b-bceb-49b5-a842-6eeb2c156d1f: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:42.622607823 6.709408s info: Table b00ca1d2-4eac-4bf6-9002-5ef004d16ea5: This server is Raft leader for term 4. Latest log index is 11.
+2021-01-31T12:55:42.800624087 6.887424s info: Table b9fe5c37-a4fc-4c04-a87c-f3c48afe1ea3: This server is Raft leader for term 4. Latest log index is 9.
+2021-01-31T12:55:42.845054728 6.931855s info: Table c3d14806-3268-4a2a-b9dd-f2161a1f4058: This server is Raft leader for term 4. Latest log index is 11.
+2021-01-31T12:55:43.000614467 7.087414s info: Table d33165d6-52e4-44f1-b8d4-7fbb0882838f: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T12:55:43.089407280 7.176207s info: Table cafed756-c306-4f60-8e31-5efc15e0709b: This server is Raft leader for term 2. Latest log index is 3.
+2021-01-31T12:55:43.378461072 7.465261s info: Table fa77df82-d616-415b-95e7-606b09a5a830: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:43.422687881 7.509488s info: Table f2bb29fc-671d-47c2-8b2e-a10807f28a55: This server is Raft leader for term 4. Latest log index is 9.
+2021-01-31T12:55:43.511819362 7.598619s info: Table c49b66ad-ba6a-4317-9ffa-1cbdbab944ec: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:43.767164823 7.853965s info: Table d6b2f8c7-5eca-47f7-ae36-eac47aaae207: This server is Raft leader for term 3. Latest log index is 6.
+2021-01-31T12:55:43.811822328 7.898623s info: Table d88d7c69-609d-460c-8af8-9bf03e5ab38c: This server is Raft leader for term 3. Latest log index is 7.
+2021-01-31T12:55:43.856300822 7.943101s info: Table f25746fd-dfa3-4e23-9c61-d433623d6930: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:44.145035194 8.231835s info: Table ede3f475-07b8-44d1-b037-9c1a36cf977c: This server is Raft leader for term 4. Latest log index is 10.
+2021-01-31T12:55:44.378475563 8.465276s info: Table ec8ad305-2f20-4261-a857-2c5ec284746f: This server is Raft leader for term 3. Latest log index is 5.
+2021-01-31T12:57:49.497208387 133.584009s info: Table a6341dc3-fc1c-4d80-b794-53546e27b5ba: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.497883086 133.584683s info: Table a6341dc3-fc1c-4d80-b794-53546e27b5ba: Added replica on this server.
+2021-01-31T12:57:49.519460087 133.606260s info: Table 611ce44a-0a37-450e-8643-8ad235067215: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.519540387 133.606340s info: Table c5ab9849-5bdb-4432-8f75-6e9d4e480e66: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.542094944 133.628895s info: Table 3c0cfaef-fe6b-42c8-95f6-f880277fbcb2: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.565138992 133.651939s info: Table 0f515ff3-2a48-41e6-a8b5-4c19c802ef38: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.565241424 133.652041s info: Table 12ac7294-b1d2-4da9-b298-019838d12d97: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.732351745 133.819151s info: Table 611ce44a-0a37-450e-8643-8ad235067215: Added replica on this server.
+2021-01-31T12:57:49.732537090 133.819337s info: Table c5ab9849-5bdb-4432-8f75-6e9d4e480e66: Added replica on this server.
+2021-01-31T12:57:49.732609507 133.819409s info: Table 3c0cfaef-fe6b-42c8-95f6-f880277fbcb2: Added replica on this server.
+2021-01-31T12:57:49.732724650 133.819524s info: Table 0f515ff3-2a48-41e6-a8b5-4c19c802ef38: Added replica on this server.
+2021-01-31T12:57:49.732793861 133.819593s info: Table 12ac7294-b1d2-4da9-b298-019838d12d97: Added replica on this server.
+2021-01-31T12:57:49.732796355 133.819596s info: Table edc987d5-e050-41e5-8bf3-3a424bc5736d: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.755122593 133.841923s info: Table edc987d5-e050-41e5-8bf3-3a424bc5736d: Added replica on this server.
+2021-01-31T12:57:49.755252675 133.842052s info: Table 164b978d-06da-4c10-9a22-6c466be21d84: Starting a new Raft election for term 1.
+2021-01-31T12:57:49.755777056 133.842577s info: Table 164b978d-06da-4c10-9a22-6c466be21d84: Added replica on this server.
+2021-01-31T12:57:50.723038897 134.809839s info: Table a6341dc3-fc1c-4d80-b794-53546e27b5ba: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:50.889675242 134.976475s info: Table 611ce44a-0a37-450e-8643-8ad235067215: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:50.911918276 134.998719s info: Table c5ab9849-5bdb-4432-8f75-6e9d4e480e66: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:50.934078450 135.020878s info: Table 3c0cfaef-fe6b-42c8-95f6-f880277fbcb2: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:51.167690024 135.254490s info: Table 0f515ff3-2a48-41e6-a8b5-4c19c802ef38: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:51.189573042 135.276373s info: Table 12ac7294-b1d2-4da9-b298-019838d12d97: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:51.211937729 135.298738s info: Table edc987d5-e050-41e5-8bf3-3a424bc5736d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:57:51.234342480 135.321143s info: Table 164b978d-06da-4c10-9a22-6c466be21d84: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.342137296 201.428937s info: Table 40047e8c-6a41-4236-9105-b7c5ec0d23cd: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.363244141 201.450044s info: Table 40047e8c-6a41-4236-9105-b7c5ec0d23cd: Added replica on this server.
+2021-01-31T12:58:57.363295126 201.450095s info: Table 664a9ee1-24af-4166-9e35-17e295740d9e: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.385544749 201.472345s info: Table 4d0561f0-222b-49b7-a8d9-93983256c11f: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.385753481 201.472553s info: Table 48364853-0dc4-442b-877e-0f6bf8d5f4d8: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.386208621 201.473008s info: Table 664a9ee1-24af-4166-9e35-17e295740d9e: Added replica on this server.
+2021-01-31T12:58:57.386287304 201.473087s info: Table c9d8ef42-040e-45af-8c0b-9e2b1bcf888e: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.408923368 201.495723s info: Table c3932404-2745-48ae-b38e-0c76cb1cfe10: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.409202704 201.496002s info: Table 4d0561f0-222b-49b7-a8d9-93983256c11f: Added replica on this server.
+2021-01-31T12:58:57.409312376 201.496112s info: Table 48364853-0dc4-442b-877e-0f6bf8d5f4d8: Added replica on this server.
+2021-01-31T12:58:57.409492572 201.496292s info: Table c9d8ef42-040e-45af-8c0b-9e2b1bcf888e: Added replica on this server.
+2021-01-31T12:58:57.409706669 201.496506s info: Table c3932404-2745-48ae-b38e-0c76cb1cfe10: Added replica on this server.
+2021-01-31T12:58:57.409766798 201.496566s info: Table a3a7f392-c309-4591-a1b7-32922eda9678: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.409767869 201.496567s info: Table 8fa338c5-6d29-43cd-a1ef-2675d9a8eae5: Starting a new Raft election for term 1.
+2021-01-31T12:58:57.409857456 201.496660s info: Table a3a7f392-c309-4591-a1b7-32922eda9678: Added replica on this server.
+2021-01-31T12:58:57.410029147 201.496829s info: Table 8fa338c5-6d29-43cd-a1ef-2675d9a8eae5: Added replica on this server.
+2021-01-31T12:58:57.506847135 201.593647s info: Table 40047e8c-6a41-4236-9105-b7c5ec0d23cd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.562168496 201.648968s info: Table 664a9ee1-24af-4166-9e35-17e295740d9e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.617853738 201.704654s info: Table 4d0561f0-222b-49b7-a8d9-93983256c11f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.673576252 201.760376s info: Table 48364853-0dc4-442b-877e-0f6bf8d5f4d8: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.729036476 201.815836s info: Table c9d8ef42-040e-45af-8c0b-9e2b1bcf888e: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.773469054 201.860269s info: Table c3932404-2745-48ae-b38e-0c76cb1cfe10: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.818012295 201.904812s info: Table a3a7f392-c309-4591-a1b7-32922eda9678: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:58:57.873409081 201.960209s info: Table 8fa338c5-6d29-43cd-a1ef-2675d9a8eae5: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.111017688 219.197818s info: Table 7c109e01-62e0-4329-9727-806de4ca2d9c: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.133596032 219.220396s info: Table 7c109e01-62e0-4329-9727-806de4ca2d9c: Added replica on this server.
+2021-01-31T12:59:15.133617750 219.220417s info: Table b2cbc5d9-d3e6-4cdd-8114-5d7b46686da8: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.133671889 219.220471s info: Table 1398fea8-29c3-40ad-a875-fc4cf1b1e5d6: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.133672975 219.220472s info: Table 01dc2835-6784-4347-8dcf-0e69b6614aac: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.156642508 219.243442s info: Table e87b86bf-880d-4653-b3ca-1fec2d4a1e86: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.156889550 219.243689s info: Table b2cbc5d9-d3e6-4cdd-8114-5d7b46686da8: Added replica on this server.
+2021-01-31T12:59:15.156983149 219.243783s info: Table 1398fea8-29c3-40ad-a875-fc4cf1b1e5d6: Added replica on this server.
+2021-01-31T12:59:15.157116090 219.243916s info: Table 01dc2835-6784-4347-8dcf-0e69b6614aac: Added replica on this server.
+2021-01-31T12:59:15.157199987 219.244000s info: Table e87b86bf-880d-4653-b3ca-1fec2d4a1e86: Added replica on this server.
+2021-01-31T12:59:15.157266744 219.244066s info: Table cf7cd786-9131-4dd4-9bca-4768c9a0ddbc: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.157320422 219.244120s info: Table c5fbf8dc-26d1-4b88-baa6-c725ede8385a: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.179145900 219.265946s info: Table cf7cd786-9131-4dd4-9bca-4768c9a0ddbc: Added replica on this server.
+2021-01-31T12:59:15.179267213 219.266067s info: Table c5fbf8dc-26d1-4b88-baa6-c725ede8385a: Added replica on this server.
+2021-01-31T12:59:15.179451014 219.266251s info: Table d8695269-fe61-410d-afad-1518da9fc626: Starting a new Raft election for term 1.
+2021-01-31T12:59:15.179972274 219.266772s info: Table d8695269-fe61-410d-afad-1518da9fc626: Added replica on this server.
+2021-01-31T12:59:15.230646452 219.317447s info: Table 7c109e01-62e0-4329-9727-806de4ca2d9c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.286062076 219.372862s info: Table b2cbc5d9-d3e6-4cdd-8114-5d7b46686da8: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.341802887 219.428603s info: Table 1398fea8-29c3-40ad-a875-fc4cf1b1e5d6: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.397587656 219.484388s info: Table 01dc2835-6784-4347-8dcf-0e69b6614aac: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.452925059 219.539725s info: Table e87b86bf-880d-4653-b3ca-1fec2d4a1e86: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.508577248 219.595378s info: Table cf7cd786-9131-4dd4-9bca-4768c9a0ddbc: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.563968196 219.650768s info: Table c5fbf8dc-26d1-4b88-baa6-c725ede8385a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:15.652699405 219.739499s info: Table d8695269-fe61-410d-afad-1518da9fc626: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.719632552 261.806432s info: Table 6600083e-d904-425d-907c-8b29a27c88bd: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.720043316 261.806843s info: Table 6600083e-d904-425d-907c-8b29a27c88bd: Added replica on this server.
+2021-01-31T12:59:57.742188822 261.828989s info: Table 3767c2b0-b287-49e7-896f-5648cc18d7bd: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.742198033 261.828997s info: Table 1e9bb07c-d211-48ba-8461-76a08789735c: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.742201204 261.829001s info: Table 9334c02b-7c5a-4434-9eda-c461d1a6c3dd: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.765212014 261.852012s info: Table ff48e674-6ba5-4072-9c33-74fe10873a8f: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.765605235 261.852405s info: Table 3767c2b0-b287-49e7-896f-5648cc18d7bd: Added replica on this server.
+2021-01-31T12:59:57.765818379 261.852618s info: Table 1e9bb07c-d211-48ba-8461-76a08789735c: Added replica on this server.
+2021-01-31T12:59:57.765912767 261.852712s info: Table 9334c02b-7c5a-4434-9eda-c461d1a6c3dd: Added replica on this server.
+2021-01-31T12:59:57.765916716 261.852716s info: Table e196f148-5db5-44f3-8699-d962e167a3a7: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.766013065 261.852813s info: Table 795342af-c34a-44c7-9fab-f26a671f0fd9: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.766124219 261.852924s info: Table ff48e674-6ba5-4072-9c33-74fe10873a8f: Added replica on this server.
+2021-01-31T12:59:57.766212681 261.853012s info: Table e196f148-5db5-44f3-8699-d962e167a3a7: Added replica on this server.
+2021-01-31T12:59:57.766336504 261.853136s info: Table 795342af-c34a-44c7-9fab-f26a671f0fd9: Added replica on this server.
+2021-01-31T12:59:57.787489531 261.874289s info: Table 107ac84d-1628-445e-b98a-858ba76352d0: Starting a new Raft election for term 1.
+2021-01-31T12:59:57.789043496 261.875843s info: Table 107ac84d-1628-445e-b98a-858ba76352d0: Added replica on this server.
+2021-01-31T12:59:57.812140857 261.898941s info: Table 6600083e-d904-425d-907c-8b29a27c88bd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.834425981 261.921226s info: Table 3767c2b0-b287-49e7-896f-5648cc18d7bd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.856647431 261.943447s info: Table 1e9bb07c-d211-48ba-8461-76a08789735c: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.878927285 261.965727s info: Table 9334c02b-7c5a-4434-9eda-c461d1a6c3dd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.900948200 261.987748s info: Table ff48e674-6ba5-4072-9c33-74fe10873a8f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.923176565 262.009976s info: Table e196f148-5db5-44f3-8699-d962e167a3a7: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.945492618 262.032292s info: Table 795342af-c34a-44c7-9fab-f26a671f0fd9: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T12:59:57.967732595 262.054533s info: Table 107ac84d-1628-445e-b98a-858ba76352d0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:00:02.692365621 266.779165s info: Table 6600083e-d904-425d-907c-8b29a27c88bd: Configuration is changing.
+2021-01-31T13:00:02.736553282 266.823353s info: Table 3767c2b0-b287-49e7-896f-5648cc18d7bd: Configuration is changing.
+2021-01-31T13:00:02.747210799 266.834011s info: Table 9334c02b-7c5a-4434-9eda-c461d1a6c3dd: Configuration is changing.
+2021-01-31T13:00:02.758387103 266.845187s info: Table 1e9bb07c-d211-48ba-8461-76a08789735c: Configuration is changing.
+2021-01-31T13:00:02.962343965 267.049144s info: Table e196f148-5db5-44f3-8699-d962e167a3a7: Configuration is changing.
+2021-01-31T13:00:03.014004433 267.100804s info: Table 795342af-c34a-44c7-9fab-f26a671f0fd9: Configuration is changing.
+2021-01-31T13:00:03.096817014 267.183617s info: Table ff48e674-6ba5-4072-9c33-74fe10873a8f: Configuration is changing.
+2021-01-31T13:00:03.124823945 267.211624s info: Table 107ac84d-1628-445e-b98a-858ba76352d0: Configuration is changing.
+2021-01-31T13:00:06.406935933 270.493736s info: Table 3fd3c36f-4102-49b8-89af-68c0bf62e8ea: Starting a new Raft election for term 1.
+2021-01-31T13:00:06.407155805 270.493956s info: Table 3fd3c36f-4102-49b8-89af-68c0bf62e8ea: Added replica on this server.
+2021-01-31T13:00:08.553771226 272.640571s info: Table 610aeab1-c36b-478a-a7a3-d5205f5caefb: Starting a new Raft election for term 1.
+2021-01-31T13:00:08.554202507 272.641002s info: Table 610aeab1-c36b-478a-a7a3-d5205f5caefb: Added replica on this server.
+2021-01-31T13:00:08.629186349 272.715986s info: Table 413e2519-b1d7-40e2-8f52-b667a65c5f5b: Starting a new Raft election for term 1.
+2021-01-31T13:00:08.629620485 272.716420s info: Table 413e2519-b1d7-40e2-8f52-b667a65c5f5b: Added replica on this server.
+2021-01-31T13:00:08.629716068 272.716516s info: Table 3f616b9d-5174-4ec7-9867-8ac2d04a3de0: Starting a new Raft election for term 1.
+2021-01-31T13:00:08.629953461 272.716753s info: Table 3f616b9d-5174-4ec7-9867-8ac2d04a3de0: Added replica on this server.
+2021-01-31T13:00:08.758117750 272.844918s info: Table 3fd3c36f-4102-49b8-89af-68c0bf62e8ea: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:00:08.835600592 272.922401s info: Table 610aeab1-c36b-478a-a7a3-d5205f5caefb: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:00:08.929457157 273.016257s info: Table 413e2519-b1d7-40e2-8f52-b667a65c5f5b: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:00:09.002364988 273.089165s info: Table 3f616b9d-5174-4ec7-9867-8ac2d04a3de0: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.762419401 1887.849219s info: Table c6e5b19d-79e0-4586-8087-b311d8ba8e88: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.762687103 1887.849487s info: Table c6e5b19d-79e0-4586-8087-b311d8ba8e88: Added replica on this server.
+2021-01-31T13:27:03.801476913 1887.888277s info: Table 975468cc-4fff-4444-9a41-c24ef55c0dcd: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.824269844 1887.911070s info: Table 975468cc-4fff-4444-9a41-c24ef55c0dcd: Added replica on this server.
+2021-01-31T13:27:03.824327709 1887.911127s info: Table 2ce5f8e3-c1d6-4828-8675-b80d4caf2d4f: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.847065034 1887.933865s info: Table 04c4012c-2cf5-46b5-959f-b3fa047992b2: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.847076789 1887.933876s info: Table 8bafbda6-ef96-4c15-90d1-c4b053e0d888: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.869196947 1887.955997s info: Table 2f2fc27d-d992-43db-876a-5c663b22f77d: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.892495561 1887.979296s info: Table 2ce5f8e3-c1d6-4828-8675-b80d4caf2d4f: Added replica on this server.
+2021-01-31T13:27:03.892542090 1887.979342s info: Table 83c3471d-8397-4bbe-b082-14c70adaf986: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.892930759 1887.979731s info: Table 04c4012c-2cf5-46b5-959f-b3fa047992b2: Added replica on this server.
+2021-01-31T13:27:03.893073648 1887.979874s info: Table 8bafbda6-ef96-4c15-90d1-c4b053e0d888: Added replica on this server.
+2021-01-31T13:27:03.893333291 1887.980133s info: Table 2f2fc27d-d992-43db-876a-5c663b22f77d: Added replica on this server.
+2021-01-31T13:27:03.893494495 1887.980294s info: Table 83c3471d-8397-4bbe-b082-14c70adaf986: Added replica on this server.
+2021-01-31T13:27:03.893579965 1887.980380s info: Table 073971fa-c3f7-4287-8ab6-d773593abc93: Starting a new Raft election for term 1.
+2021-01-31T13:27:03.893893469 1887.980693s info: Table 073971fa-c3f7-4287-8ab6-d773593abc93: Added replica on this server.
+2021-01-31T13:27:03.915531377 1888.002331s info: Table c6e5b19d-79e0-4586-8087-b311d8ba8e88: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.926658075 1888.013458s info: Table 975468cc-4fff-4444-9a41-c24ef55c0dcd: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.937784406 1888.024584s info: Table 2ce5f8e3-c1d6-4828-8675-b80d4caf2d4f: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.948992183 1888.035792s info: Table 04c4012c-2cf5-46b5-959f-b3fa047992b2: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.960174476 1888.046975s info: Table 8bafbda6-ef96-4c15-90d1-c4b053e0d888: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.970955311 1888.057755s info: Table 2f2fc27d-d992-43db-876a-5c663b22f77d: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.982131073 1888.068931s info: Table 83c3471d-8397-4bbe-b082-14c70adaf986: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:03.993290061 1888.080090s info: Table 073971fa-c3f7-4287-8ab6-d773593abc93: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:20.765853200 1904.852653s info: Table b12cd608-674e-4191-a907-216bb75e0284: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.804171515 1904.890971s info: Table de01703e-bfb7-45f7-abfc-d2c45036a3f3: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.833700972 1904.920501s info: Table b12cd608-674e-4191-a907-216bb75e0284: Added replica on this server.
+2021-01-31T13:27:20.833936126 1904.920736s info: Table de01703e-bfb7-45f7-abfc-d2c45036a3f3: Added replica on this server.
+2021-01-31T13:27:20.833940687 1904.920740s info: Table a9032dee-32e8-4ac9-b034-0b0e218accd6: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.833941679 1904.920741s info: Table eee52207-91c6-49fc-ad19-46257cda9a97: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.855881761 1904.942682s info: Table 8e7b9479-5222-4928-be9e-3d74eccae32a: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.878791178 1904.965591s info: Table dc95ec88-9754-4db9-beee-5a26823424b3: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.878833689 1904.965633s info: Table 7da4fb10-19ec-435a-b4c2-a52f806798a3: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.901429081 1904.988229s info: Table a9032dee-32e8-4ac9-b034-0b0e218accd6: Added replica on this server.
+2021-01-31T13:27:20.901598877 1904.988399s info: Table eee52207-91c6-49fc-ad19-46257cda9a97: Added replica on this server.
+2021-01-31T13:27:20.901649920 1904.988450s info: Table f9db586e-d05a-4a7f-bc22-2a698422b13b: Starting a new Raft election for term 1.
+2021-01-31T13:27:20.902430654 1904.989231s info: Table 8e7b9479-5222-4928-be9e-3d74eccae32a: Added replica on this server.
+2021-01-31T13:27:20.902552081 1904.989352s info: Table dc95ec88-9754-4db9-beee-5a26823424b3: Added replica on this server.
+2021-01-31T13:27:20.902712650 1904.989512s info: Table 7da4fb10-19ec-435a-b4c2-a52f806798a3: Added replica on this server.
+2021-01-31T13:27:20.902856951 1904.989657s info: Table f9db586e-d05a-4a7f-bc22-2a698422b13b: Added replica on this server.
+2021-01-31T13:27:20.950609967 1905.037410s info: Table b12cd608-674e-4191-a907-216bb75e0284: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.006131674 1905.092931s info: Table de01703e-bfb7-45f7-abfc-d2c45036a3f3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.061395501 1905.148196s info: Table a9032dee-32e8-4ac9-b034-0b0e218accd6: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.117064962 1905.203865s info: Table eee52207-91c6-49fc-ad19-46257cda9a97: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.172648724 1905.259449s info: Table 8e7b9479-5222-4928-be9e-3d74eccae32a: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.228368409 1905.315168s info: Table dc95ec88-9754-4db9-beee-5a26823424b3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.283858235 1905.370658s info: Table 7da4fb10-19ec-435a-b4c2-a52f806798a3: This server is Raft leader for term 1. Latest log index is 0.
+2021-01-31T13:27:21.339363388 1905.426163s info: Table f9db586e-d05a-4a7f-bc22-2a698422b13b: This server is Raft leader for term 1. Latest log index is 0.
