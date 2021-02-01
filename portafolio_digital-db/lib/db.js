@@ -21,6 +21,7 @@ class Db {
     this.host = options.host || defaults.host
     this.port = options.port || defaults.port
     this.db = options.db || defaults.db
+    this.setup = options.setup || false
     this.connected = false
   }
 
@@ -37,6 +38,10 @@ class Db {
     //  primero para conectarnos a la base de datos y necesitamos hacer referencia a la conexion y tambien el nombre de la base de datos
     const db = this.db
     const connection = this.connection
+
+    if (!this.setup) {
+      return Promise.resolve(connection).asCallback(callback)
+    }
 
     const setup = co.wrap(function * () {
       const conn = yield connection

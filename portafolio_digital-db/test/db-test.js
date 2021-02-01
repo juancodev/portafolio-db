@@ -12,8 +12,8 @@ const fixtures = require('./fixtures')
 test.beforeEach('configuracion database', async t => {
   //  nos permite generar una base de datos de prueba con el nombre de portafolio pero con id diferentes
   const dbName = `portfolio-digital_${uuid.v4()}`
-  //  instanciamos la clase pasándole como objeto la options del nombre de la base de datos
-  const db = new Db({ db: dbName })
+  //  instanciamos la clase pasándole como objeto la options del nombre de la base de datos y que cada vez que inicie el proyecto instanciamos la configuración
+  const db = new Db({ db: dbName, setup: true })
   await db.connect()
   //  después de la conexión se aplica un contexto que es simplemente una pieza de código que se puede aplicar antes de cada test
   t.context.db = db
