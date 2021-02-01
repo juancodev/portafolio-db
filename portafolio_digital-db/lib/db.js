@@ -300,10 +300,40 @@ class Db {
 
       //  debemos esperar a que los indices sean creados, ya que suele tardar un poco
       yield r.db(db).table('images').indexWait().run(conn)
-      //  Y obtenemos el id del usuario y con el metodo getAll, le indicamos exactamente en que campo lo debe buscar
+      //  Y obtenemos el id del usuario y con el metodo getAll siendo como la llave primaria, le indicamos exactamente en que campo lo debe buscar
       const images = yield r.db(db).table('images').getAll(userId, {
         index: 'userId'
       }).orderBy(r.desc('createAt')).run(conn)
+
+      const result = yield images.toArray()
+
+      return Promise.resolve(result)
+    })
+    //  Resolvemos todas las tareas con el callback async
+    return Promise.resolve(tasks()).asCallback(callback)
+  }
+
+  getImagesByTag (tag, callback) {
+    if (!this.connected) {
+      return Promise.reject(new Error('no se ha conectado')).asCallback(callback)
+    }
+
+    const connection = this.connection
+    const db = this.db
+    //  normalizamos el tag
+    tag = utils.normalize(tag)
+
+    //  Y le pasamos una corutina de tareas para que se realicen de forma async
+    const tasks = co.wrap(function * () {
+      const conn = yield connection
+
+      //  debemos esperar a que los indices sean creados, ya que suele tardar un poco
+      yield r.db(db).table('images').indexWait().run(conn)
+      //  Y utilizamos el método filter que me permite filtrar todo el código como normalmente lo hace JavaScripts
+      const images = yield r.db(db).table('images').filter((img) => {
+        //  revisamos la documentacion y vemos que hay una opción de poder retornar un campo en específico de un arreglo dentro de la misma 'img('tag')' e indicar que contenga en el array tag con contains
+        return img('tag').contains(tag)
+      }).orderBy(r.desc('createdAt')).run(conn)
 
       const result = yield images.toArray()
 

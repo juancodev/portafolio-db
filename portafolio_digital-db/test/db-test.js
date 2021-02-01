@@ -196,3 +196,31 @@ test('Listar imagen por usuario', async t => {
   //  comparamos que la longitud del resultado sea igual al número aleatorio
   t.is(result.length, random)
 })
+
+test('Listar imagen por tag', async t => {
+  const db = t.context.db
+
+  t.is(typeof db.getImagesByTag, 'function', 'debe ser una funcion')
+  //  primero generamos las imagenes para despues guardarlas y casarla con el id del usuario
+  const images = fixtures.getImages(10)
+  //  creamos un tag
+  const tag = '#filterit'
+  //  y creamos un número aleatorio para hacer la consulta
+  const random = Math.round(Math.random() * images.length)
+
+  //  después creamos un arreglo para guardar las imágenes
+  const saveImages = []
+  for (let i = 0; i < images.length; i++) {
+    if (i < random) {
+      images[i].description = tag
+    }
+
+    saveImages.push(db.saveImage(images[i]))
+  }
+  await Promise.all(saveImages)
+
+  const result = await db.getImagesByTag(tag)
+
+  //  comparamos que la longitud del resultado sea igual al número aleatorio
+  t.is(result.length, random)
+})

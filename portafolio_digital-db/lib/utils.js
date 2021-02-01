@@ -5,6 +5,7 @@ const crypto = require('crypto')
 
 const utils = {
   extractTags,
+  normalize,
   encrypt
 }
 
