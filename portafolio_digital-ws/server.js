@@ -27,5 +27,4 @@ r.connect(config.db, (err, conn) => {
     })
   })
 })
-
 server.listen(port, () => console.log(`Escuchando en el puerto ${port}`))
