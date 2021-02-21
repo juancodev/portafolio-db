@@ -1,0 +1,37 @@
+2021-02-19T23:48:25.596852497 0.287819s notice: Recursively removing directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-ws/rethinkdb_data/tmp
+2021-02-19T23:48:25.635251100 0.326219s notice: Initializing directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-ws/rethinkdb_data
+2021-02-19T23:48:25.645142489 0.336108s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-ws/rethinkdb_data' did not already exist or is empty.)
+2021-02-19T23:48:25.645226068 0.336191s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-02-19T23:48:25.665303236 0.356270s notice: Running on Linux 5.8.0-43-generic x86_64
+2021-02-19T23:48:25.665409492 0.356374s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-ws/rethinkdb_data
+2021-02-19T23:48:26.060253648 0.751219s info: Automatically using cache size of 1105 MB
+2021-02-19T23:48:26.129458477 0.820423s notice: Listening for intracluster connections on port 29015
+2021-02-19T23:48:26.182778350 0.873743s notice: Listening for client driver connections on port 28015
+2021-02-19T23:48:26.182843079 0.873808s notice: Listening for administrative HTTP connections on port 8080
+2021-02-19T23:48:26.182846366 0.873811s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-02-19T23:48:26.182848880 0.873813s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-02-19T23:48:26.182855098 0.873820s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-02-19T23:48:26.182860034 0.873825s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-19T23:48:26.182864963 0.873829s notice: Server ready, "jmontilla_VIT_P2402_yz2" 80d2d654-16bd-4360-97b3-8421066dccc0
+2021-02-19T23:48:51.529011913 26.219978s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-02-19T23:48:51.529425831 26.220391s notice: Shutting down client connections...
+2021-02-19T23:48:51.544548547 26.235513s notice: All client connections closed.
+2021-02-19T23:48:51.544561051 26.235526s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-19T23:48:51.544840304 26.235805s notice: Storage engine shut down.
+2021-02-19T23:52:13.201603521 0.019397s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-02-19T23:52:13.203652720 0.021444s notice: Running on Linux 5.8.0-43-generic x86_64
+2021-02-19T23:52:13.203750457 0.021541s notice: Loading data from directory /home/jmontilla/Escritorio/proyecto/portafolio_digital_nueva_rama/portafolio_digital-ws/rethinkdb_data
+2021-02-19T23:52:13.301415293 0.119206s info: Automatically using cache size of 800 MB
+2021-02-19T23:52:13.302715081 0.120506s notice: Listening for intracluster connections on port 29015
+2021-02-19T23:52:13.303929557 0.121720s notice: Listening for client driver connections on port 28015
+2021-02-19T23:52:13.304134149 0.121925s notice: Listening for administrative HTTP connections on port 8080
+2021-02-19T23:52:13.304161305 0.121951s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-02-19T23:52:13.304169548 0.121960s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-02-19T23:52:13.304180509 0.121971s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-02-19T23:52:13.304188879 0.121979s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-02-19T23:52:13.304197310 0.121987s notice: Server ready, "jmontilla_VIT_P2402_yz2" 80d2d654-16bd-4360-97b3-8421066dccc0
+2021-02-19T23:54:35.291650561 142.109442s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-02-19T23:54:35.291875366 142.109666s notice: Shutting down client connections...
+2021-02-19T23:54:35.292012776 142.109803s notice: All client connections closed.
+2021-02-19T23:54:35.292020416 142.109810s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-02-19T23:54:35.292673230 142.110464s notice: Storage engine shut down.

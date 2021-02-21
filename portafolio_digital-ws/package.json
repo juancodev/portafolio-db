@@ -1,0 +1,35 @@
+{
+  "name": "portafolio_digital-ws",
+  "version": "1.0.0",
+  "description": "Portafolio digital Realtime backend",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUANCMS/portafolio_digital-ws.git"
+  },
+  "keywords": [
+    "Socket"
+  ],
+  "author": "jmontilla <montillasanchezjuancarlos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JUANCMS/portafolio_digital-ws/issues"
+  },
+  "homepage": "https://github.com/JUANCMS/portafolio_digital-ws#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.12.17",
+    "babel-eslint": "^10.1.0",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.4.2",
+    "socket.io": "^3.1.1"
+  }
+}
